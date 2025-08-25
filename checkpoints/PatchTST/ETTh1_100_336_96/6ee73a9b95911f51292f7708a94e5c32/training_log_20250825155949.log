@@ -1,0 +1,41 @@
+2025-08-25 15:59:49,334 - easytorch-training - INFO - Initializing training.
+2025-08-25 15:59:49,334 - easytorch-training - INFO - Set clip grad, param: {'max_norm': 5.0}
+2025-08-25 15:59:49,335 - easytorch-training - INFO - Building training data loader.
+2025-08-25 15:59:49,335 - easytorch-training - INFO - Train dataset length: 8209
+2025-08-25 15:59:50,235 - easytorch-training - INFO - Set optim: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0002
+    maximize: False
+    weight_decay: 0.0001
+)
+2025-08-25 15:59:50,236 - easytorch-training - INFO - Set lr_scheduler: <torch.optim.lr_scheduler.MultiStepLR object at 0x7f83918e22f0>
+2025-08-25 15:59:50,237 - easytorch-training - INFO - Initializing validation.
+2025-08-25 15:59:50,237 - easytorch-training - INFO - Building val data loader.
+2025-08-25 15:59:50,237 - easytorch-training - INFO - Validation dataset length: 2449
+2025-08-25 15:59:50,238 - easytorch-training - INFO - Test dataset length: 2449
+2025-08-25 15:59:50,240 - easytorch-training - INFO - Number of parameters: 81728
+2025-08-25 15:59:50,240 - easytorch-training - INFO - Epoch 1 / 100
+2025-08-25 15:59:50,406 - easytorch-training - ERROR - Traceback (most recent call last):
+  File "/home/elicer/.local/lib/python3.10/site-packages/easytorch/launcher/launcher.py", line 31, in training_func
+    runner.train(cfg)
+  File "/home/elicer/BasicTS/basicts/runners/base_epoch_runner.py", line 462, in train
+    loss = self.train_iters(epoch, iter_index, data)
+  File "/home/elicer/BasicTS/basicts/runners/base_tsf_runner.py", line 373, in train_iters
+    forward_return = self.forward(data=data, epoch=epoch, iter_num=iter_num, train=True)
+  File "/home/elicer/BasicTS/basicts/runners/runner_zoo/simple_tsf_runner.py", line 94, in forward
+    future_data_4_dec = self.select_input_features(future_data)
+  File "/home/elicer/BasicTS/basicts/runners/runner_zoo/simple_tsf_runner.py", line 132, in select_input_features
+    data = data[:, :, :, self.forward_features]
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+
