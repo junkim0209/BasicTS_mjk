@@ -1,0 +1,35 @@
+2025-08-25 16:23:20,976 - easytorch-training - INFO - Initializing training.
+2025-08-25 16:23:20,976 - easytorch-training - INFO - Set clip grad, param: {'max_norm': 5.0}
+2025-08-25 16:23:20,976 - easytorch-training - INFO - Building training data loader.
+2025-08-25 16:23:20,977 - easytorch-training - INFO - Train dataset length: 8209
+2025-08-25 16:23:21,890 - easytorch-training - INFO - Set optim: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0002
+    maximize: False
+    weight_decay: 0.0001
+)
+2025-08-25 16:23:21,890 - easytorch-training - INFO - Set lr_scheduler: <torch.optim.lr_scheduler.MultiStepLR object at 0x7f50de3ce2f0>
+2025-08-25 16:23:21,891 - easytorch-training - INFO - Initializing validation.
+2025-08-25 16:23:21,891 - easytorch-training - INFO - Building val data loader.
+2025-08-25 16:23:21,891 - easytorch-training - INFO - Validation dataset length: 2449
+2025-08-25 16:23:21,892 - easytorch-training - INFO - Test dataset length: 2449
+2025-08-25 16:23:21,893 - easytorch-training - INFO - Number of parameters: 146336
+2025-08-25 16:23:21,893 - easytorch-training - INFO - Epoch 1 / 100
+2025-08-25 16:23:22,083 - easytorch-training - ERROR - Traceback (most recent call last):
+  File "/home/elicer/.local/lib/python3.10/site-packages/easytorch/launcher/launcher.py", line 31, in training_func
+    runner.train(cfg)
+  File "/home/elicer/BasicTS/basicts/runners/base_epoch_runner.py", line 462, in train
+    loss = self.train_iters(epoch, iter_index, data)
+  File "/home/elicer/BasicTS/basicts/runners/base_tsf_runner.py", line 373, in train_iters
+    forward_return = self.forward(data=data, epoch=epoch, iter_num=iter_num, train=True)
+  File "/home/elicer/BasicTS/basicts/runners/runner_zoo/simple_tsf_runner.py", line 113, in forward
+    assert list(model_return['prediction'].shape)[:3] == [batch_size, length, num_nodes], \
+AssertionError: The shape of the output is incorrect. Ensure it matches [B, L, N, C].
+
