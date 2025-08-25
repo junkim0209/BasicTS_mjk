@@ -15,8 +15,14 @@ from .arch import PatchTST
 # Dataset & Metrics configuration
 DATA_NAME = 'ETTh1'  # Dataset name
 regular_settings = get_regular_settings(DATA_NAME)
+
+# INPUT_LEN = regular_settings['INPUT_LEN']  # Length of input sequence
 INPUT_LEN = regular_settings['INPUT_LEN']  # Length of input sequence
-OUTPUT_LEN = regular_settings['OUTPUT_LEN']  # Length of output sequence
+
+# OUTPUT_LEN = regular_settings['OUTPUT_LEN']  # Length of output sequence
+OUTPUT_LEN = 96  # Length of output sequence
+
+
 TRAIN_VAL_TEST_RATIO = regular_settings['TRAIN_VAL_TEST_RATIO']  # Train/Validation/Test split ratios
 NORM_EACH_CHANNEL = regular_settings['NORM_EACH_CHANNEL'] # Whether to normalize each channel of the data
 RESCALE = regular_settings['RESCALE'] # Whether to rescale the data
@@ -26,8 +32,8 @@ MODEL_ARCH = PatchTST
 NUM_NODES = 7
 MODEL_PARAM = {
     "enc_in": NUM_NODES,                        # num nodes
-    "seq_len": INPUT_LEN,           # input sequence length
-    "pred_len": OUTPUT_LEN,         # prediction sequence length
+    "seq_len": 336,           # input sequence length 336,512
+    "pred_len": 96,         # prediction sequence length {96, 192, 336, 720}
     "e_layers": 3,                              # num of encoder layers
     "n_heads": 4,
     "d_model": 16,
