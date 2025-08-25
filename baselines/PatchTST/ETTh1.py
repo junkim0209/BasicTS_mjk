@@ -20,7 +20,7 @@ regular_settings = get_regular_settings(DATA_NAME)
 INPUT_LEN = regular_settings['INPUT_LEN']  # Length of input sequence
 
 # OUTPUT_LEN = regular_settings['OUTPUT_LEN']  # Length of output sequence
-OUTPUT_LEN = 192  # Length of output sequence
+OUTPUT_LEN = 720  # Length of output sequence
 
 
 TRAIN_VAL_TEST_RATIO = regular_settings['TRAIN_VAL_TEST_RATIO']  # Train/Validation/Test split ratios
@@ -33,7 +33,7 @@ NUM_NODES = 7
 MODEL_PARAM = {
     "enc_in": NUM_NODES,                        # num nodes
     "seq_len": 336,           # input sequence length 336,512
-    "pred_len": 192,         # prediction sequence length {96, 192, 336, 720}
+    "pred_len": 720,         # prediction sequence length {96, 192, 336, 720}
     "e_layers": 3,                              # num of encoder layers
     "n_heads": 4,
     "d_model": 16,
