@@ -1,0 +1,728 @@
+2025-08-26 13:30:25,426 - easytorch-training - INFO - Initializing training.
+2025-08-26 13:30:25,426 - easytorch-training - INFO - Set clip grad, param: {'max_norm': 5.0}
+2025-08-26 13:30:25,426 - easytorch-training - INFO - Building training data loader.
+2025-08-26 13:30:25,427 - easytorch-training - INFO - Train dataset length: 7969
+2025-08-26 13:30:26,501 - easytorch-training - INFO - Set optim: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0002
+    maximize: False
+    weight_decay: 0.0005
+)
+2025-08-26 13:30:26,501 - easytorch-training - INFO - Set lr_scheduler: <torch.optim.lr_scheduler.MultiStepLR object at 0x7fe20afdd600>
+2025-08-26 13:30:26,503 - easytorch-training - INFO - Initializing validation.
+2025-08-26 13:30:26,503 - easytorch-training - INFO - Building val data loader.
+2025-08-26 13:30:26,503 - easytorch-training - INFO - Validation dataset length: 2209
+2025-08-26 13:30:26,504 - easytorch-training - INFO - Test dataset length: 2209
+2025-08-26 13:30:26,504 - easytorch-training - INFO - Number of parameters: 813335
+2025-08-26 13:30:26,504 - easytorch-training - INFO - Epoch 1 / 100
+2025-08-26 13:30:58,572 - easytorch-training - INFO - Result <train>: [train/time: 32.07 (s), train/lr: 2.00e-04, train/loss: 0.5345, train/MAE: 0.5345, train/MSE: 0.5784]
+2025-08-26 13:30:58,574 - easytorch-training - INFO - Start validation.
+2025-08-26 13:31:02,036 - easytorch-training - INFO - Result <val>: [val/time: 3.46 (s), val/loss: 0.8009, val/MAE: 0.8009, val/MSE: 1.3666]
+2025-08-26 13:31:02,061 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_best_val_MAE.pt saved
+2025-08-26 13:31:05,356 - easytorch-training - INFO - Result <test>: [test/time: 3.29 (s), test/loss: 0.4915, test/MAE: 0.4915, test/MSE: 0.5166]
+2025-08-26 13:31:05,381 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_001.pt saved
+2025-08-26 13:31:05,382 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:35:14
+2025-08-26 13:31:05,382 - easytorch-training - INFO - Epoch 2 / 100
+2025-08-26 13:31:33,030 - easytorch-training - INFO - Result <train>: [train/time: 27.65 (s), train/lr: 1.00e-04, train/loss: 0.4602, train/MAE: 0.4602, train/MSE: 0.4473]
+2025-08-26 13:31:33,032 - easytorch-training - INFO - Start validation.
+2025-08-26 13:31:36,438 - easytorch-training - INFO - Result <val>: [val/time: 3.41 (s), val/loss: 0.8086, val/MAE: 0.8086, val/MSE: 1.3889]
+2025-08-26 13:31:39,696 - easytorch-training - INFO - Result <test>: [test/time: 3.26 (s), test/loss: 0.4985, test/MAE: 0.4985, test/MSE: 0.5262]
+2025-08-26 13:31:39,723 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_002.pt saved
+2025-08-26 13:31:39,723 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:31:27
+2025-08-26 13:31:39,724 - easytorch-training - INFO - Epoch 3 / 100
+2025-08-26 13:32:07,269 - easytorch-training - INFO - Result <train>: [train/time: 27.55 (s), train/lr: 1.00e-04, train/loss: 0.4420, train/MAE: 0.4420, train/MSE: 0.4213]
+2025-08-26 13:32:07,271 - easytorch-training - INFO - Start validation.
+2025-08-26 13:32:10,647 - easytorch-training - INFO - Result <val>: [val/time: 3.38 (s), val/loss: 0.8330, val/MAE: 0.8330, val/MSE: 1.4586]
+2025-08-26 13:32:13,846 - easytorch-training - INFO - Result <test>: [test/time: 3.20 (s), test/loss: 0.5160, test/MAE: 0.5160, test/MSE: 0.5568]
+2025-08-26 13:32:13,871 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_003.pt saved
+2025-08-26 13:32:13,872 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:30:05
+2025-08-26 13:32:13,872 - easytorch-training - INFO - Epoch 4 / 100
+2025-08-26 13:32:40,125 - easytorch-training - INFO - Result <train>: [train/time: 26.25 (s), train/lr: 1.00e-04, train/loss: 0.4266, train/MAE: 0.4266, train/MSE: 0.3982]
+2025-08-26 13:32:40,126 - easytorch-training - INFO - Start validation.
+2025-08-26 13:32:43,453 - easytorch-training - INFO - Result <val>: [val/time: 3.33 (s), val/loss: 0.8465, val/MAE: 0.8465, val/MSE: 1.4911]
+2025-08-26 13:32:46,595 - easytorch-training - INFO - Result <test>: [test/time: 3.14 (s), test/loss: 0.5389, test/MAE: 0.5389, test/MSE: 0.6041]
+2025-08-26 13:32:46,621 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_004.pt saved
+2025-08-26 13:32:46,621 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:28:49
+2025-08-26 13:32:46,621 - easytorch-training - INFO - Epoch 5 / 100
+2025-08-26 13:33:12,720 - easytorch-training - INFO - Result <train>: [train/time: 26.10 (s), train/lr: 1.00e-04, train/loss: 0.4115, train/MAE: 0.4115, train/MSE: 0.3753]
+2025-08-26 13:33:12,721 - easytorch-training - INFO - Start validation.
+2025-08-26 13:33:16,093 - easytorch-training - INFO - Result <val>: [val/time: 3.37 (s), val/loss: 0.8698, val/MAE: 0.8698, val/MSE: 1.5605]
+2025-08-26 13:33:19,302 - easytorch-training - INFO - Result <test>: [test/time: 3.21 (s), test/loss: 0.5496, test/MAE: 0.5496, test/MSE: 0.6256]
+2025-08-26 13:33:19,329 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_005.pt saved
+2025-08-26 13:33:19,329 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:28:02
+2025-08-26 13:33:19,329 - easytorch-training - INFO - Epoch 6 / 100
+2025-08-26 13:33:45,330 - easytorch-training - INFO - Result <train>: [train/time: 26.00 (s), train/lr: 1.00e-04, train/loss: 0.3988, train/MAE: 0.3988, train/MSE: 0.3568]
+2025-08-26 13:33:45,332 - easytorch-training - INFO - Start validation.
+2025-08-26 13:33:48,607 - easytorch-training - INFO - Result <val>: [val/time: 3.28 (s), val/loss: 0.8934, val/MAE: 0.8934, val/MSE: 1.6326]
+2025-08-26 13:33:51,719 - easytorch-training - INFO - Result <test>: [test/time: 3.11 (s), test/loss: 0.5906, test/MAE: 0.5906, test/MSE: 0.7049]
+2025-08-26 13:33:51,745 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_006.pt saved
+2025-08-26 13:33:51,745 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:27:27
+2025-08-26 13:33:51,745 - easytorch-training - INFO - Epoch 7 / 100
+2025-08-26 13:34:17,662 - easytorch-training - INFO - Result <train>: [train/time: 25.92 (s), train/lr: 1.00e-04, train/loss: 0.3883, train/MAE: 0.3883, train/MSE: 0.3418]
+2025-08-26 13:34:17,664 - easytorch-training - INFO - Start validation.
+2025-08-26 13:34:21,016 - easytorch-training - INFO - Result <val>: [val/time: 3.35 (s), val/loss: 0.9094, val/MAE: 0.9094, val/MSE: 1.6875]
+2025-08-26 13:34:24,173 - easytorch-training - INFO - Result <test>: [test/time: 3.16 (s), test/loss: 0.6049, test/MAE: 0.6049, test/MSE: 0.7403]
+2025-08-26 13:34:24,200 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_007.pt saved
+2025-08-26 13:34:24,200 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:27:02
+2025-08-26 13:34:24,200 - easytorch-training - INFO - Epoch 8 / 100
+2025-08-26 13:34:50,116 - easytorch-training - INFO - Result <train>: [train/time: 25.92 (s), train/lr: 1.00e-04, train/loss: 0.3798, train/MAE: 0.3798, train/MSE: 0.3298]
+2025-08-26 13:34:50,117 - easytorch-training - INFO - Start validation.
+2025-08-26 13:34:53,514 - easytorch-training - INFO - Result <val>: [val/time: 3.40 (s), val/loss: 0.9091, val/MAE: 0.9091, val/MSE: 1.6904]
+2025-08-26 13:34:56,720 - easytorch-training - INFO - Result <test>: [test/time: 3.20 (s), test/loss: 0.6185, test/MAE: 0.6185, test/MSE: 0.7648]
+2025-08-26 13:34:56,746 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_008.pt saved
+2025-08-26 13:34:56,746 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:26:44
+2025-08-26 13:34:56,747 - easytorch-training - INFO - Epoch 9 / 100
+2025-08-26 13:35:22,702 - easytorch-training - INFO - Result <train>: [train/time: 25.96 (s), train/lr: 1.00e-04, train/loss: 0.3726, train/MAE: 0.3726, train/MSE: 0.3198]
+2025-08-26 13:35:22,703 - easytorch-training - INFO - Start validation.
+2025-08-26 13:35:26,052 - easytorch-training - INFO - Result <val>: [val/time: 3.35 (s), val/loss: 0.9223, val/MAE: 0.9223, val/MSE: 1.7519]
+2025-08-26 13:35:29,171 - easytorch-training - INFO - Result <test>: [test/time: 3.12 (s), test/loss: 0.6371, test/MAE: 0.6371, test/MSE: 0.8113]
+2025-08-26 13:35:29,197 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_009.pt saved
+2025-08-26 13:35:29,198 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:26:29
+2025-08-26 13:35:29,198 - easytorch-training - INFO - Epoch 10 / 100
+2025-08-26 13:35:55,188 - easytorch-training - INFO - Result <train>: [train/time: 25.99 (s), train/lr: 1.00e-04, train/loss: 0.3657, train/MAE: 0.3657, train/MSE: 0.3105]
+2025-08-26 13:35:55,189 - easytorch-training - INFO - Start validation.
+2025-08-26 13:35:58,567 - easytorch-training - INFO - Result <val>: [val/time: 3.38 (s), val/loss: 0.9241, val/MAE: 0.9241, val/MSE: 1.7553]
+2025-08-26 13:36:01,739 - easytorch-training - INFO - Result <test>: [test/time: 3.17 (s), test/loss: 0.6470, test/MAE: 0.6470, test/MSE: 0.8343]
+2025-08-26 13:36:01,765 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_010.pt saved
+2025-08-26 13:36:01,773 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:26:19
+2025-08-26 13:36:01,773 - easytorch-training - INFO - Epoch 11 / 100
+2025-08-26 13:36:27,766 - easytorch-training - INFO - Result <train>: [train/time: 25.99 (s), train/lr: 1.00e-04, train/loss: 0.3597, train/MAE: 0.3597, train/MSE: 0.3019]
+2025-08-26 13:36:27,767 - easytorch-training - INFO - Start validation.
+2025-08-26 13:36:31,189 - easytorch-training - INFO - Result <val>: [val/time: 3.42 (s), val/loss: 0.9237, val/MAE: 0.9237, val/MSE: 1.7544]
+2025-08-26 13:36:34,343 - easytorch-training - INFO - Result <test>: [test/time: 3.15 (s), test/loss: 0.6660, test/MAE: 0.6660, test/MSE: 0.8736]
+2025-08-26 13:36:34,369 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_011.pt saved
+2025-08-26 13:36:34,369 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:26:10
+2025-08-26 13:36:34,370 - easytorch-training - INFO - Epoch 12 / 100
+2025-08-26 13:37:00,363 - easytorch-training - INFO - Result <train>: [train/time: 25.99 (s), train/lr: 1.00e-04, train/loss: 0.3542, train/MAE: 0.3542, train/MSE: 0.2942]
+2025-08-26 13:37:00,364 - easytorch-training - INFO - Start validation.
+2025-08-26 13:37:03,815 - easytorch-training - INFO - Result <val>: [val/time: 3.45 (s), val/loss: 0.9331, val/MAE: 0.9331, val/MSE: 1.7908]
+2025-08-26 13:37:07,009 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.6890, test/MAE: 0.6890, test/MSE: 0.9293]
+2025-08-26 13:37:07,035 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_012.pt saved
+2025-08-26 13:37:07,035 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:26:04
+2025-08-26 13:37:07,035 - easytorch-training - INFO - Epoch 13 / 100
+2025-08-26 13:37:33,038 - easytorch-training - INFO - Result <train>: [train/time: 26.00 (s), train/lr: 1.00e-04, train/loss: 0.3489, train/MAE: 0.3489, train/MSE: 0.2867]
+2025-08-26 13:37:33,039 - easytorch-training - INFO - Start validation.
+2025-08-26 13:37:36,454 - easytorch-training - INFO - Result <val>: [val/time: 3.41 (s), val/loss: 0.9294, val/MAE: 0.9294, val/MSE: 1.7832]
+2025-08-26 13:37:39,643 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.6728, test/MAE: 0.6728, test/MSE: 0.9002]
+2025-08-26 13:37:39,669 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_013.pt saved
+2025-08-26 13:37:39,669 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:58
+2025-08-26 13:37:39,669 - easytorch-training - INFO - Epoch 14 / 100
+2025-08-26 13:38:05,652 - easytorch-training - INFO - Result <train>: [train/time: 25.98 (s), train/lr: 1.00e-04, train/loss: 0.3440, train/MAE: 0.3440, train/MSE: 0.2798]
+2025-08-26 13:38:05,653 - easytorch-training - INFO - Start validation.
+2025-08-26 13:38:09,083 - easytorch-training - INFO - Result <val>: [val/time: 3.43 (s), val/loss: 0.9338, val/MAE: 0.9338, val/MSE: 1.7889]
+2025-08-26 13:38:12,254 - easytorch-training - INFO - Result <test>: [test/time: 3.17 (s), test/loss: 0.6866, test/MAE: 0.6866, test/MSE: 0.9314]
+2025-08-26 13:38:12,280 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_014.pt saved
+2025-08-26 13:38:12,280 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:53
+2025-08-26 13:38:12,280 - easytorch-training - INFO - Epoch 15 / 100
+2025-08-26 13:38:38,248 - easytorch-training - INFO - Result <train>: [train/time: 25.97 (s), train/lr: 1.00e-04, train/loss: 0.3387, train/MAE: 0.3387, train/MSE: 0.2723]
+2025-08-26 13:38:38,249 - easytorch-training - INFO - Start validation.
+2025-08-26 13:38:41,662 - easytorch-training - INFO - Result <val>: [val/time: 3.41 (s), val/loss: 0.9355, val/MAE: 0.9355, val/MSE: 1.7961]
+2025-08-26 13:38:44,882 - easytorch-training - INFO - Result <test>: [test/time: 3.22 (s), test/loss: 0.7032, test/MAE: 0.7032, test/MSE: 0.9818]
+2025-08-26 13:38:44,908 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_015.pt saved
+2025-08-26 13:38:44,909 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:49
+2025-08-26 13:38:44,909 - easytorch-training - INFO - Epoch 16 / 100
+2025-08-26 13:39:10,951 - easytorch-training - INFO - Result <train>: [train/time: 26.04 (s), train/lr: 1.00e-04, train/loss: 0.3342, train/MAE: 0.3342, train/MSE: 0.2656]
+2025-08-26 13:39:10,952 - easytorch-training - INFO - Start validation.
+2025-08-26 13:39:14,352 - easytorch-training - INFO - Result <val>: [val/time: 3.40 (s), val/loss: 0.9377, val/MAE: 0.9377, val/MSE: 1.7926]
+2025-08-26 13:39:17,534 - easytorch-training - INFO - Result <test>: [test/time: 3.18 (s), test/loss: 0.6915, test/MAE: 0.6915, test/MSE: 0.9558]
+2025-08-26 13:39:17,560 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_016.pt saved
+2025-08-26 13:39:17,560 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:45
+2025-08-26 13:39:17,560 - easytorch-training - INFO - Epoch 17 / 100
+2025-08-26 13:39:43,563 - easytorch-training - INFO - Result <train>: [train/time: 26.00 (s), train/lr: 1.00e-04, train/loss: 0.3291, train/MAE: 0.3291, train/MSE: 0.2585]
+2025-08-26 13:39:43,564 - easytorch-training - INFO - Start validation.
+2025-08-26 13:39:46,952 - easytorch-training - INFO - Result <val>: [val/time: 3.39 (s), val/loss: 0.9499, val/MAE: 0.9499, val/MSE: 1.8251]
+2025-08-26 13:39:50,146 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.7129, test/MAE: 0.7129, test/MSE: 1.0098]
+2025-08-26 13:39:50,173 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_017.pt saved
+2025-08-26 13:39:50,173 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:42
+2025-08-26 13:39:50,173 - easytorch-training - INFO - Epoch 18 / 100
+2025-08-26 13:40:16,190 - easytorch-training - INFO - Result <train>: [train/time: 26.02 (s), train/lr: 1.00e-04, train/loss: 0.3247, train/MAE: 0.3247, train/MSE: 0.2518]
+2025-08-26 13:40:16,191 - easytorch-training - INFO - Start validation.
+2025-08-26 13:40:19,655 - easytorch-training - INFO - Result <val>: [val/time: 3.46 (s), val/loss: 0.9482, val/MAE: 0.9482, val/MSE: 1.8149]
+2025-08-26 13:40:22,878 - easytorch-training - INFO - Result <test>: [test/time: 3.22 (s), test/loss: 0.7057, test/MAE: 0.7057, test/MSE: 0.9942]
+2025-08-26 13:40:22,904 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_018.pt saved
+2025-08-26 13:40:22,904 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:39
+2025-08-26 13:40:22,904 - easytorch-training - INFO - Epoch 19 / 100
+2025-08-26 13:40:49,056 - easytorch-training - INFO - Result <train>: [train/time: 26.15 (s), train/lr: 1.00e-04, train/loss: 0.3206, train/MAE: 0.3206, train/MSE: 0.2453]
+2025-08-26 13:40:49,058 - easytorch-training - INFO - Start validation.
+2025-08-26 13:40:52,480 - easytorch-training - INFO - Result <val>: [val/time: 3.42 (s), val/loss: 0.9511, val/MAE: 0.9511, val/MSE: 1.8265]
+2025-08-26 13:40:55,673 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.7283, test/MAE: 0.7283, test/MSE: 1.0586]
+2025-08-26 13:40:55,699 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_019.pt saved
+2025-08-26 13:40:55,700 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:38
+2025-08-26 13:40:55,700 - easytorch-training - INFO - Epoch 20 / 100
+2025-08-26 13:41:22,023 - easytorch-training - INFO - Result <train>: [train/time: 26.32 (s), train/lr: 1.00e-04, train/loss: 0.3160, train/MAE: 0.3160, train/MSE: 0.2386]
+2025-08-26 13:41:22,024 - easytorch-training - INFO - Start validation.
+2025-08-26 13:41:25,446 - easytorch-training - INFO - Result <val>: [val/time: 3.42 (s), val/loss: 0.9523, val/MAE: 0.9523, val/MSE: 1.8182]
+2025-08-26 13:41:28,635 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.7212, test/MAE: 0.7212, test/MSE: 1.0446]
+2025-08-26 13:41:28,662 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_020.pt saved
+2025-08-26 13:41:28,671 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:37
+2025-08-26 13:41:28,671 - easytorch-training - INFO - Epoch 21 / 100
+2025-08-26 13:41:54,842 - easytorch-training - INFO - Result <train>: [train/time: 26.17 (s), train/lr: 1.00e-04, train/loss: 0.3115, train/MAE: 0.3115, train/MSE: 0.2321]
+2025-08-26 13:41:54,844 - easytorch-training - INFO - Start validation.
+2025-08-26 13:41:58,287 - easytorch-training - INFO - Result <val>: [val/time: 3.44 (s), val/loss: 0.9521, val/MAE: 0.9521, val/MSE: 1.8092]
+2025-08-26 13:42:01,528 - easytorch-training - INFO - Result <test>: [test/time: 3.24 (s), test/loss: 0.7091, test/MAE: 0.7091, test/MSE: 1.0170]
+2025-08-26 13:42:01,554 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_021.pt saved
+2025-08-26 13:42:01,554 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:36
+2025-08-26 13:42:01,554 - easytorch-training - INFO - Epoch 22 / 100
+2025-08-26 13:42:27,600 - easytorch-training - INFO - Result <train>: [train/time: 26.04 (s), train/lr: 1.00e-04, train/loss: 0.3076, train/MAE: 0.3076, train/MSE: 0.2262]
+2025-08-26 13:42:27,601 - easytorch-training - INFO - Start validation.
+2025-08-26 13:42:31,035 - easytorch-training - INFO - Result <val>: [val/time: 3.43 (s), val/loss: 0.9529, val/MAE: 0.9529, val/MSE: 1.8113]
+2025-08-26 13:42:34,252 - easytorch-training - INFO - Result <test>: [test/time: 3.22 (s), test/loss: 0.7263, test/MAE: 0.7263, test/MSE: 1.0624]
+2025-08-26 13:42:34,278 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_022.pt saved
+2025-08-26 13:42:34,279 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:34
+2025-08-26 13:42:34,279 - easytorch-training - INFO - Epoch 23 / 100
+2025-08-26 13:43:00,236 - easytorch-training - INFO - Result <train>: [train/time: 25.96 (s), train/lr: 1.00e-04, train/loss: 0.3037, train/MAE: 0.3037, train/MSE: 0.2202]
+2025-08-26 13:43:00,237 - easytorch-training - INFO - Start validation.
+2025-08-26 13:43:03,703 - easytorch-training - INFO - Result <val>: [val/time: 3.47 (s), val/loss: 0.9548, val/MAE: 0.9548, val/MSE: 1.8169]
+2025-08-26 13:43:06,911 - easytorch-training - INFO - Result <test>: [test/time: 3.21 (s), test/loss: 0.7453, test/MAE: 0.7453, test/MSE: 1.1152]
+2025-08-26 13:43:06,938 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_023.pt saved
+2025-08-26 13:43:06,938 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:32
+2025-08-26 13:43:06,938 - easytorch-training - INFO - Epoch 24 / 100
+2025-08-26 13:43:32,967 - easytorch-training - INFO - Result <train>: [train/time: 26.03 (s), train/lr: 1.00e-04, train/loss: 0.2998, train/MAE: 0.2998, train/MSE: 0.2141]
+2025-08-26 13:43:32,968 - easytorch-training - INFO - Start validation.
+2025-08-26 13:43:36,431 - easytorch-training - INFO - Result <val>: [val/time: 3.46 (s), val/loss: 0.9551, val/MAE: 0.9551, val/MSE: 1.8058]
+2025-08-26 13:43:39,612 - easytorch-training - INFO - Result <test>: [test/time: 3.18 (s), test/loss: 0.7344, test/MAE: 0.7344, test/MSE: 1.0874]
+2025-08-26 13:43:39,638 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_024.pt saved
+2025-08-26 13:43:39,638 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:31
+2025-08-26 13:43:39,638 - easytorch-training - INFO - Epoch 25 / 100
+2025-08-26 13:44:05,614 - easytorch-training - INFO - Result <train>: [train/time: 25.98 (s), train/lr: 1.00e-04, train/loss: 0.2961, train/MAE: 0.2961, train/MSE: 0.2086]
+2025-08-26 13:44:05,616 - easytorch-training - INFO - Start validation.
+2025-08-26 13:44:09,036 - easytorch-training - INFO - Result <val>: [val/time: 3.42 (s), val/loss: 0.9589, val/MAE: 0.9589, val/MSE: 1.8223]
+2025-08-26 13:44:12,205 - easytorch-training - INFO - Result <test>: [test/time: 3.17 (s), test/loss: 0.7322, test/MAE: 0.7322, test/MSE: 1.1026]
+2025-08-26 13:44:12,230 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_025.pt saved
+2025-08-26 13:44:12,231 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:29
+2025-08-26 13:44:12,231 - easytorch-training - INFO - Epoch 26 / 100
+2025-08-26 13:44:38,263 - easytorch-training - INFO - Result <train>: [train/time: 26.03 (s), train/lr: 5.00e-05, train/loss: 0.2917, train/MAE: 0.2917, train/MSE: 0.2029]
+2025-08-26 13:44:38,264 - easytorch-training - INFO - Start validation.
+2025-08-26 13:44:41,723 - easytorch-training - INFO - Result <val>: [val/time: 3.46 (s), val/loss: 0.9563, val/MAE: 0.9563, val/MSE: 1.8088]
+2025-08-26 13:44:44,918 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.7472, test/MAE: 0.7472, test/MSE: 1.1303]
+2025-08-26 13:44:44,943 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_026.pt saved
+2025-08-26 13:44:44,944 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:28
+2025-08-26 13:44:44,944 - easytorch-training - INFO - Epoch 27 / 100
+2025-08-26 13:45:10,996 - easytorch-training - INFO - Result <train>: [train/time: 26.05 (s), train/lr: 5.00e-05, train/loss: 0.2896, train/MAE: 0.2896, train/MSE: 0.2001]
+2025-08-26 13:45:10,997 - easytorch-training - INFO - Start validation.
+2025-08-26 13:45:14,455 - easytorch-training - INFO - Result <val>: [val/time: 3.46 (s), val/loss: 0.9602, val/MAE: 0.9602, val/MSE: 1.8196]
+2025-08-26 13:45:17,667 - easytorch-training - INFO - Result <test>: [test/time: 3.21 (s), test/loss: 0.7484, test/MAE: 0.7484, test/MSE: 1.1376]
+2025-08-26 13:45:17,694 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_027.pt saved
+2025-08-26 13:45:17,694 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:27
+2025-08-26 13:45:17,694 - easytorch-training - INFO - Epoch 28 / 100
+2025-08-26 13:45:43,654 - easytorch-training - INFO - Result <train>: [train/time: 25.96 (s), train/lr: 5.00e-05, train/loss: 0.2879, train/MAE: 0.2879, train/MSE: 0.1974]
+2025-08-26 13:45:43,655 - easytorch-training - INFO - Start validation.
+2025-08-26 13:45:47,118 - easytorch-training - INFO - Result <val>: [val/time: 3.46 (s), val/loss: 0.9632, val/MAE: 0.9632, val/MSE: 1.8272]
+2025-08-26 13:45:50,354 - easytorch-training - INFO - Result <test>: [test/time: 3.24 (s), test/loss: 0.7406, test/MAE: 0.7406, test/MSE: 1.1137]
+2025-08-26 13:45:50,381 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_028.pt saved
+2025-08-26 13:45:50,381 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:26
+2025-08-26 13:45:50,381 - easytorch-training - INFO - Epoch 29 / 100
+2025-08-26 13:46:16,398 - easytorch-training - INFO - Result <train>: [train/time: 26.02 (s), train/lr: 5.00e-05, train/loss: 0.2858, train/MAE: 0.2858, train/MSE: 0.1946]
+2025-08-26 13:46:16,399 - easytorch-training - INFO - Start validation.
+2025-08-26 13:46:19,856 - easytorch-training - INFO - Result <val>: [val/time: 3.46 (s), val/loss: 0.9665, val/MAE: 0.9665, val/MSE: 1.8329]
+2025-08-26 13:46:23,054 - easytorch-training - INFO - Result <test>: [test/time: 3.20 (s), test/loss: 0.7488, test/MAE: 0.7488, test/MSE: 1.1388]
+2025-08-26 13:46:23,081 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_029.pt saved
+2025-08-26 13:46:23,081 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:25
+2025-08-26 13:46:23,081 - easytorch-training - INFO - Epoch 30 / 100
+2025-08-26 13:46:49,099 - easytorch-training - INFO - Result <train>: [train/time: 26.02 (s), train/lr: 5.00e-05, train/loss: 0.2840, train/MAE: 0.2840, train/MSE: 0.1919]
+2025-08-26 13:46:49,100 - easytorch-training - INFO - Start validation.
+2025-08-26 13:46:52,532 - easytorch-training - INFO - Result <val>: [val/time: 3.43 (s), val/loss: 0.9639, val/MAE: 0.9639, val/MSE: 1.8306]
+2025-08-26 13:46:55,730 - easytorch-training - INFO - Result <test>: [test/time: 3.20 (s), test/loss: 0.7640, test/MAE: 0.7640, test/MSE: 1.1771]
+2025-08-26 13:46:55,756 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_030.pt saved
+2025-08-26 13:46:55,764 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:24
+2025-08-26 13:46:55,764 - easytorch-training - INFO - Epoch 31 / 100
+2025-08-26 13:47:21,745 - easytorch-training - INFO - Result <train>: [train/time: 25.98 (s), train/lr: 5.00e-05, train/loss: 0.2822, train/MAE: 0.2822, train/MSE: 0.1893]
+2025-08-26 13:47:21,746 - easytorch-training - INFO - Start validation.
+2025-08-26 13:47:25,219 - easytorch-training - INFO - Result <val>: [val/time: 3.47 (s), val/loss: 0.9655, val/MAE: 0.9655, val/MSE: 1.8297]
+2025-08-26 13:47:28,423 - easytorch-training - INFO - Result <test>: [test/time: 3.20 (s), test/loss: 0.7513, test/MAE: 0.7513, test/MSE: 1.1484]
+2025-08-26 13:47:28,450 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_031.pt saved
+2025-08-26 13:47:28,450 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:23
+2025-08-26 13:47:28,450 - easytorch-training - INFO - Epoch 32 / 100
+2025-08-26 13:47:54,471 - easytorch-training - INFO - Result <train>: [train/time: 26.02 (s), train/lr: 5.00e-05, train/loss: 0.2803, train/MAE: 0.2803, train/MSE: 0.1866]
+2025-08-26 13:47:54,472 - easytorch-training - INFO - Start validation.
+2025-08-26 13:47:57,972 - easytorch-training - INFO - Result <val>: [val/time: 3.50 (s), val/loss: 0.9676, val/MAE: 0.9676, val/MSE: 1.8439]
+2025-08-26 13:48:01,193 - easytorch-training - INFO - Result <test>: [test/time: 3.22 (s), test/loss: 0.7628, test/MAE: 0.7628, test/MSE: 1.1857]
+2025-08-26 13:48:01,219 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_032.pt saved
+2025-08-26 13:48:01,219 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:22
+2025-08-26 13:48:01,219 - easytorch-training - INFO - Epoch 33 / 100
+2025-08-26 13:48:27,289 - easytorch-training - INFO - Result <train>: [train/time: 26.07 (s), train/lr: 5.00e-05, train/loss: 0.2787, train/MAE: 0.2787, train/MSE: 0.1842]
+2025-08-26 13:48:27,290 - easytorch-training - INFO - Start validation.
+2025-08-26 13:48:30,783 - easytorch-training - INFO - Result <val>: [val/time: 3.49 (s), val/loss: 0.9614, val/MAE: 0.9614, val/MSE: 1.8219]
+2025-08-26 13:48:34,024 - easytorch-training - INFO - Result <test>: [test/time: 3.24 (s), test/loss: 0.7504, test/MAE: 0.7504, test/MSE: 1.1506]
+2025-08-26 13:48:34,051 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_033.pt saved
+2025-08-26 13:48:34,051 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:22
+2025-08-26 13:48:34,051 - easytorch-training - INFO - Epoch 34 / 100
+2025-08-26 13:49:00,002 - easytorch-training - INFO - Result <train>: [train/time: 25.95 (s), train/lr: 5.00e-05, train/loss: 0.2771, train/MAE: 0.2771, train/MSE: 0.1819]
+2025-08-26 13:49:00,002 - easytorch-training - INFO - Start validation.
+2025-08-26 13:49:03,475 - easytorch-training - INFO - Result <val>: [val/time: 3.47 (s), val/loss: 0.9572, val/MAE: 0.9572, val/MSE: 1.8054]
+2025-08-26 13:49:06,702 - easytorch-training - INFO - Result <test>: [test/time: 3.23 (s), test/loss: 0.7534, test/MAE: 0.7534, test/MSE: 1.1529]
+2025-08-26 13:49:06,729 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_034.pt saved
+2025-08-26 13:49:06,729 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:21
+2025-08-26 13:49:06,729 - easytorch-training - INFO - Epoch 35 / 100
+2025-08-26 13:49:32,948 - easytorch-training - INFO - Result <train>: [train/time: 26.22 (s), train/lr: 5.00e-05, train/loss: 0.2755, train/MAE: 0.2755, train/MSE: 0.1799]
+2025-08-26 13:49:32,950 - easytorch-training - INFO - Start validation.
+2025-08-26 13:49:36,330 - easytorch-training - INFO - Result <val>: [val/time: 3.38 (s), val/loss: 0.9614, val/MAE: 0.9614, val/MSE: 1.8236]
+2025-08-26 13:49:39,478 - easytorch-training - INFO - Result <test>: [test/time: 3.15 (s), test/loss: 0.7613, test/MAE: 0.7613, test/MSE: 1.1947]
+2025-08-26 13:49:39,503 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_035.pt saved
+2025-08-26 13:49:39,504 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:20
+2025-08-26 13:49:39,504 - easytorch-training - INFO - Epoch 36 / 100
+2025-08-26 13:50:05,685 - easytorch-training - INFO - Result <train>: [train/time: 26.18 (s), train/lr: 5.00e-05, train/loss: 0.2735, train/MAE: 0.2735, train/MSE: 0.1772]
+2025-08-26 13:50:05,686 - easytorch-training - INFO - Start validation.
+2025-08-26 13:50:09,079 - easytorch-training - INFO - Result <val>: [val/time: 3.39 (s), val/loss: 0.9557, val/MAE: 0.9557, val/MSE: 1.8043]
+2025-08-26 13:50:12,206 - easytorch-training - INFO - Result <test>: [test/time: 3.13 (s), test/loss: 0.7516, test/MAE: 0.7516, test/MSE: 1.1693]
+2025-08-26 13:50:12,231 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_036.pt saved
+2025-08-26 13:50:12,232 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:20
+2025-08-26 13:50:12,232 - easytorch-training - INFO - Epoch 37 / 100
+2025-08-26 13:50:38,367 - easytorch-training - INFO - Result <train>: [train/time: 26.14 (s), train/lr: 5.00e-05, train/loss: 0.2720, train/MAE: 0.2720, train/MSE: 0.1751]
+2025-08-26 13:50:38,368 - easytorch-training - INFO - Start validation.
+2025-08-26 13:50:41,765 - easytorch-training - INFO - Result <val>: [val/time: 3.40 (s), val/loss: 0.9607, val/MAE: 0.9607, val/MSE: 1.8211]
+2025-08-26 13:50:44,921 - easytorch-training - INFO - Result <test>: [test/time: 3.16 (s), test/loss: 0.7653, test/MAE: 0.7653, test/MSE: 1.2037]
+2025-08-26 13:50:44,948 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_037.pt saved
+2025-08-26 13:50:44,948 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:19
+2025-08-26 13:50:44,948 - easytorch-training - INFO - Epoch 38 / 100
+2025-08-26 13:51:11,026 - easytorch-training - INFO - Result <train>: [train/time: 26.08 (s), train/lr: 5.00e-05, train/loss: 0.2707, train/MAE: 0.2707, train/MSE: 0.1731]
+2025-08-26 13:51:11,027 - easytorch-training - INFO - Start validation.
+2025-08-26 13:51:14,477 - easytorch-training - INFO - Result <val>: [val/time: 3.45 (s), val/loss: 0.9634, val/MAE: 0.9634, val/MSE: 1.8349]
+2025-08-26 13:51:17,658 - easytorch-training - INFO - Result <test>: [test/time: 3.18 (s), test/loss: 0.7542, test/MAE: 0.7542, test/MSE: 1.1719]
+2025-08-26 13:51:17,684 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_038.pt saved
+2025-08-26 13:51:17,684 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:19
+2025-08-26 13:51:17,684 - easytorch-training - INFO - Epoch 39 / 100
+2025-08-26 13:51:43,773 - easytorch-training - INFO - Result <train>: [train/time: 26.09 (s), train/lr: 5.00e-05, train/loss: 0.2689, train/MAE: 0.2689, train/MSE: 0.1709]
+2025-08-26 13:51:43,774 - easytorch-training - INFO - Start validation.
+2025-08-26 13:51:47,191 - easytorch-training - INFO - Result <val>: [val/time: 3.42 (s), val/loss: 0.9663, val/MAE: 0.9663, val/MSE: 1.8449]
+2025-08-26 13:51:50,351 - easytorch-training - INFO - Result <test>: [test/time: 3.16 (s), test/loss: 0.7636, test/MAE: 0.7636, test/MSE: 1.2038]
+2025-08-26 13:51:50,378 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_039.pt saved
+2025-08-26 13:51:50,379 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:18
+2025-08-26 13:51:50,379 - easytorch-training - INFO - Epoch 40 / 100
+2025-08-26 13:52:16,437 - easytorch-training - INFO - Result <train>: [train/time: 26.06 (s), train/lr: 5.00e-05, train/loss: 0.2674, train/MAE: 0.2674, train/MSE: 0.1689]
+2025-08-26 13:52:16,439 - easytorch-training - INFO - Start validation.
+2025-08-26 13:52:19,841 - easytorch-training - INFO - Result <val>: [val/time: 3.40 (s), val/loss: 0.9659, val/MAE: 0.9659, val/MSE: 1.8473]
+2025-08-26 13:52:22,978 - easytorch-training - INFO - Result <test>: [test/time: 3.14 (s), test/loss: 0.7706, test/MAE: 0.7706, test/MSE: 1.2180]
+2025-08-26 13:52:23,005 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_040.pt saved
+2025-08-26 13:52:23,013 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:17
+2025-08-26 13:52:23,013 - easytorch-training - INFO - Epoch 41 / 100
+2025-08-26 13:52:48,996 - easytorch-training - INFO - Result <train>: [train/time: 25.98 (s), train/lr: 5.00e-05, train/loss: 0.2659, train/MAE: 0.2659, train/MSE: 0.1671]
+2025-08-26 13:52:48,997 - easytorch-training - INFO - Start validation.
+2025-08-26 13:52:52,419 - easytorch-training - INFO - Result <val>: [val/time: 3.42 (s), val/loss: 0.9643, val/MAE: 0.9643, val/MSE: 1.8397]
+2025-08-26 13:52:55,571 - easytorch-training - INFO - Result <test>: [test/time: 3.15 (s), test/loss: 0.7681, test/MAE: 0.7681, test/MSE: 1.2136]
+2025-08-26 13:52:55,597 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_041.pt saved
+2025-08-26 13:52:55,598 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:16
+2025-08-26 13:52:55,598 - easytorch-training - INFO - Epoch 42 / 100
+2025-08-26 13:53:21,617 - easytorch-training - INFO - Result <train>: [train/time: 26.02 (s), train/lr: 5.00e-05, train/loss: 0.2646, train/MAE: 0.2646, train/MSE: 0.1652]
+2025-08-26 13:53:21,618 - easytorch-training - INFO - Start validation.
+2025-08-26 13:53:25,050 - easytorch-training - INFO - Result <val>: [val/time: 3.43 (s), val/loss: 0.9646, val/MAE: 0.9646, val/MSE: 1.8377]
+2025-08-26 13:53:28,213 - easytorch-training - INFO - Result <test>: [test/time: 3.16 (s), test/loss: 0.7599, test/MAE: 0.7599, test/MSE: 1.1812]
+2025-08-26 13:53:28,240 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_042.pt saved
+2025-08-26 13:53:28,240 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:16
+2025-08-26 13:53:28,240 - easytorch-training - INFO - Epoch 43 / 100
+2025-08-26 13:53:54,255 - easytorch-training - INFO - Result <train>: [train/time: 26.01 (s), train/lr: 5.00e-05, train/loss: 0.2631, train/MAE: 0.2631, train/MSE: 0.1634]
+2025-08-26 13:53:54,256 - easytorch-training - INFO - Start validation.
+2025-08-26 13:53:57,664 - easytorch-training - INFO - Result <val>: [val/time: 3.41 (s), val/loss: 0.9669, val/MAE: 0.9669, val/MSE: 1.8490]
+2025-08-26 13:54:00,808 - easytorch-training - INFO - Result <test>: [test/time: 3.14 (s), test/loss: 0.7592, test/MAE: 0.7592, test/MSE: 1.1973]
+2025-08-26 13:54:00,834 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_043.pt saved
+2025-08-26 13:54:00,835 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:15
+2025-08-26 13:54:00,835 - easytorch-training - INFO - Epoch 44 / 100
+2025-08-26 13:54:26,910 - easytorch-training - INFO - Result <train>: [train/time: 26.08 (s), train/lr: 5.00e-05, train/loss: 0.2618, train/MAE: 0.2618, train/MSE: 0.1617]
+2025-08-26 13:54:26,911 - easytorch-training - INFO - Start validation.
+2025-08-26 13:54:30,330 - easytorch-training - INFO - Result <val>: [val/time: 3.42 (s), val/loss: 0.9593, val/MAE: 0.9593, val/MSE: 1.8241]
+2025-08-26 13:54:33,464 - easytorch-training - INFO - Result <test>: [test/time: 3.13 (s), test/loss: 0.7545, test/MAE: 0.7545, test/MSE: 1.1806]
+2025-08-26 13:54:33,489 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_044.pt saved
+2025-08-26 13:54:33,489 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:15
+2025-08-26 13:54:33,490 - easytorch-training - INFO - Epoch 45 / 100
+2025-08-26 13:54:59,504 - easytorch-training - INFO - Result <train>: [train/time: 26.01 (s), train/lr: 5.00e-05, train/loss: 0.2603, train/MAE: 0.2603, train/MSE: 0.1599]
+2025-08-26 13:54:59,505 - easytorch-training - INFO - Start validation.
+2025-08-26 13:55:02,935 - easytorch-training - INFO - Result <val>: [val/time: 3.43 (s), val/loss: 0.9663, val/MAE: 0.9663, val/MSE: 1.8495]
+2025-08-26 13:55:06,096 - easytorch-training - INFO - Result <test>: [test/time: 3.16 (s), test/loss: 0.7701, test/MAE: 0.7701, test/MSE: 1.2182]
+2025-08-26 13:55:06,121 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_045.pt saved
+2025-08-26 13:55:06,121 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:14
+2025-08-26 13:55:06,121 - easytorch-training - INFO - Epoch 46 / 100
+2025-08-26 13:55:32,110 - easytorch-training - INFO - Result <train>: [train/time: 25.99 (s), train/lr: 5.00e-05, train/loss: 0.2593, train/MAE: 0.2593, train/MSE: 0.1585]
+2025-08-26 13:55:32,111 - easytorch-training - INFO - Start validation.
+2025-08-26 13:55:35,517 - easytorch-training - INFO - Result <val>: [val/time: 3.41 (s), val/loss: 0.9566, val/MAE: 0.9566, val/MSE: 1.8076]
+2025-08-26 13:55:38,673 - easytorch-training - INFO - Result <test>: [test/time: 3.15 (s), test/loss: 0.7608, test/MAE: 0.7608, test/MSE: 1.2017]
+2025-08-26 13:55:38,699 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_046.pt saved
+2025-08-26 13:55:38,699 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:13
+2025-08-26 13:55:38,699 - easytorch-training - INFO - Epoch 47 / 100
+2025-08-26 13:56:04,702 - easytorch-training - INFO - Result <train>: [train/time: 26.00 (s), train/lr: 5.00e-05, train/loss: 0.2580, train/MAE: 0.2580, train/MSE: 0.1569]
+2025-08-26 13:56:04,703 - easytorch-training - INFO - Start validation.
+2025-08-26 13:56:08,143 - easytorch-training - INFO - Result <val>: [val/time: 3.44 (s), val/loss: 0.9614, val/MAE: 0.9614, val/MSE: 1.8325]
+2025-08-26 13:56:11,315 - easytorch-training - INFO - Result <test>: [test/time: 3.17 (s), test/loss: 0.7687, test/MAE: 0.7687, test/MSE: 1.2276]
+2025-08-26 13:56:11,341 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_047.pt saved
+2025-08-26 13:56:11,341 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:13
+2025-08-26 13:56:11,342 - easytorch-training - INFO - Epoch 48 / 100
+2025-08-26 13:56:37,282 - easytorch-training - INFO - Result <train>: [train/time: 25.94 (s), train/lr: 5.00e-05, train/loss: 0.2568, train/MAE: 0.2568, train/MSE: 0.1554]
+2025-08-26 13:56:37,284 - easytorch-training - INFO - Start validation.
+2025-08-26 13:56:40,742 - easytorch-training - INFO - Result <val>: [val/time: 3.46 (s), val/loss: 0.9651, val/MAE: 0.9651, val/MSE: 1.8413]
+2025-08-26 13:56:43,932 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.7726, test/MAE: 0.7726, test/MSE: 1.2413]
+2025-08-26 13:56:43,958 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_048.pt saved
+2025-08-26 13:56:43,958 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:12
+2025-08-26 13:56:43,958 - easytorch-training - INFO - Epoch 49 / 100
+2025-08-26 13:57:09,935 - easytorch-training - INFO - Result <train>: [train/time: 25.98 (s), train/lr: 5.00e-05, train/loss: 0.2557, train/MAE: 0.2557, train/MSE: 0.1538]
+2025-08-26 13:57:09,936 - easytorch-training - INFO - Start validation.
+2025-08-26 13:57:13,418 - easytorch-training - INFO - Result <val>: [val/time: 3.48 (s), val/loss: 0.9636, val/MAE: 0.9636, val/MSE: 1.8323]
+2025-08-26 13:57:16,618 - easytorch-training - INFO - Result <test>: [test/time: 3.20 (s), test/loss: 0.7803, test/MAE: 0.7803, test/MSE: 1.2563]
+2025-08-26 13:57:16,644 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_049.pt saved
+2025-08-26 13:57:16,645 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:12
+2025-08-26 13:57:16,645 - easytorch-training - INFO - Epoch 50 / 100
+2025-08-26 13:57:42,653 - easytorch-training - INFO - Result <train>: [train/time: 26.01 (s), train/lr: 5.00e-05, train/loss: 0.2545, train/MAE: 0.2545, train/MSE: 0.1525]
+2025-08-26 13:57:42,654 - easytorch-training - INFO - Start validation.
+2025-08-26 13:57:46,102 - easytorch-training - INFO - Result <val>: [val/time: 3.45 (s), val/loss: 0.9723, val/MAE: 0.9723, val/MSE: 1.8729]
+2025-08-26 13:57:49,292 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.7605, test/MAE: 0.7605, test/MSE: 1.2045]
+2025-08-26 13:57:49,319 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_050.pt saved
+2025-08-26 13:57:49,327 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:12
+2025-08-26 13:57:49,327 - easytorch-training - INFO - Epoch 51 / 100
+2025-08-26 13:58:15,333 - easytorch-training - INFO - Result <train>: [train/time: 26.01 (s), train/lr: 2.50e-05, train/loss: 0.2526, train/MAE: 0.2526, train/MSE: 0.1505]
+2025-08-26 13:58:15,334 - easytorch-training - INFO - Start validation.
+2025-08-26 13:58:18,828 - easytorch-training - INFO - Result <val>: [val/time: 3.49 (s), val/loss: 0.9682, val/MAE: 0.9682, val/MSE: 1.8557]
+2025-08-26 13:58:22,032 - easytorch-training - INFO - Result <test>: [test/time: 3.20 (s), test/loss: 0.7579, test/MAE: 0.7579, test/MSE: 1.2031]
+2025-08-26 13:58:22,059 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_051.pt saved
+2025-08-26 13:58:22,059 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:11
+2025-08-26 13:58:22,059 - easytorch-training - INFO - Epoch 52 / 100
+2025-08-26 13:58:48,101 - easytorch-training - INFO - Result <train>: [train/time: 26.04 (s), train/lr: 2.50e-05, train/loss: 0.2520, train/MAE: 0.2520, train/MSE: 0.1498]
+2025-08-26 13:58:48,102 - easytorch-training - INFO - Start validation.
+2025-08-26 13:58:51,593 - easytorch-training - INFO - Result <val>: [val/time: 3.49 (s), val/loss: 0.9719, val/MAE: 0.9719, val/MSE: 1.8695]
+2025-08-26 13:58:54,797 - easytorch-training - INFO - Result <test>: [test/time: 3.20 (s), test/loss: 0.7559, test/MAE: 0.7559, test/MSE: 1.1938]
+2025-08-26 13:58:54,823 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_052.pt saved
+2025-08-26 13:58:54,824 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:11
+2025-08-26 13:58:54,824 - easytorch-training - INFO - Epoch 53 / 100
+2025-08-26 13:59:20,863 - easytorch-training - INFO - Result <train>: [train/time: 26.04 (s), train/lr: 2.50e-05, train/loss: 0.2515, train/MAE: 0.2515, train/MSE: 0.1492]
+2025-08-26 13:59:20,864 - easytorch-training - INFO - Start validation.
+2025-08-26 13:59:24,330 - easytorch-training - INFO - Result <val>: [val/time: 3.47 (s), val/loss: 0.9723, val/MAE: 0.9723, val/MSE: 1.8703]
+2025-08-26 13:59:27,523 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.7725, test/MAE: 0.7725, test/MSE: 1.2461]
+2025-08-26 13:59:27,549 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_053.pt saved
+2025-08-26 13:59:27,550 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:11
+2025-08-26 13:59:27,550 - easytorch-training - INFO - Epoch 54 / 100
+2025-08-26 13:59:53,512 - easytorch-training - INFO - Result <train>: [train/time: 25.96 (s), train/lr: 2.50e-05, train/loss: 0.2508, train/MAE: 0.2508, train/MSE: 0.1484]
+2025-08-26 13:59:53,513 - easytorch-training - INFO - Start validation.
+2025-08-26 13:59:57,017 - easytorch-training - INFO - Result <val>: [val/time: 3.50 (s), val/loss: 0.9623, val/MAE: 0.9623, val/MSE: 1.8387]
+2025-08-26 14:00:00,241 - easytorch-training - INFO - Result <test>: [test/time: 3.22 (s), test/loss: 0.7753, test/MAE: 0.7753, test/MSE: 1.2501]
+2025-08-26 14:00:00,268 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_054.pt saved
+2025-08-26 14:00:00,268 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:11
+2025-08-26 14:00:00,268 - easytorch-training - INFO - Epoch 55 / 100
+2025-08-26 14:00:26,262 - easytorch-training - INFO - Result <train>: [train/time: 25.99 (s), train/lr: 2.50e-05, train/loss: 0.2503, train/MAE: 0.2503, train/MSE: 0.1477]
+2025-08-26 14:00:26,263 - easytorch-training - INFO - Start validation.
+2025-08-26 14:00:29,746 - easytorch-training - INFO - Result <val>: [val/time: 3.48 (s), val/loss: 0.9724, val/MAE: 0.9724, val/MSE: 1.8764]
+2025-08-26 14:00:32,962 - easytorch-training - INFO - Result <test>: [test/time: 3.22 (s), test/loss: 0.7701, test/MAE: 0.7701, test/MSE: 1.2369]
+2025-08-26 14:00:32,988 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_055.pt saved
+2025-08-26 14:00:32,988 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:11
+2025-08-26 14:00:32,989 - easytorch-training - INFO - Epoch 56 / 100
+2025-08-26 14:00:59,005 - easytorch-training - INFO - Result <train>: [train/time: 26.02 (s), train/lr: 2.50e-05, train/loss: 0.2503, train/MAE: 0.2503, train/MSE: 0.1479]
+2025-08-26 14:00:59,006 - easytorch-training - INFO - Start validation.
+2025-08-26 14:01:02,364 - easytorch-training - INFO - Result <val>: [val/time: 3.36 (s), val/loss: 0.9587, val/MAE: 0.9587, val/MSE: 1.8238]
+2025-08-26 14:01:05,545 - easytorch-training - INFO - Result <test>: [test/time: 3.18 (s), test/loss: 0.7820, test/MAE: 0.7820, test/MSE: 1.2749]
+2025-08-26 14:01:05,571 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_056.pt saved
+2025-08-26 14:01:05,571 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:10
+2025-08-26 14:01:05,571 - easytorch-training - INFO - Epoch 57 / 100
+2025-08-26 14:01:31,510 - easytorch-training - INFO - Result <train>: [train/time: 25.94 (s), train/lr: 2.50e-05, train/loss: 0.2492, train/MAE: 0.2492, train/MSE: 0.1464]
+2025-08-26 14:01:31,511 - easytorch-training - INFO - Start validation.
+2025-08-26 14:01:34,897 - easytorch-training - INFO - Result <val>: [val/time: 3.39 (s), val/loss: 0.9654, val/MAE: 0.9654, val/MSE: 1.8514]
+2025-08-26 14:01:38,029 - easytorch-training - INFO - Result <test>: [test/time: 3.13 (s), test/loss: 0.7772, test/MAE: 0.7772, test/MSE: 1.2596]
+2025-08-26 14:01:38,054 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_057.pt saved
+2025-08-26 14:01:38,054 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:09
+2025-08-26 14:01:38,054 - easytorch-training - INFO - Epoch 58 / 100
+2025-08-26 14:02:03,967 - easytorch-training - INFO - Result <train>: [train/time: 25.91 (s), train/lr: 2.50e-05, train/loss: 0.2487, train/MAE: 0.2487, train/MSE: 0.1457]
+2025-08-26 14:02:03,969 - easytorch-training - INFO - Start validation.
+2025-08-26 14:02:07,377 - easytorch-training - INFO - Result <val>: [val/time: 3.41 (s), val/loss: 0.9681, val/MAE: 0.9681, val/MSE: 1.8659]
+2025-08-26 14:02:10,511 - easytorch-training - INFO - Result <test>: [test/time: 3.13 (s), test/loss: 0.7729, test/MAE: 0.7729, test/MSE: 1.2485]
+2025-08-26 14:02:10,536 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_058.pt saved
+2025-08-26 14:02:10,537 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:09
+2025-08-26 14:02:10,537 - easytorch-training - INFO - Epoch 59 / 100
+2025-08-26 14:02:36,559 - easytorch-training - INFO - Result <train>: [train/time: 26.02 (s), train/lr: 2.50e-05, train/loss: 0.2481, train/MAE: 0.2481, train/MSE: 0.1450]
+2025-08-26 14:02:36,560 - easytorch-training - INFO - Start validation.
+2025-08-26 14:02:40,007 - easytorch-training - INFO - Result <val>: [val/time: 3.45 (s), val/loss: 0.9690, val/MAE: 0.9690, val/MSE: 1.8688]
+2025-08-26 14:02:43,171 - easytorch-training - INFO - Result <test>: [test/time: 3.16 (s), test/loss: 0.7780, test/MAE: 0.7780, test/MSE: 1.2622]
+2025-08-26 14:02:43,198 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_059.pt saved
+2025-08-26 14:02:43,198 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:09
+2025-08-26 14:02:43,198 - easytorch-training - INFO - Epoch 60 / 100
+2025-08-26 14:03:09,248 - easytorch-training - INFO - Result <train>: [train/time: 26.05 (s), train/lr: 2.50e-05, train/loss: 0.2474, train/MAE: 0.2474, train/MSE: 0.1442]
+2025-08-26 14:03:09,249 - easytorch-training - INFO - Start validation.
+2025-08-26 14:03:12,700 - easytorch-training - INFO - Result <val>: [val/time: 3.45 (s), val/loss: 0.9681, val/MAE: 0.9681, val/MSE: 1.8644]
+2025-08-26 14:03:15,881 - easytorch-training - INFO - Result <test>: [test/time: 3.18 (s), test/loss: 0.7744, test/MAE: 0.7744, test/MSE: 1.2487]
+2025-08-26 14:03:15,908 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_060.pt saved
+2025-08-26 14:03:15,916 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:08
+2025-08-26 14:03:15,916 - easytorch-training - INFO - Epoch 61 / 100
+2025-08-26 14:03:41,895 - easytorch-training - INFO - Result <train>: [train/time: 25.98 (s), train/lr: 2.50e-05, train/loss: 0.2470, train/MAE: 0.2470, train/MSE: 0.1437]
+2025-08-26 14:03:41,896 - easytorch-training - INFO - Start validation.
+2025-08-26 14:03:45,337 - easytorch-training - INFO - Result <val>: [val/time: 3.44 (s), val/loss: 0.9677, val/MAE: 0.9677, val/MSE: 1.8667]
+2025-08-26 14:03:48,476 - easytorch-training - INFO - Result <test>: [test/time: 3.14 (s), test/loss: 0.7704, test/MAE: 0.7704, test/MSE: 1.2457]
+2025-08-26 14:03:48,502 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_061.pt saved
+2025-08-26 14:03:48,502 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:08
+2025-08-26 14:03:48,502 - easytorch-training - INFO - Epoch 62 / 100
+2025-08-26 14:04:14,480 - easytorch-training - INFO - Result <train>: [train/time: 25.98 (s), train/lr: 2.50e-05, train/loss: 0.2464, train/MAE: 0.2464, train/MSE: 0.1430]
+2025-08-26 14:04:14,481 - easytorch-training - INFO - Start validation.
+2025-08-26 14:04:17,903 - easytorch-training - INFO - Result <val>: [val/time: 3.42 (s), val/loss: 0.9682, val/MAE: 0.9682, val/MSE: 1.8698]
+2025-08-26 14:04:21,055 - easytorch-training - INFO - Result <test>: [test/time: 3.15 (s), test/loss: 0.7620, test/MAE: 0.7620, test/MSE: 1.2099]
+2025-08-26 14:04:21,082 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_062.pt saved
+2025-08-26 14:04:21,082 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:08
+2025-08-26 14:04:21,082 - easytorch-training - INFO - Epoch 63 / 100
+2025-08-26 14:04:47,060 - easytorch-training - INFO - Result <train>: [train/time: 25.98 (s), train/lr: 2.50e-05, train/loss: 0.2457, train/MAE: 0.2457, train/MSE: 0.1422]
+2025-08-26 14:04:47,061 - easytorch-training - INFO - Start validation.
+2025-08-26 14:04:50,475 - easytorch-training - INFO - Result <val>: [val/time: 3.41 (s), val/loss: 0.9719, val/MAE: 0.9719, val/MSE: 1.8752]
+2025-08-26 14:04:53,603 - easytorch-training - INFO - Result <test>: [test/time: 3.13 (s), test/loss: 0.7784, test/MAE: 0.7784, test/MSE: 1.2678]
+2025-08-26 14:04:53,629 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_063.pt saved
+2025-08-26 14:04:53,630 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:07
+2025-08-26 14:04:53,630 - easytorch-training - INFO - Epoch 64 / 100
+2025-08-26 14:05:19,650 - easytorch-training - INFO - Result <train>: [train/time: 26.02 (s), train/lr: 2.50e-05, train/loss: 0.2454, train/MAE: 0.2454, train/MSE: 0.1417]
+2025-08-26 14:05:19,651 - easytorch-training - INFO - Start validation.
+2025-08-26 14:05:23,107 - easytorch-training - INFO - Result <val>: [val/time: 3.46 (s), val/loss: 0.9710, val/MAE: 0.9710, val/MSE: 1.8749]
+2025-08-26 14:05:26,284 - easytorch-training - INFO - Result <test>: [test/time: 3.18 (s), test/loss: 0.7731, test/MAE: 0.7731, test/MSE: 1.2513]
+2025-08-26 14:05:26,310 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_064.pt saved
+2025-08-26 14:05:26,310 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:07
+2025-08-26 14:05:26,310 - easytorch-training - INFO - Epoch 65 / 100
+2025-08-26 14:05:52,380 - easytorch-training - INFO - Result <train>: [train/time: 26.07 (s), train/lr: 2.50e-05, train/loss: 0.2449, train/MAE: 0.2449, train/MSE: 0.1410]
+2025-08-26 14:05:52,381 - easytorch-training - INFO - Start validation.
+2025-08-26 14:05:55,824 - easytorch-training - INFO - Result <val>: [val/time: 3.44 (s), val/loss: 0.9673, val/MAE: 0.9673, val/MSE: 1.8641]
+2025-08-26 14:05:58,988 - easytorch-training - INFO - Result <test>: [test/time: 3.16 (s), test/loss: 0.7750, test/MAE: 0.7750, test/MSE: 1.2560]
+2025-08-26 14:05:59,013 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_065.pt saved
+2025-08-26 14:05:59,013 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:07
+2025-08-26 14:05:59,013 - easytorch-training - INFO - Epoch 66 / 100
+2025-08-26 14:06:25,031 - easytorch-training - INFO - Result <train>: [train/time: 26.02 (s), train/lr: 2.50e-05, train/loss: 0.2442, train/MAE: 0.2442, train/MSE: 0.1403]
+2025-08-26 14:06:25,032 - easytorch-training - INFO - Start validation.
+2025-08-26 14:06:28,487 - easytorch-training - INFO - Result <val>: [val/time: 3.46 (s), val/loss: 0.9707, val/MAE: 0.9707, val/MSE: 1.8778]
+2025-08-26 14:06:31,671 - easytorch-training - INFO - Result <test>: [test/time: 3.18 (s), test/loss: 0.7673, test/MAE: 0.7673, test/MSE: 1.2423]
+2025-08-26 14:06:31,698 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_066.pt saved
+2025-08-26 14:06:31,698 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:07
+2025-08-26 14:06:31,698 - easytorch-training - INFO - Epoch 67 / 100
+2025-08-26 14:06:57,782 - easytorch-training - INFO - Result <train>: [train/time: 26.08 (s), train/lr: 2.50e-05, train/loss: 0.2437, train/MAE: 0.2437, train/MSE: 0.1398]
+2025-08-26 14:06:57,783 - easytorch-training - INFO - Start validation.
+2025-08-26 14:07:01,197 - easytorch-training - INFO - Result <val>: [val/time: 3.41 (s), val/loss: 0.9688, val/MAE: 0.9688, val/MSE: 1.8719]
+2025-08-26 14:07:04,339 - easytorch-training - INFO - Result <test>: [test/time: 3.14 (s), test/loss: 0.7777, test/MAE: 0.7777, test/MSE: 1.2636]
+2025-08-26 14:07:04,365 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_067.pt saved
+2025-08-26 14:07:04,366 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:06
+2025-08-26 14:07:04,366 - easytorch-training - INFO - Epoch 68 / 100
+2025-08-26 14:07:30,404 - easytorch-training - INFO - Result <train>: [train/time: 26.04 (s), train/lr: 2.50e-05, train/loss: 0.2432, train/MAE: 0.2432, train/MSE: 0.1391]
+2025-08-26 14:07:30,405 - easytorch-training - INFO - Start validation.
+2025-08-26 14:07:33,837 - easytorch-training - INFO - Result <val>: [val/time: 3.43 (s), val/loss: 0.9717, val/MAE: 0.9717, val/MSE: 1.8797]
+2025-08-26 14:07:37,002 - easytorch-training - INFO - Result <test>: [test/time: 3.16 (s), test/loss: 0.7757, test/MAE: 0.7757, test/MSE: 1.2603]
+2025-08-26 14:07:37,028 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_068.pt saved
+2025-08-26 14:07:37,029 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:06
+2025-08-26 14:07:37,029 - easytorch-training - INFO - Epoch 69 / 100
+2025-08-26 14:08:03,058 - easytorch-training - INFO - Result <train>: [train/time: 26.03 (s), train/lr: 2.50e-05, train/loss: 0.2426, train/MAE: 0.2426, train/MSE: 0.1385]
+2025-08-26 14:08:03,059 - easytorch-training - INFO - Start validation.
+2025-08-26 14:08:06,476 - easytorch-training - INFO - Result <val>: [val/time: 3.42 (s), val/loss: 0.9683, val/MAE: 0.9683, val/MSE: 1.8643]
+2025-08-26 14:08:09,618 - easytorch-training - INFO - Result <test>: [test/time: 3.14 (s), test/loss: 0.7821, test/MAE: 0.7821, test/MSE: 1.2792]
+2025-08-26 14:08:09,644 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_069.pt saved
+2025-08-26 14:08:09,644 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:06
+2025-08-26 14:08:09,644 - easytorch-training - INFO - Epoch 70 / 100
+2025-08-26 14:08:35,613 - easytorch-training - INFO - Result <train>: [train/time: 25.97 (s), train/lr: 2.50e-05, train/loss: 0.2421, train/MAE: 0.2421, train/MSE: 0.1378]
+2025-08-26 14:08:35,615 - easytorch-training - INFO - Start validation.
+2025-08-26 14:08:39,056 - easytorch-training - INFO - Result <val>: [val/time: 3.44 (s), val/loss: 0.9717, val/MAE: 0.9717, val/MSE: 1.8787]
+2025-08-26 14:08:42,226 - easytorch-training - INFO - Result <test>: [test/time: 3.17 (s), test/loss: 0.7782, test/MAE: 0.7782, test/MSE: 1.2616]
+2025-08-26 14:08:42,252 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_070.pt saved
+2025-08-26 14:08:42,260 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:06
+2025-08-26 14:08:42,260 - easytorch-training - INFO - Epoch 71 / 100
+2025-08-26 14:09:08,231 - easytorch-training - INFO - Result <train>: [train/time: 25.97 (s), train/lr: 2.50e-05, train/loss: 0.2418, train/MAE: 0.2418, train/MSE: 0.1374]
+2025-08-26 14:09:08,233 - easytorch-training - INFO - Start validation.
+2025-08-26 14:09:11,681 - easytorch-training - INFO - Result <val>: [val/time: 3.45 (s), val/loss: 0.9701, val/MAE: 0.9701, val/MSE: 1.8741]
+2025-08-26 14:09:14,907 - easytorch-training - INFO - Result <test>: [test/time: 3.23 (s), test/loss: 0.7709, test/MAE: 0.7709, test/MSE: 1.2467]
+2025-08-26 14:09:14,933 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_071.pt saved
+2025-08-26 14:09:14,934 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:09:14,934 - easytorch-training - INFO - Epoch 72 / 100
+2025-08-26 14:09:40,966 - easytorch-training - INFO - Result <train>: [train/time: 26.03 (s), train/lr: 2.50e-05, train/loss: 0.2414, train/MAE: 0.2414, train/MSE: 0.1369]
+2025-08-26 14:09:40,967 - easytorch-training - INFO - Start validation.
+2025-08-26 14:09:44,404 - easytorch-training - INFO - Result <val>: [val/time: 3.44 (s), val/loss: 0.9729, val/MAE: 0.9729, val/MSE: 1.8837]
+2025-08-26 14:09:47,596 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.7735, test/MAE: 0.7735, test/MSE: 1.2602]
+2025-08-26 14:09:47,621 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_072.pt saved
+2025-08-26 14:09:47,622 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:09:47,622 - easytorch-training - INFO - Epoch 73 / 100
+2025-08-26 14:10:13,636 - easytorch-training - INFO - Result <train>: [train/time: 26.01 (s), train/lr: 2.50e-05, train/loss: 0.2408, train/MAE: 0.2408, train/MSE: 0.1363]
+2025-08-26 14:10:13,638 - easytorch-training - INFO - Start validation.
+2025-08-26 14:10:17,088 - easytorch-training - INFO - Result <val>: [val/time: 3.45 (s), val/loss: 0.9688, val/MAE: 0.9688, val/MSE: 1.8680]
+2025-08-26 14:10:20,263 - easytorch-training - INFO - Result <test>: [test/time: 3.17 (s), test/loss: 0.7648, test/MAE: 0.7648, test/MSE: 1.2326]
+2025-08-26 14:10:20,289 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_073.pt saved
+2025-08-26 14:10:20,290 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:10:20,290 - easytorch-training - INFO - Epoch 74 / 100
+2025-08-26 14:10:46,340 - easytorch-training - INFO - Result <train>: [train/time: 26.05 (s), train/lr: 2.50e-05, train/loss: 0.2402, train/MAE: 0.2402, train/MSE: 0.1356]
+2025-08-26 14:10:46,341 - easytorch-training - INFO - Start validation.
+2025-08-26 14:10:49,789 - easytorch-training - INFO - Result <val>: [val/time: 3.45 (s), val/loss: 0.9738, val/MAE: 0.9738, val/MSE: 1.8853]
+2025-08-26 14:10:52,988 - easytorch-training - INFO - Result <test>: [test/time: 3.20 (s), test/loss: 0.7641, test/MAE: 0.7641, test/MSE: 1.2295]
+2025-08-26 14:10:53,014 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_074.pt saved
+2025-08-26 14:10:53,014 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:10:53,014 - easytorch-training - INFO - Epoch 75 / 100
+2025-08-26 14:11:19,062 - easytorch-training - INFO - Result <train>: [train/time: 26.05 (s), train/lr: 2.50e-05, train/loss: 0.2398, train/MAE: 0.2398, train/MSE: 0.1351]
+2025-08-26 14:11:19,062 - easytorch-training - INFO - Start validation.
+2025-08-26 14:11:22,565 - easytorch-training - INFO - Result <val>: [val/time: 3.50 (s), val/loss: 0.9757, val/MAE: 0.9757, val/MSE: 1.8929]
+2025-08-26 14:11:25,792 - easytorch-training - INFO - Result <test>: [test/time: 3.23 (s), test/loss: 0.7742, test/MAE: 0.7742, test/MSE: 1.2576]
+2025-08-26 14:11:25,818 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_075.pt saved
+2025-08-26 14:11:25,818 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:11:25,818 - easytorch-training - INFO - Epoch 76 / 100
+2025-08-26 14:11:51,852 - easytorch-training - INFO - Result <train>: [train/time: 26.03 (s), train/lr: 2.50e-05, train/loss: 0.2392, train/MAE: 0.2392, train/MSE: 0.1345]
+2025-08-26 14:11:51,853 - easytorch-training - INFO - Start validation.
+2025-08-26 14:11:55,304 - easytorch-training - INFO - Result <val>: [val/time: 3.45 (s), val/loss: 0.9745, val/MAE: 0.9745, val/MSE: 1.8846]
+2025-08-26 14:11:58,514 - easytorch-training - INFO - Result <test>: [test/time: 3.21 (s), test/loss: 0.7726, test/MAE: 0.7726, test/MSE: 1.2521]
+2025-08-26 14:11:58,540 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_076.pt saved
+2025-08-26 14:11:58,540 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:11:58,541 - easytorch-training - INFO - Epoch 77 / 100
+2025-08-26 14:12:24,556 - easytorch-training - INFO - Result <train>: [train/time: 26.02 (s), train/lr: 2.50e-05, train/loss: 0.2388, train/MAE: 0.2388, train/MSE: 0.1340]
+2025-08-26 14:12:24,557 - easytorch-training - INFO - Start validation.
+2025-08-26 14:12:28,042 - easytorch-training - INFO - Result <val>: [val/time: 3.48 (s), val/loss: 0.9753, val/MAE: 0.9753, val/MSE: 1.8873]
+2025-08-26 14:12:31,267 - easytorch-training - INFO - Result <test>: [test/time: 3.22 (s), test/loss: 0.7761, test/MAE: 0.7761, test/MSE: 1.2662]
+2025-08-26 14:12:31,293 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_077.pt saved
+2025-08-26 14:12:31,293 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:12:31,293 - easytorch-training - INFO - Epoch 78 / 100
+2025-08-26 14:12:57,334 - easytorch-training - INFO - Result <train>: [train/time: 26.04 (s), train/lr: 2.50e-05, train/loss: 0.2384, train/MAE: 0.2384, train/MSE: 0.1335]
+2025-08-26 14:12:57,335 - easytorch-training - INFO - Start validation.
+2025-08-26 14:13:00,827 - easytorch-training - INFO - Result <val>: [val/time: 3.49 (s), val/loss: 0.9764, val/MAE: 0.9764, val/MSE: 1.8978]
+2025-08-26 14:13:04,053 - easytorch-training - INFO - Result <test>: [test/time: 3.23 (s), test/loss: 0.7691, test/MAE: 0.7691, test/MSE: 1.2414]
+2025-08-26 14:13:04,080 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_078.pt saved
+2025-08-26 14:13:04,080 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:13:04,080 - easytorch-training - INFO - Epoch 79 / 100
+2025-08-26 14:13:30,153 - easytorch-training - INFO - Result <train>: [train/time: 26.07 (s), train/lr: 2.50e-05, train/loss: 0.2380, train/MAE: 0.2380, train/MSE: 0.1330]
+2025-08-26 14:13:30,154 - easytorch-training - INFO - Start validation.
+2025-08-26 14:13:33,668 - easytorch-training - INFO - Result <val>: [val/time: 3.51 (s), val/loss: 0.9760, val/MAE: 0.9760, val/MSE: 1.8951]
+2025-08-26 14:13:36,871 - easytorch-training - INFO - Result <test>: [test/time: 3.20 (s), test/loss: 0.7741, test/MAE: 0.7741, test/MSE: 1.2627]
+2025-08-26 14:13:36,898 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_079.pt saved
+2025-08-26 14:13:36,898 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:13:36,898 - easytorch-training - INFO - Epoch 80 / 100
+2025-08-26 14:14:02,896 - easytorch-training - INFO - Result <train>: [train/time: 26.00 (s), train/lr: 2.50e-05, train/loss: 0.2374, train/MAE: 0.2374, train/MSE: 0.1324]
+2025-08-26 14:14:02,898 - easytorch-training - INFO - Start validation.
+2025-08-26 14:14:06,411 - easytorch-training - INFO - Result <val>: [val/time: 3.51 (s), val/loss: 0.9751, val/MAE: 0.9751, val/MSE: 1.8909]
+2025-08-26 14:14:09,608 - easytorch-training - INFO - Result <test>: [test/time: 3.20 (s), test/loss: 0.7656, test/MAE: 0.7656, test/MSE: 1.2356]
+2025-08-26 14:14:09,635 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_080.pt saved
+2025-08-26 14:14:09,643 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:14:09,643 - easytorch-training - INFO - Epoch 81 / 100
+2025-08-26 14:14:35,669 - easytorch-training - INFO - Result <train>: [train/time: 26.03 (s), train/lr: 2.50e-05, train/loss: 0.2369, train/MAE: 0.2369, train/MSE: 0.1319]
+2025-08-26 14:14:35,670 - easytorch-training - INFO - Start validation.
+2025-08-26 14:14:39,191 - easytorch-training - INFO - Result <val>: [val/time: 3.52 (s), val/loss: 0.9806, val/MAE: 0.9806, val/MSE: 1.9090]
+2025-08-26 14:14:42,409 - easytorch-training - INFO - Result <test>: [test/time: 3.22 (s), test/loss: 0.7707, test/MAE: 0.7707, test/MSE: 1.2507]
+2025-08-26 14:14:42,435 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_081.pt saved
+2025-08-26 14:14:42,435 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:14:42,435 - easytorch-training - INFO - Epoch 82 / 100
+2025-08-26 14:15:08,436 - easytorch-training - INFO - Result <train>: [train/time: 26.00 (s), train/lr: 2.50e-05, train/loss: 0.2366, train/MAE: 0.2366, train/MSE: 0.1314]
+2025-08-26 14:15:08,437 - easytorch-training - INFO - Start validation.
+2025-08-26 14:15:11,957 - easytorch-training - INFO - Result <val>: [val/time: 3.52 (s), val/loss: 0.9771, val/MAE: 0.9771, val/MSE: 1.9003]
+2025-08-26 14:15:15,180 - easytorch-training - INFO - Result <test>: [test/time: 3.22 (s), test/loss: 0.7725, test/MAE: 0.7725, test/MSE: 1.2612]
+2025-08-26 14:15:15,207 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_082.pt saved
+2025-08-26 14:15:15,207 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:15:15,207 - easytorch-training - INFO - Epoch 83 / 100
+2025-08-26 14:15:41,280 - easytorch-training - INFO - Result <train>: [train/time: 26.07 (s), train/lr: 2.50e-05, train/loss: 0.2362, train/MAE: 0.2362, train/MSE: 0.1309]
+2025-08-26 14:15:41,281 - easytorch-training - INFO - Start validation.
+2025-08-26 14:15:44,801 - easytorch-training - INFO - Result <val>: [val/time: 3.52 (s), val/loss: 0.9816, val/MAE: 0.9816, val/MSE: 1.9183]
+2025-08-26 14:15:48,041 - easytorch-training - INFO - Result <test>: [test/time: 3.24 (s), test/loss: 0.7643, test/MAE: 0.7643, test/MSE: 1.2319]
+2025-08-26 14:15:48,068 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_083.pt saved
+2025-08-26 14:15:48,069 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:15:48,069 - easytorch-training - INFO - Epoch 84 / 100
+2025-08-26 14:16:14,111 - easytorch-training - INFO - Result <train>: [train/time: 26.04 (s), train/lr: 2.50e-05, train/loss: 0.2358, train/MAE: 0.2358, train/MSE: 0.1305]
+2025-08-26 14:16:14,113 - easytorch-training - INFO - Start validation.
+2025-08-26 14:16:17,656 - easytorch-training - INFO - Result <val>: [val/time: 3.54 (s), val/loss: 0.9778, val/MAE: 0.9778, val/MSE: 1.9084]
+2025-08-26 14:16:20,864 - easytorch-training - INFO - Result <test>: [test/time: 3.21 (s), test/loss: 0.7714, test/MAE: 0.7714, test/MSE: 1.2564]
+2025-08-26 14:16:20,890 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_084.pt saved
+2025-08-26 14:16:20,890 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:16:20,890 - easytorch-training - INFO - Epoch 85 / 100
+2025-08-26 14:16:46,864 - easytorch-training - INFO - Result <train>: [train/time: 25.97 (s), train/lr: 2.50e-05, train/loss: 0.2353, train/MAE: 0.2353, train/MSE: 0.1299]
+2025-08-26 14:16:46,865 - easytorch-training - INFO - Start validation.
+2025-08-26 14:16:50,405 - easytorch-training - INFO - Result <val>: [val/time: 3.54 (s), val/loss: 0.9829, val/MAE: 0.9829, val/MSE: 1.9257]
+2025-08-26 14:16:53,644 - easytorch-training - INFO - Result <test>: [test/time: 3.24 (s), test/loss: 0.7624, test/MAE: 0.7624, test/MSE: 1.2267]
+2025-08-26 14:16:53,670 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_085.pt saved
+2025-08-26 14:16:53,671 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:16:53,671 - easytorch-training - INFO - Epoch 86 / 100
+2025-08-26 14:17:19,772 - easytorch-training - INFO - Result <train>: [train/time: 26.10 (s), train/lr: 2.50e-05, train/loss: 0.2355, train/MAE: 0.2355, train/MSE: 0.1308]
+2025-08-26 14:17:19,773 - easytorch-training - INFO - Start validation.
+2025-08-26 14:17:23,279 - easytorch-training - INFO - Result <val>: [val/time: 3.51 (s), val/loss: 0.9649, val/MAE: 0.9649, val/MSE: 1.8592]
+2025-08-26 14:17:26,463 - easytorch-training - INFO - Result <test>: [test/time: 3.18 (s), test/loss: 0.7679, test/MAE: 0.7679, test/MSE: 1.2467]
+2025-08-26 14:17:26,488 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_086.pt saved
+2025-08-26 14:17:26,489 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:17:26,489 - easytorch-training - INFO - Epoch 87 / 100
+2025-08-26 14:17:52,555 - easytorch-training - INFO - Result <train>: [train/time: 26.07 (s), train/lr: 2.50e-05, train/loss: 0.2348, train/MAE: 0.2348, train/MSE: 0.1293]
+2025-08-26 14:17:52,556 - easytorch-training - INFO - Start validation.
+2025-08-26 14:17:55,949 - easytorch-training - INFO - Result <val>: [val/time: 3.39 (s), val/loss: 0.9634, val/MAE: 0.9634, val/MSE: 1.8565]
+2025-08-26 14:17:59,110 - easytorch-training - INFO - Result <test>: [test/time: 3.16 (s), test/loss: 0.7689, test/MAE: 0.7689, test/MSE: 1.2554]
+2025-08-26 14:17:59,136 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_087.pt saved
+2025-08-26 14:17:59,136 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:17:59,136 - easytorch-training - INFO - Epoch 88 / 100
+2025-08-26 14:18:25,226 - easytorch-training - INFO - Result <train>: [train/time: 26.09 (s), train/lr: 2.50e-05, train/loss: 0.2342, train/MAE: 0.2342, train/MSE: 0.1286]
+2025-08-26 14:18:25,227 - easytorch-training - INFO - Start validation.
+2025-08-26 14:18:28,623 - easytorch-training - INFO - Result <val>: [val/time: 3.40 (s), val/loss: 0.9677, val/MAE: 0.9677, val/MSE: 1.8770]
+2025-08-26 14:18:31,758 - easytorch-training - INFO - Result <test>: [test/time: 3.13 (s), test/loss: 0.7724, test/MAE: 0.7724, test/MSE: 1.2590]
+2025-08-26 14:18:31,784 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_088.pt saved
+2025-08-26 14:18:31,785 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:18:31,785 - easytorch-training - INFO - Epoch 89 / 100
+2025-08-26 14:18:57,829 - easytorch-training - INFO - Result <train>: [train/time: 26.04 (s), train/lr: 2.50e-05, train/loss: 0.2342, train/MAE: 0.2342, train/MSE: 0.1291]
+2025-08-26 14:18:57,830 - easytorch-training - INFO - Start validation.
+2025-08-26 14:19:01,254 - easytorch-training - INFO - Result <val>: [val/time: 3.42 (s), val/loss: 0.9537, val/MAE: 0.9537, val/MSE: 1.8119]
+2025-08-26 14:19:04,420 - easytorch-training - INFO - Result <test>: [test/time: 3.17 (s), test/loss: 0.7805, test/MAE: 0.7805, test/MSE: 1.2891]
+2025-08-26 14:19:04,446 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_089.pt saved
+2025-08-26 14:19:04,447 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:19:04,447 - easytorch-training - INFO - Epoch 90 / 100
+2025-08-26 14:19:30,541 - easytorch-training - INFO - Result <train>: [train/time: 26.09 (s), train/lr: 2.50e-05, train/loss: 0.2334, train/MAE: 0.2334, train/MSE: 0.1278]
+2025-08-26 14:19:30,542 - easytorch-training - INFO - Start validation.
+2025-08-26 14:19:34,014 - easytorch-training - INFO - Result <val>: [val/time: 3.47 (s), val/loss: 0.9556, val/MAE: 0.9556, val/MSE: 1.8219]
+2025-08-26 14:19:37,222 - easytorch-training - INFO - Result <test>: [test/time: 3.21 (s), test/loss: 0.7727, test/MAE: 0.7727, test/MSE: 1.2643]
+2025-08-26 14:19:37,249 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_090.pt saved
+2025-08-26 14:19:37,257 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:05
+2025-08-26 14:19:37,257 - easytorch-training - INFO - Epoch 91 / 100
+2025-08-26 14:20:03,245 - easytorch-training - INFO - Result <train>: [train/time: 25.99 (s), train/lr: 2.50e-05, train/loss: 0.2330, train/MAE: 0.2330, train/MSE: 0.1273]
+2025-08-26 14:20:03,246 - easytorch-training - INFO - Start validation.
+2025-08-26 14:20:06,686 - easytorch-training - INFO - Result <val>: [val/time: 3.44 (s), val/loss: 0.9603, val/MAE: 0.9603, val/MSE: 1.8364]
+2025-08-26 14:20:09,860 - easytorch-training - INFO - Result <test>: [test/time: 3.17 (s), test/loss: 0.7694, test/MAE: 0.7694, test/MSE: 1.2516]
+2025-08-26 14:20:09,886 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_091.pt saved
+2025-08-26 14:20:09,886 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:04
+2025-08-26 14:20:09,886 - easytorch-training - INFO - Epoch 92 / 100
+2025-08-26 14:20:35,948 - easytorch-training - INFO - Result <train>: [train/time: 26.06 (s), train/lr: 2.50e-05, train/loss: 0.2326, train/MAE: 0.2326, train/MSE: 0.1269]
+2025-08-26 14:20:35,949 - easytorch-training - INFO - Start validation.
+2025-08-26 14:20:39,389 - easytorch-training - INFO - Result <val>: [val/time: 3.44 (s), val/loss: 0.9631, val/MAE: 0.9631, val/MSE: 1.8551]
+2025-08-26 14:20:42,538 - easytorch-training - INFO - Result <test>: [test/time: 3.15 (s), test/loss: 0.7629, test/MAE: 0.7629, test/MSE: 1.2344]
+2025-08-26 14:20:42,565 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_092.pt saved
+2025-08-26 14:20:42,565 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:04
+2025-08-26 14:20:42,565 - easytorch-training - INFO - Epoch 93 / 100
+2025-08-26 14:21:08,587 - easytorch-training - INFO - Result <train>: [train/time: 26.02 (s), train/lr: 2.50e-05, train/loss: 0.2322, train/MAE: 0.2322, train/MSE: 0.1263]
+2025-08-26 14:21:08,589 - easytorch-training - INFO - Start validation.
+2025-08-26 14:21:12,067 - easytorch-training - INFO - Result <val>: [val/time: 3.48 (s), val/loss: 0.9630, val/MAE: 0.9630, val/MSE: 1.8562]
+2025-08-26 14:21:15,262 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.7563, test/MAE: 0.7563, test/MSE: 1.2148]
+2025-08-26 14:21:15,289 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_093.pt saved
+2025-08-26 14:21:15,289 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:04
+2025-08-26 14:21:15,289 - easytorch-training - INFO - Epoch 94 / 100
+2025-08-26 14:21:41,344 - easytorch-training - INFO - Result <train>: [train/time: 26.06 (s), train/lr: 2.50e-05, train/loss: 0.2320, train/MAE: 0.2320, train/MSE: 0.1261]
+2025-08-26 14:21:41,345 - easytorch-training - INFO - Start validation.
+2025-08-26 14:21:44,767 - easytorch-training - INFO - Result <val>: [val/time: 3.42 (s), val/loss: 0.9675, val/MAE: 0.9675, val/MSE: 1.8712]
+2025-08-26 14:21:47,931 - easytorch-training - INFO - Result <test>: [test/time: 3.16 (s), test/loss: 0.7583, test/MAE: 0.7583, test/MSE: 1.2211]
+2025-08-26 14:21:47,956 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_094.pt saved
+2025-08-26 14:21:47,957 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:04
+2025-08-26 14:21:47,957 - easytorch-training - INFO - Epoch 95 / 100
+2025-08-26 14:22:13,968 - easytorch-training - INFO - Result <train>: [train/time: 26.01 (s), train/lr: 2.50e-05, train/loss: 0.2315, train/MAE: 0.2315, train/MSE: 0.1256]
+2025-08-26 14:22:13,969 - easytorch-training - INFO - Start validation.
+2025-08-26 14:22:17,412 - easytorch-training - INFO - Result <val>: [val/time: 3.44 (s), val/loss: 0.9646, val/MAE: 0.9646, val/MSE: 1.8554]
+2025-08-26 14:22:20,576 - easytorch-training - INFO - Result <test>: [test/time: 3.16 (s), test/loss: 0.7616, test/MAE: 0.7616, test/MSE: 1.2311]
+2025-08-26 14:22:20,601 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_095.pt saved
+2025-08-26 14:22:20,602 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:04
+2025-08-26 14:22:20,602 - easytorch-training - INFO - Epoch 96 / 100
+2025-08-26 14:22:46,655 - easytorch-training - INFO - Result <train>: [train/time: 26.05 (s), train/lr: 2.50e-05, train/loss: 0.2312, train/MAE: 0.2312, train/MSE: 0.1252]
+2025-08-26 14:22:46,656 - easytorch-training - INFO - Start validation.
+2025-08-26 14:22:50,114 - easytorch-training - INFO - Result <val>: [val/time: 3.46 (s), val/loss: 0.9665, val/MAE: 0.9665, val/MSE: 1.8654]
+2025-08-26 14:22:53,311 - easytorch-training - INFO - Result <test>: [test/time: 3.20 (s), test/loss: 0.7672, test/MAE: 0.7672, test/MSE: 1.2486]
+2025-08-26 14:22:53,337 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_096.pt saved
+2025-08-26 14:22:53,337 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:04
+2025-08-26 14:22:53,338 - easytorch-training - INFO - Epoch 97 / 100
+2025-08-26 14:23:19,421 - easytorch-training - INFO - Result <train>: [train/time: 26.08 (s), train/lr: 2.50e-05, train/loss: 0.2308, train/MAE: 0.2308, train/MSE: 0.1248]
+2025-08-26 14:23:19,422 - easytorch-training - INFO - Start validation.
+2025-08-26 14:23:22,915 - easytorch-training - INFO - Result <val>: [val/time: 3.49 (s), val/loss: 0.9609, val/MAE: 0.9609, val/MSE: 1.8495]
+2025-08-26 14:23:26,104 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.7691, test/MAE: 0.7691, test/MSE: 1.2540]
+2025-08-26 14:23:26,131 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_097.pt saved
+2025-08-26 14:23:26,131 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:04
+2025-08-26 14:23:26,131 - easytorch-training - INFO - Epoch 98 / 100
+2025-08-26 14:23:52,263 - easytorch-training - INFO - Result <train>: [train/time: 26.13 (s), train/lr: 2.50e-05, train/loss: 0.2304, train/MAE: 0.2304, train/MSE: 0.1244]
+2025-08-26 14:23:52,264 - easytorch-training - INFO - Start validation.
+2025-08-26 14:23:55,730 - easytorch-training - INFO - Result <val>: [val/time: 3.47 (s), val/loss: 0.9677, val/MAE: 0.9677, val/MSE: 1.8698]
+2025-08-26 14:23:58,920 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.7640, test/MAE: 0.7640, test/MSE: 1.2389]
+2025-08-26 14:23:58,946 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_098.pt saved
+2025-08-26 14:23:58,947 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:04
+2025-08-26 14:23:58,947 - easytorch-training - INFO - Epoch 99 / 100
+2025-08-26 14:24:25,022 - easytorch-training - INFO - Result <train>: [train/time: 26.08 (s), train/lr: 2.50e-05, train/loss: 0.2301, train/MAE: 0.2301, train/MSE: 0.1240]
+2025-08-26 14:24:25,023 - easytorch-training - INFO - Start validation.
+2025-08-26 14:24:28,518 - easytorch-training - INFO - Result <val>: [val/time: 3.49 (s), val/loss: 0.9645, val/MAE: 0.9645, val/MSE: 1.8611]
+2025-08-26 14:24:31,713 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.7496, test/MAE: 0.7496, test/MSE: 1.1973]
+2025-08-26 14:24:31,739 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_099.pt saved
+2025-08-26 14:24:31,740 - easytorch-training - INFO - The estimated training finish time is 2025-08-26 14:25:04
+2025-08-26 14:24:31,740 - easytorch-training - INFO - Epoch 100 / 100
+2025-08-26 14:24:57,792 - easytorch-training - INFO - Result <train>: [train/time: 26.05 (s), train/lr: 2.50e-05, train/loss: 0.2297, train/MAE: 0.2297, train/MSE: 0.1236]
+2025-08-26 14:24:57,793 - easytorch-training - INFO - Start validation.
+2025-08-26 14:25:01,263 - easytorch-training - INFO - Result <val>: [val/time: 3.47 (s), val/loss: 0.9703, val/MAE: 0.9703, val/MSE: 1.8815]
+2025-08-26 14:25:04,454 - easytorch-training - INFO - Result <test>: [test/time: 3.19 (s), test/loss: 0.7645, test/MAE: 0.7645, test/MSE: 1.2366]
+2025-08-26 14:25:04,479 - easytorch-training - INFO - Checkpoint checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_100.pt saved
+2025-08-26 14:25:04,488 - easytorch-training - INFO - The training finished at 2025-08-26 14:25:04
+2025-08-26 14:25:04,488 - easytorch-training - INFO - Evaluating the best model on the test set.
+2025-08-26 14:25:04,488 - easytorch-training - INFO - Loading Checkpoint from 'checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/TimesNet_best_val_MAE.pt'
+2025-08-26 14:25:07,839 - easytorch-training - INFO - Result <test>: [test/time: 3.32 (s), test/loss: 0.4915, test/MAE: 0.4915, test/MSE: 0.5166]
+2025-08-26 14:25:07,840 - easytorch-training - INFO - Test metrics saved to checkpoints/TimesNet/ETTh1_100_336_336/abb68482ef0c9f57438e1d56eb7c9aa5/test_metrics.json.
