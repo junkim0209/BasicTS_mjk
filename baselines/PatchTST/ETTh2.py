@@ -11,6 +11,7 @@ from basicts.utils import get_regular_settings
 
 from .arch import PatchTST
 #python experiments/train.py -c baselines/PatchTST/ETTh2.py -g 0
+#test
 ############################## Hot Parameters ##############################
 # Dataset & Metrics configuration
 DATA_NAME = 'ETTh2'  # Dataset name
