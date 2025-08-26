@@ -10,7 +10,7 @@ from basicts.scaler import ZScoreScaler
 from basicts.utils import get_regular_settings
 
 from .arch import PatchTST
-
+#python experiments/train.py -c baselines/PatchTST/ETTh2.py -g 0
 ############################## Hot Parameters ##############################
 # Dataset & Metrics configuration
 DATA_NAME = 'ETTh2'  # Dataset name
@@ -25,7 +25,7 @@ NULL_VAL = regular_settings['NULL_VAL'] # Null value in the data
 MODEL_ARCH = PatchTST
 NUM_NODES = 7
 INPUT_LEN = 336
-OUTPUT_LEN = 96
+OUTPUT_LEN = 192
 MODEL_PARAM = {
     "enc_in": NUM_NODES,                        # num nodes
     "seq_len": INPUT_LEN,           # input sequence length
