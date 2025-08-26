@@ -25,7 +25,7 @@ NULL_VAL = regular_settings['NULL_VAL'] # Null value in the data
 MODEL_ARCH = PatchTST
 NUM_NODES = 7
 INPUT_LEN = 336
-OUTPUT_LEN = 192
+OUTPUT_LEN = 720
 MODEL_PARAM = {
     "enc_in": NUM_NODES,                        # num nodes
     "seq_len": INPUT_LEN,           # input sequence length
