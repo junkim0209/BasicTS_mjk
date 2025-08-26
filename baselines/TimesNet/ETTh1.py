@@ -23,6 +23,7 @@ RESCALE = regular_settings['RESCALE'] # Whether to rescale the data
 NULL_VAL = regular_settings['NULL_VAL'] # Null value in the data
 # Model architecture and parameters
 MODEL_ARCH = TimesNet
+OUTPUT_LEN = 96
 NUM_NODES = 7
 MODEL_PARAM = {
     "seq_len": INPUT_LEN,
