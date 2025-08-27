@@ -24,6 +24,10 @@ NULL_VAL = regular_settings['NULL_VAL'] # Null value in the data
 # Model architecture and parameters
 MODEL_ARCH = FEDformer
 NUM_NODES = 7
+
+#python experiments/train.py -c baselines/FEDformer/ETTh1.py -g 0
+OUTPUT_LEN = 96
+
 MODEL_PARAM = {
     "enc_in": NUM_NODES,                              # num nodes
     "dec_in": NUM_NODES,
