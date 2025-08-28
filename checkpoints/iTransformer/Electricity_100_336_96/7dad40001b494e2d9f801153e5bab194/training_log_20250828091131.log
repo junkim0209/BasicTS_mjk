@@ -1,0 +1,758 @@
+2025-08-28 09:11:31,930 - easytorch-training - INFO - Initializing training.
+2025-08-28 09:11:31,930 - easytorch-training - INFO - Set clip grad, param: {'max_norm': 5.0}
+2025-08-28 09:11:31,930 - easytorch-training - INFO - Building training data loader.
+2025-08-28 09:11:31,974 - easytorch-training - INFO - Train dataset length: 17983
+2025-08-28 09:11:36,063 - easytorch-training - INFO - Set optim: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0005
+    maximize: False
+    weight_decay: 0
+)
+2025-08-28 09:11:36,063 - easytorch-training - INFO - Set lr_scheduler: <torch.optim.lr_scheduler.MultiStepLR object at 0x7f92294a1b70>
+2025-08-28 09:11:36,065 - easytorch-training - INFO - Initializing validation.
+2025-08-28 09:11:36,065 - easytorch-training - INFO - Building val data loader.
+2025-08-28 09:11:36,071 - easytorch-training - INFO - Validation dataset length: 2199
+2025-08-28 09:11:36,084 - easytorch-training - INFO - Test dataset length: 4829
+2025-08-28 09:11:36,084 - easytorch-training - INFO - Number of parameters: 4956768
+2025-08-28 09:11:36,084 - easytorch-training - INFO - Epoch 1 / 100
+2025-08-28 09:12:57,876 - easytorch-training - INFO - Result <train>: [train/time: 81.79 (s), train/lr: 5.00e-04, train/loss: 0.2775, train/MAE: 0.2775, train/MSE: 0.1752]
+2025-08-28 09:12:57,877 - easytorch-training - INFO - Start validation.
+2025-08-28 09:13:03,732 - easytorch-training - INFO - Result <val>: [val/time: 5.85 (s), val/loss: 0.2179, val/MAE: 0.2179, val/MSE: 0.1247]
+2025-08-28 09:13:03,802 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:13:16,490 - easytorch-training - INFO - Result <test>: [test/time: 12.69 (s), test/loss: 0.2389, test/MAE: 0.2389, test/MSE: 0.1427]
+2025-08-28 09:13:16,561 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_001.pt saved
+2025-08-28 09:13:16,561 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:59:03
+2025-08-28 09:13:16,561 - easytorch-training - INFO - Epoch 2 / 100
+2025-08-28 09:14:33,234 - easytorch-training - INFO - Result <train>: [train/time: 76.67 (s), train/lr: 2.50e-04, train/loss: 0.2413, train/MAE: 0.2413, train/MSE: 0.1404]
+2025-08-28 09:14:33,235 - easytorch-training - INFO - Start validation.
+2025-08-28 09:14:39,098 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.2143, val/MAE: 0.2143, val/MSE: 0.1221]
+2025-08-28 09:14:39,230 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:14:51,982 - easytorch-training - INFO - Result <test>: [test/time: 12.75 (s), test/loss: 0.2335, test/MAE: 0.2335, test/MSE: 0.1380]
+2025-08-28 09:14:52,051 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_002.pt saved
+2025-08-28 09:14:52,051 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:54:54
+2025-08-28 09:14:52,051 - easytorch-training - INFO - Epoch 3 / 100
+2025-08-28 09:16:08,654 - easytorch-training - INFO - Result <train>: [train/time: 76.60 (s), train/lr: 2.50e-04, train/loss: 0.2354, train/MAE: 0.2354, train/MSE: 0.1351]
+2025-08-28 09:16:08,655 - easytorch-training - INFO - Start validation.
+2025-08-28 09:16:14,540 - easytorch-training - INFO - Result <val>: [val/time: 5.88 (s), val/loss: 0.2103, val/MAE: 0.2103, val/MSE: 0.1195]
+2025-08-28 09:16:14,671 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:16:27,370 - easytorch-training - INFO - Result <test>: [test/time: 12.70 (s), test/loss: 0.2306, test/MAE: 0.2306, test/MSE: 0.1365]
+2025-08-28 09:16:27,438 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_003.pt saved
+2025-08-28 09:16:27,438 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:53:27
+2025-08-28 09:16:27,438 - easytorch-training - INFO - Epoch 4 / 100
+2025-08-28 09:17:44,094 - easytorch-training - INFO - Result <train>: [train/time: 76.66 (s), train/lr: 2.50e-04, train/loss: 0.2309, train/MAE: 0.2309, train/MSE: 0.1311]
+2025-08-28 09:17:44,094 - easytorch-training - INFO - Start validation.
+2025-08-28 09:17:49,978 - easytorch-training - INFO - Result <val>: [val/time: 5.88 (s), val/loss: 0.2088, val/MAE: 0.2088, val/MSE: 0.1181]
+2025-08-28 09:17:50,092 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:18:02,788 - easytorch-training - INFO - Result <test>: [test/time: 12.69 (s), test/loss: 0.2292, test/MAE: 0.2292, test/MSE: 0.1352]
+2025-08-28 09:18:02,856 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_004.pt saved
+2025-08-28 09:18:02,856 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:52:45
+2025-08-28 09:18:02,857 - easytorch-training - INFO - Epoch 5 / 100
+2025-08-28 09:19:19,467 - easytorch-training - INFO - Result <train>: [train/time: 76.61 (s), train/lr: 2.50e-04, train/loss: 0.2274, train/MAE: 0.2274, train/MSE: 0.1280]
+2025-08-28 09:19:19,468 - easytorch-training - INFO - Start validation.
+2025-08-28 09:19:25,331 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.2073, val/MAE: 0.2073, val/MSE: 0.1170]
+2025-08-28 09:19:25,445 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:19:38,133 - easytorch-training - INFO - Result <test>: [test/time: 12.68 (s), test/loss: 0.2277, test/MAE: 0.2277, test/MSE: 0.1346]
+2025-08-28 09:19:38,201 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_005.pt saved
+2025-08-28 09:19:38,201 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:52:18
+2025-08-28 09:19:38,201 - easytorch-training - INFO - Epoch 6 / 100
+2025-08-28 09:20:54,727 - easytorch-training - INFO - Result <train>: [train/time: 76.53 (s), train/lr: 2.50e-04, train/loss: 0.2244, train/MAE: 0.2244, train/MSE: 0.1253]
+2025-08-28 09:20:54,728 - easytorch-training - INFO - Start validation.
+2025-08-28 09:21:00,600 - easytorch-training - INFO - Result <val>: [val/time: 5.87 (s), val/loss: 0.2091, val/MAE: 0.2091, val/MSE: 0.1180]
+2025-08-28 09:21:13,330 - easytorch-training - INFO - Result <test>: [test/time: 12.72 (s), test/loss: 0.2296, test/MAE: 0.2296, test/MSE: 0.1355]
+2025-08-28 09:21:13,404 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_006.pt saved
+2025-08-28 09:21:13,404 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:51:58
+2025-08-28 09:21:13,405 - easytorch-training - INFO - Epoch 7 / 100
+2025-08-28 09:22:29,979 - easytorch-training - INFO - Result <train>: [train/time: 76.57 (s), train/lr: 2.50e-04, train/loss: 0.2220, train/MAE: 0.2220, train/MSE: 0.1230]
+2025-08-28 09:22:29,980 - easytorch-training - INFO - Start validation.
+2025-08-28 09:22:35,863 - easytorch-training - INFO - Result <val>: [val/time: 5.88 (s), val/loss: 0.2053, val/MAE: 0.2053, val/MSE: 0.1158]
+2025-08-28 09:22:35,965 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:22:48,695 - easytorch-training - INFO - Result <test>: [test/time: 12.73 (s), test/loss: 0.2272, test/MAE: 0.2272, test/MSE: 0.1341]
+2025-08-28 09:22:48,764 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_007.pt saved
+2025-08-28 09:22:48,764 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:51:45
+2025-08-28 09:22:48,764 - easytorch-training - INFO - Epoch 8 / 100
+2025-08-28 09:24:05,328 - easytorch-training - INFO - Result <train>: [train/time: 76.56 (s), train/lr: 2.50e-04, train/loss: 0.2197, train/MAE: 0.2197, train/MSE: 0.1209]
+2025-08-28 09:24:05,329 - easytorch-training - INFO - Start validation.
+2025-08-28 09:24:11,212 - easytorch-training - INFO - Result <val>: [val/time: 5.88 (s), val/loss: 0.2051, val/MAE: 0.2051, val/MSE: 0.1158]
+2025-08-28 09:24:11,351 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:24:24,073 - easytorch-training - INFO - Result <test>: [test/time: 12.72 (s), test/loss: 0.2300, test/MAE: 0.2300, test/MSE: 0.1370]
+2025-08-28 09:24:24,141 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_008.pt saved
+2025-08-28 09:24:24,141 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:51:36
+2025-08-28 09:24:24,142 - easytorch-training - INFO - Epoch 9 / 100
+2025-08-28 09:25:40,706 - easytorch-training - INFO - Result <train>: [train/time: 76.56 (s), train/lr: 2.50e-04, train/loss: 0.2177, train/MAE: 0.2177, train/MSE: 0.1191]
+2025-08-28 09:25:40,707 - easytorch-training - INFO - Start validation.
+2025-08-28 09:25:46,561 - easytorch-training - INFO - Result <val>: [val/time: 5.85 (s), val/loss: 0.2045, val/MAE: 0.2045, val/MSE: 0.1149]
+2025-08-28 09:25:46,697 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:25:59,382 - easytorch-training - INFO - Result <test>: [test/time: 12.68 (s), test/loss: 0.2267, test/MAE: 0.2267, test/MSE: 0.1335]
+2025-08-28 09:25:59,451 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_009.pt saved
+2025-08-28 09:25:59,451 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:51:29
+2025-08-28 09:25:59,451 - easytorch-training - INFO - Epoch 10 / 100
+2025-08-28 09:27:16,047 - easytorch-training - INFO - Result <train>: [train/time: 76.60 (s), train/lr: 2.50e-04, train/loss: 0.2157, train/MAE: 0.2157, train/MSE: 0.1173]
+2025-08-28 09:27:16,048 - easytorch-training - INFO - Start validation.
+2025-08-28 09:27:21,918 - easytorch-training - INFO - Result <val>: [val/time: 5.87 (s), val/loss: 0.2033, val/MAE: 0.2033, val/MSE: 0.1148]
+2025-08-28 09:27:22,049 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:27:34,796 - easytorch-training - INFO - Result <test>: [test/time: 12.74 (s), test/loss: 0.2279, test/MAE: 0.2279, test/MSE: 0.1356]
+2025-08-28 09:27:34,865 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_010.pt saved
+2025-08-28 09:27:34,904 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:51:24
+2025-08-28 09:27:34,904 - easytorch-training - INFO - Epoch 11 / 100
+2025-08-28 09:28:51,511 - easytorch-training - INFO - Result <train>: [train/time: 76.61 (s), train/lr: 2.50e-04, train/loss: 0.2142, train/MAE: 0.2142, train/MSE: 0.1159]
+2025-08-28 09:28:51,512 - easytorch-training - INFO - Start validation.
+2025-08-28 09:28:57,361 - easytorch-training - INFO - Result <val>: [val/time: 5.85 (s), val/loss: 0.2027, val/MAE: 0.2027, val/MSE: 0.1142]
+2025-08-28 09:28:57,480 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:29:10,210 - easytorch-training - INFO - Result <test>: [test/time: 12.73 (s), test/loss: 0.2262, test/MAE: 0.2262, test/MSE: 0.1337]
+2025-08-28 09:29:10,280 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_011.pt saved
+2025-08-28 09:29:10,280 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:51:19
+2025-08-28 09:29:10,280 - easytorch-training - INFO - Epoch 12 / 100
+2025-08-28 09:30:26,902 - easytorch-training - INFO - Result <train>: [train/time: 76.62 (s), train/lr: 2.50e-04, train/loss: 0.2128, train/MAE: 0.2128, train/MSE: 0.1145]
+2025-08-28 09:30:26,903 - easytorch-training - INFO - Start validation.
+2025-08-28 09:30:32,804 - easytorch-training - INFO - Result <val>: [val/time: 5.90 (s), val/loss: 0.2026, val/MAE: 0.2026, val/MSE: 0.1141]
+2025-08-28 09:30:32,926 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:30:45,726 - easytorch-training - INFO - Result <test>: [test/time: 12.80 (s), test/loss: 0.2265, test/MAE: 0.2265, test/MSE: 0.1341]
+2025-08-28 09:30:45,798 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_012.pt saved
+2025-08-28 09:30:45,798 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:51:17
+2025-08-28 09:30:45,798 - easytorch-training - INFO - Epoch 13 / 100
+2025-08-28 09:32:02,374 - easytorch-training - INFO - Result <train>: [train/time: 76.58 (s), train/lr: 2.50e-04, train/loss: 0.2114, train/MAE: 0.2114, train/MSE: 0.1132]
+2025-08-28 09:32:02,375 - easytorch-training - INFO - Start validation.
+2025-08-28 09:32:08,256 - easytorch-training - INFO - Result <val>: [val/time: 5.88 (s), val/loss: 0.2010, val/MAE: 0.2010, val/MSE: 0.1131]
+2025-08-28 09:32:08,379 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:32:21,128 - easytorch-training - INFO - Result <test>: [test/time: 12.75 (s), test/loss: 0.2253, test/MAE: 0.2253, test/MSE: 0.1338]
+2025-08-28 09:32:21,198 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_013.pt saved
+2025-08-28 09:32:21,199 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:51:13
+2025-08-28 09:32:21,199 - easytorch-training - INFO - Epoch 14 / 100
+2025-08-28 09:33:37,833 - easytorch-training - INFO - Result <train>: [train/time: 76.63 (s), train/lr: 2.50e-04, train/loss: 0.2103, train/MAE: 0.2103, train/MSE: 0.1121]
+2025-08-28 09:33:37,834 - easytorch-training - INFO - Start validation.
+2025-08-28 09:33:43,740 - easytorch-training - INFO - Result <val>: [val/time: 5.91 (s), val/loss: 0.2013, val/MAE: 0.2013, val/MSE: 0.1133]
+2025-08-28 09:33:56,510 - easytorch-training - INFO - Result <test>: [test/time: 12.77 (s), test/loss: 0.2271, test/MAE: 0.2271, test/MSE: 0.1353]
+2025-08-28 09:33:56,582 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_014.pt saved
+2025-08-28 09:33:56,582 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:51:11
+2025-08-28 09:33:56,582 - easytorch-training - INFO - Epoch 15 / 100
+2025-08-28 09:35:13,129 - easytorch-training - INFO - Result <train>: [train/time: 76.55 (s), train/lr: 2.50e-04, train/loss: 0.2092, train/MAE: 0.2092, train/MSE: 0.1109]
+2025-08-28 09:35:13,130 - easytorch-training - INFO - Start validation.
+2025-08-28 09:35:18,953 - easytorch-training - INFO - Result <val>: [val/time: 5.82 (s), val/loss: 0.2012, val/MAE: 0.2012, val/MSE: 0.1133]
+2025-08-28 09:35:31,514 - easytorch-training - INFO - Result <test>: [test/time: 12.56 (s), test/loss: 0.2278, test/MAE: 0.2278, test/MSE: 0.1366]
+2025-08-28 09:35:31,582 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_015.pt saved
+2025-08-28 09:35:31,583 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:51:06
+2025-08-28 09:35:31,583 - easytorch-training - INFO - Epoch 16 / 100
+2025-08-28 09:36:48,145 - easytorch-training - INFO - Result <train>: [train/time: 76.56 (s), train/lr: 2.50e-04, train/loss: 0.2080, train/MAE: 0.2080, train/MSE: 0.1098]
+2025-08-28 09:36:48,146 - easytorch-training - INFO - Start validation.
+2025-08-28 09:36:53,985 - easytorch-training - INFO - Result <val>: [val/time: 5.84 (s), val/loss: 0.2006, val/MAE: 0.2006, val/MSE: 0.1128]
+2025-08-28 09:36:54,106 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:37:06,763 - easytorch-training - INFO - Result <test>: [test/time: 12.65 (s), test/loss: 0.2255, test/MAE: 0.2255, test/MSE: 0.1340]
+2025-08-28 09:37:06,832 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_016.pt saved
+2025-08-28 09:37:06,833 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:51:03
+2025-08-28 09:37:06,833 - easytorch-training - INFO - Epoch 17 / 100
+2025-08-28 09:38:23,394 - easytorch-training - INFO - Result <train>: [train/time: 76.56 (s), train/lr: 2.50e-04, train/loss: 0.2072, train/MAE: 0.2072, train/MSE: 0.1088]
+2025-08-28 09:38:23,395 - easytorch-training - INFO - Start validation.
+2025-08-28 09:38:29,201 - easytorch-training - INFO - Result <val>: [val/time: 5.81 (s), val/loss: 0.2003, val/MAE: 0.2003, val/MSE: 0.1127]
+2025-08-28 09:38:29,324 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:38:41,913 - easytorch-training - INFO - Result <test>: [test/time: 12.59 (s), test/loss: 0.2274, test/MAE: 0.2274, test/MSE: 0.1365]
+2025-08-28 09:38:41,980 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_017.pt saved
+2025-08-28 09:38:41,980 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:51:00
+2025-08-28 09:38:41,981 - easytorch-training - INFO - Epoch 18 / 100
+2025-08-28 09:39:58,397 - easytorch-training - INFO - Result <train>: [train/time: 76.42 (s), train/lr: 2.50e-04, train/loss: 0.2064, train/MAE: 0.2064, train/MSE: 0.1078]
+2025-08-28 09:39:58,399 - easytorch-training - INFO - Start validation.
+2025-08-28 09:40:04,217 - easytorch-training - INFO - Result <val>: [val/time: 5.82 (s), val/loss: 0.2004, val/MAE: 0.2004, val/MSE: 0.1127]
+2025-08-28 09:40:16,878 - easytorch-training - INFO - Result <test>: [test/time: 12.66 (s), test/loss: 0.2264, test/MAE: 0.2264, test/MSE: 0.1355]
+2025-08-28 09:40:16,950 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_018.pt saved
+2025-08-28 09:40:16,950 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:56
+2025-08-28 09:40:16,951 - easytorch-training - INFO - Epoch 19 / 100
+2025-08-28 09:41:33,411 - easytorch-training - INFO - Result <train>: [train/time: 76.46 (s), train/lr: 2.50e-04, train/loss: 0.2054, train/MAE: 0.2054, train/MSE: 0.1066]
+2025-08-28 09:41:33,412 - easytorch-training - INFO - Start validation.
+2025-08-28 09:41:39,250 - easytorch-training - INFO - Result <val>: [val/time: 5.84 (s), val/loss: 0.1997, val/MAE: 0.1997, val/MSE: 0.1124]
+2025-08-28 09:41:39,370 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:41:52,030 - easytorch-training - INFO - Result <test>: [test/time: 12.66 (s), test/loss: 0.2266, test/MAE: 0.2266, test/MSE: 0.1358]
+2025-08-28 09:41:52,111 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_019.pt saved
+2025-08-28 09:41:52,111 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:54
+2025-08-28 09:41:52,112 - easytorch-training - INFO - Epoch 20 / 100
+2025-08-28 09:43:08,649 - easytorch-training - INFO - Result <train>: [train/time: 76.54 (s), train/lr: 2.50e-04, train/loss: 0.2047, train/MAE: 0.2047, train/MSE: 0.1058]
+2025-08-28 09:43:08,650 - easytorch-training - INFO - Start validation.
+2025-08-28 09:43:14,495 - easytorch-training - INFO - Result <val>: [val/time: 5.84 (s), val/loss: 0.1988, val/MAE: 0.1988, val/MSE: 0.1119]
+2025-08-28 09:43:14,635 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:43:27,221 - easytorch-training - INFO - Result <test>: [test/time: 12.58 (s), test/loss: 0.2242, test/MAE: 0.2242, test/MSE: 0.1333]
+2025-08-28 09:43:27,289 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_020.pt saved
+2025-08-28 09:43:27,331 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:52
+2025-08-28 09:43:27,332 - easytorch-training - INFO - Epoch 21 / 100
+2025-08-28 09:44:43,914 - easytorch-training - INFO - Result <train>: [train/time: 76.58 (s), train/lr: 2.50e-04, train/loss: 0.2039, train/MAE: 0.2039, train/MSE: 0.1049]
+2025-08-28 09:44:43,915 - easytorch-training - INFO - Start validation.
+2025-08-28 09:44:49,809 - easytorch-training - INFO - Result <val>: [val/time: 5.89 (s), val/loss: 0.1996, val/MAE: 0.1996, val/MSE: 0.1121]
+2025-08-28 09:45:02,594 - easytorch-training - INFO - Result <test>: [test/time: 12.78 (s), test/loss: 0.2254, test/MAE: 0.2254, test/MSE: 0.1344]
+2025-08-28 09:45:02,664 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_021.pt saved
+2025-08-28 09:45:02,664 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:51
+2025-08-28 09:45:02,664 - easytorch-training - INFO - Epoch 22 / 100
+2025-08-28 09:46:19,340 - easytorch-training - INFO - Result <train>: [train/time: 76.67 (s), train/lr: 2.50e-04, train/loss: 0.2031, train/MAE: 0.2031, train/MSE: 0.1042]
+2025-08-28 09:46:19,341 - easytorch-training - INFO - Start validation.
+2025-08-28 09:46:25,263 - easytorch-training - INFO - Result <val>: [val/time: 5.92 (s), val/loss: 0.1992, val/MAE: 0.1992, val/MSE: 0.1120]
+2025-08-28 09:46:38,049 - easytorch-training - INFO - Result <test>: [test/time: 12.78 (s), test/loss: 0.2257, test/MAE: 0.2257, test/MSE: 0.1347]
+2025-08-28 09:46:38,121 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_022.pt saved
+2025-08-28 09:46:38,121 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:50
+2025-08-28 09:46:38,121 - easytorch-training - INFO - Epoch 23 / 100
+2025-08-28 09:47:54,718 - easytorch-training - INFO - Result <train>: [train/time: 76.60 (s), train/lr: 2.50e-04, train/loss: 0.2025, train/MAE: 0.2025, train/MSE: 0.1036]
+2025-08-28 09:47:54,719 - easytorch-training - INFO - Start validation.
+2025-08-28 09:48:00,577 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.1988, val/MAE: 0.1988, val/MSE: 0.1118]
+2025-08-28 09:48:00,699 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:48:13,407 - easytorch-training - INFO - Result <test>: [test/time: 12.70 (s), test/loss: 0.2244, test/MAE: 0.2244, test/MSE: 0.1336]
+2025-08-28 09:48:13,478 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_023.pt saved
+2025-08-28 09:48:13,478 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:49
+2025-08-28 09:48:13,479 - easytorch-training - INFO - Epoch 24 / 100
+2025-08-28 09:49:30,005 - easytorch-training - INFO - Result <train>: [train/time: 76.53 (s), train/lr: 2.50e-04, train/loss: 0.2018, train/MAE: 0.2018, train/MSE: 0.1029]
+2025-08-28 09:49:30,006 - easytorch-training - INFO - Start validation.
+2025-08-28 09:49:35,876 - easytorch-training - INFO - Result <val>: [val/time: 5.87 (s), val/loss: 0.1988, val/MAE: 0.1988, val/MSE: 0.1120]
+2025-08-28 09:49:35,997 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:49:48,717 - easytorch-training - INFO - Result <test>: [test/time: 12.72 (s), test/loss: 0.2254, test/MAE: 0.2254, test/MSE: 0.1349]
+2025-08-28 09:49:48,786 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_024.pt saved
+2025-08-28 09:49:48,786 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:49
+2025-08-28 09:49:48,786 - easytorch-training - INFO - Epoch 25 / 100
+2025-08-28 09:51:05,342 - easytorch-training - INFO - Result <train>: [train/time: 76.56 (s), train/lr: 2.50e-04, train/loss: 0.2014, train/MAE: 0.2014, train/MSE: 0.1025]
+2025-08-28 09:51:05,343 - easytorch-training - INFO - Start validation.
+2025-08-28 09:51:11,226 - easytorch-training - INFO - Result <val>: [val/time: 5.88 (s), val/loss: 0.1985, val/MAE: 0.1985, val/MSE: 0.1117]
+2025-08-28 09:51:11,349 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:51:24,040 - easytorch-training - INFO - Result <test>: [test/time: 12.69 (s), test/loss: 0.2259, test/MAE: 0.2259, test/MSE: 0.1355]
+2025-08-28 09:51:24,109 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_025.pt saved
+2025-08-28 09:51:24,110 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:48
+2025-08-28 09:51:24,110 - easytorch-training - INFO - Epoch 26 / 100
+2025-08-28 09:52:40,764 - easytorch-training - INFO - Result <train>: [train/time: 76.65 (s), train/lr: 1.25e-04, train/loss: 0.1993, train/MAE: 0.1993, train/MSE: 0.1008]
+2025-08-28 09:52:40,765 - easytorch-training - INFO - Start validation.
+2025-08-28 09:52:46,640 - easytorch-training - INFO - Result <val>: [val/time: 5.88 (s), val/loss: 0.1973, val/MAE: 0.1973, val/MSE: 0.1110]
+2025-08-28 09:52:46,762 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:52:59,488 - easytorch-training - INFO - Result <test>: [test/time: 12.72 (s), test/loss: 0.2240, test/MAE: 0.2240, test/MSE: 0.1341]
+2025-08-28 09:52:59,558 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_026.pt saved
+2025-08-28 09:52:59,558 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:47
+2025-08-28 09:52:59,558 - easytorch-training - INFO - Epoch 27 / 100
+2025-08-28 09:54:16,172 - easytorch-training - INFO - Result <train>: [train/time: 76.61 (s), train/lr: 1.25e-04, train/loss: 0.1988, train/MAE: 0.1988, train/MSE: 0.1003]
+2025-08-28 09:54:16,173 - easytorch-training - INFO - Start validation.
+2025-08-28 09:54:22,010 - easytorch-training - INFO - Result <val>: [val/time: 5.84 (s), val/loss: 0.1978, val/MAE: 0.1978, val/MSE: 0.1113]
+2025-08-28 09:54:34,668 - easytorch-training - INFO - Result <test>: [test/time: 12.65 (s), test/loss: 0.2251, test/MAE: 0.2251, test/MSE: 0.1351]
+2025-08-28 09:54:34,738 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_027.pt saved
+2025-08-28 09:54:34,739 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:46
+2025-08-28 09:54:34,739 - easytorch-training - INFO - Epoch 28 / 100
+2025-08-28 09:55:51,360 - easytorch-training - INFO - Result <train>: [train/time: 76.62 (s), train/lr: 1.25e-04, train/loss: 0.1986, train/MAE: 0.1986, train/MSE: 0.1000]
+2025-08-28 09:55:51,361 - easytorch-training - INFO - Start validation.
+2025-08-28 09:55:57,214 - easytorch-training - INFO - Result <val>: [val/time: 5.85 (s), val/loss: 0.1979, val/MAE: 0.1979, val/MSE: 0.1114]
+2025-08-28 09:56:09,914 - easytorch-training - INFO - Result <test>: [test/time: 12.70 (s), test/loss: 0.2248, test/MAE: 0.2248, test/MSE: 0.1348]
+2025-08-28 09:56:09,985 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_028.pt saved
+2025-08-28 09:56:09,985 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:45
+2025-08-28 09:56:09,985 - easytorch-training - INFO - Epoch 29 / 100
+2025-08-28 09:57:26,607 - easytorch-training - INFO - Result <train>: [train/time: 76.62 (s), train/lr: 1.25e-04, train/loss: 0.1983, train/MAE: 0.1983, train/MSE: 0.0997]
+2025-08-28 09:57:26,608 - easytorch-training - INFO - Start validation.
+2025-08-28 09:57:32,459 - easytorch-training - INFO - Result <val>: [val/time: 5.85 (s), val/loss: 0.1971, val/MAE: 0.1971, val/MSE: 0.1109]
+2025-08-28 09:57:32,581 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:57:45,249 - easytorch-training - INFO - Result <test>: [test/time: 12.66 (s), test/loss: 0.2247, test/MAE: 0.2247, test/MSE: 0.1353]
+2025-08-28 09:57:45,320 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_029.pt saved
+2025-08-28 09:57:45,320 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:45
+2025-08-28 09:57:45,320 - easytorch-training - INFO - Epoch 30 / 100
+2025-08-28 09:59:01,940 - easytorch-training - INFO - Result <train>: [train/time: 76.62 (s), train/lr: 1.25e-04, train/loss: 0.1981, train/MAE: 0.1981, train/MSE: 0.0994]
+2025-08-28 09:59:01,941 - easytorch-training - INFO - Start validation.
+2025-08-28 09:59:07,782 - easytorch-training - INFO - Result <val>: [val/time: 5.84 (s), val/loss: 0.1968, val/MAE: 0.1968, val/MSE: 0.1107]
+2025-08-28 09:59:07,904 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 09:59:20,596 - easytorch-training - INFO - Result <test>: [test/time: 12.69 (s), test/loss: 0.2235, test/MAE: 0.2235, test/MSE: 0.1337]
+2025-08-28 09:59:20,665 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_030.pt saved
+2025-08-28 09:59:20,709 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:44
+2025-08-28 09:59:20,709 - easytorch-training - INFO - Epoch 31 / 100
+2025-08-28 10:00:37,373 - easytorch-training - INFO - Result <train>: [train/time: 76.66 (s), train/lr: 1.25e-04, train/loss: 0.1979, train/MAE: 0.1979, train/MSE: 0.0992]
+2025-08-28 10:00:37,374 - easytorch-training - INFO - Start validation.
+2025-08-28 10:00:43,325 - easytorch-training - INFO - Result <val>: [val/time: 5.95 (s), val/loss: 0.1976, val/MAE: 0.1976, val/MSE: 0.1112]
+2025-08-28 10:00:56,185 - easytorch-training - INFO - Result <test>: [test/time: 12.86 (s), test/loss: 0.2245, test/MAE: 0.2245, test/MSE: 0.1347]
+2025-08-28 10:00:56,255 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_031.pt saved
+2025-08-28 10:00:56,256 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:45
+2025-08-28 10:00:56,256 - easytorch-training - INFO - Epoch 32 / 100
+2025-08-28 10:02:12,947 - easytorch-training - INFO - Result <train>: [train/time: 76.69 (s), train/lr: 1.25e-04, train/loss: 0.1975, train/MAE: 0.1975, train/MSE: 0.0988]
+2025-08-28 10:02:12,948 - easytorch-training - INFO - Start validation.
+2025-08-28 10:02:18,910 - easytorch-training - INFO - Result <val>: [val/time: 5.96 (s), val/loss: 0.1970, val/MAE: 0.1970, val/MSE: 0.1109]
+2025-08-28 10:02:31,838 - easytorch-training - INFO - Result <test>: [test/time: 12.92 (s), test/loss: 0.2240, test/MAE: 0.2240, test/MSE: 0.1343]
+2025-08-28 10:02:31,908 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_032.pt saved
+2025-08-28 10:02:31,909 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:45
+2025-08-28 10:02:31,909 - easytorch-training - INFO - Epoch 33 / 100
+2025-08-28 10:03:48,599 - easytorch-training - INFO - Result <train>: [train/time: 76.69 (s), train/lr: 1.25e-04, train/loss: 0.1973, train/MAE: 0.1973, train/MSE: 0.0986]
+2025-08-28 10:03:48,600 - easytorch-training - INFO - Start validation.
+2025-08-28 10:03:54,541 - easytorch-training - INFO - Result <val>: [val/time: 5.94 (s), val/loss: 0.1973, val/MAE: 0.1973, val/MSE: 0.1110]
+2025-08-28 10:04:07,464 - easytorch-training - INFO - Result <test>: [test/time: 12.92 (s), test/loss: 0.2238, test/MAE: 0.2238, test/MSE: 0.1339]
+2025-08-28 10:04:07,535 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_033.pt saved
+2025-08-28 10:04:07,535 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:45
+2025-08-28 10:04:07,535 - easytorch-training - INFO - Epoch 34 / 100
+2025-08-28 10:05:24,208 - easytorch-training - INFO - Result <train>: [train/time: 76.67 (s), train/lr: 1.25e-04, train/loss: 0.1970, train/MAE: 0.1970, train/MSE: 0.0983]
+2025-08-28 10:05:24,209 - easytorch-training - INFO - Start validation.
+2025-08-28 10:05:30,085 - easytorch-training - INFO - Result <val>: [val/time: 5.88 (s), val/loss: 0.1969, val/MAE: 0.1969, val/MSE: 0.1110]
+2025-08-28 10:05:42,780 - easytorch-training - INFO - Result <test>: [test/time: 12.69 (s), test/loss: 0.2245, test/MAE: 0.2245, test/MSE: 0.1354]
+2025-08-28 10:05:42,850 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_034.pt saved
+2025-08-28 10:05:42,851 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:45
+2025-08-28 10:05:42,851 - easytorch-training - INFO - Epoch 35 / 100
+2025-08-28 10:06:59,374 - easytorch-training - INFO - Result <train>: [train/time: 76.52 (s), train/lr: 1.25e-04, train/loss: 0.1968, train/MAE: 0.1968, train/MSE: 0.0980]
+2025-08-28 10:06:59,375 - easytorch-training - INFO - Start validation.
+2025-08-28 10:07:05,222 - easytorch-training - INFO - Result <val>: [val/time: 5.85 (s), val/loss: 0.1972, val/MAE: 0.1972, val/MSE: 0.1109]
+2025-08-28 10:07:17,903 - easytorch-training - INFO - Result <test>: [test/time: 12.68 (s), test/loss: 0.2245, test/MAE: 0.2245, test/MSE: 0.1351]
+2025-08-28 10:07:17,973 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_035.pt saved
+2025-08-28 10:07:17,973 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:44
+2025-08-28 10:07:17,973 - easytorch-training - INFO - Epoch 36 / 100
+2025-08-28 10:08:34,523 - easytorch-training - INFO - Result <train>: [train/time: 76.55 (s), train/lr: 1.25e-04, train/loss: 0.1965, train/MAE: 0.1965, train/MSE: 0.0978]
+2025-08-28 10:08:34,524 - easytorch-training - INFO - Start validation.
+2025-08-28 10:08:40,410 - easytorch-training - INFO - Result <val>: [val/time: 5.89 (s), val/loss: 0.1972, val/MAE: 0.1972, val/MSE: 0.1108]
+2025-08-28 10:08:53,144 - easytorch-training - INFO - Result <test>: [test/time: 12.73 (s), test/loss: 0.2242, test/MAE: 0.2242, test/MSE: 0.1346]
+2025-08-28 10:08:53,217 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_036.pt saved
+2025-08-28 10:08:53,217 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:43
+2025-08-28 10:08:53,217 - easytorch-training - INFO - Epoch 37 / 100
+2025-08-28 10:10:09,775 - easytorch-training - INFO - Result <train>: [train/time: 76.56 (s), train/lr: 1.25e-04, train/loss: 0.1963, train/MAE: 0.1963, train/MSE: 0.0975]
+2025-08-28 10:10:09,776 - easytorch-training - INFO - Start validation.
+2025-08-28 10:10:15,603 - easytorch-training - INFO - Result <val>: [val/time: 5.83 (s), val/loss: 0.1964, val/MAE: 0.1964, val/MSE: 0.1105]
+2025-08-28 10:10:15,729 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 10:10:28,338 - easytorch-training - INFO - Result <test>: [test/time: 12.61 (s), test/loss: 0.2236, test/MAE: 0.2236, test/MSE: 0.1345]
+2025-08-28 10:10:28,406 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_037.pt saved
+2025-08-28 10:10:28,407 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:42
+2025-08-28 10:10:28,407 - easytorch-training - INFO - Epoch 38 / 100
+2025-08-28 10:11:44,930 - easytorch-training - INFO - Result <train>: [train/time: 76.52 (s), train/lr: 1.25e-04, train/loss: 0.1961, train/MAE: 0.1961, train/MSE: 0.0973]
+2025-08-28 10:11:44,931 - easytorch-training - INFO - Start validation.
+2025-08-28 10:11:50,776 - easytorch-training - INFO - Result <val>: [val/time: 5.84 (s), val/loss: 0.1966, val/MAE: 0.1966, val/MSE: 0.1105]
+2025-08-28 10:12:03,452 - easytorch-training - INFO - Result <test>: [test/time: 12.67 (s), test/loss: 0.2236, test/MAE: 0.2236, test/MSE: 0.1341]
+2025-08-28 10:12:03,522 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_038.pt saved
+2025-08-28 10:12:03,522 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:41
+2025-08-28 10:12:03,522 - easytorch-training - INFO - Epoch 39 / 100
+2025-08-28 10:13:20,087 - easytorch-training - INFO - Result <train>: [train/time: 76.56 (s), train/lr: 1.25e-04, train/loss: 0.1958, train/MAE: 0.1958, train/MSE: 0.0970]
+2025-08-28 10:13:20,088 - easytorch-training - INFO - Start validation.
+2025-08-28 10:13:25,945 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.1967, val/MAE: 0.1967, val/MSE: 0.1108]
+2025-08-28 10:13:38,616 - easytorch-training - INFO - Result <test>: [test/time: 12.67 (s), test/loss: 0.2244, test/MAE: 0.2244, test/MSE: 0.1354]
+2025-08-28 10:13:38,686 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_039.pt saved
+2025-08-28 10:13:38,686 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:41
+2025-08-28 10:13:38,687 - easytorch-training - INFO - Epoch 40 / 100
+2025-08-28 10:14:55,355 - easytorch-training - INFO - Result <train>: [train/time: 76.67 (s), train/lr: 1.25e-04, train/loss: 0.1956, train/MAE: 0.1956, train/MSE: 0.0968]
+2025-08-28 10:14:55,356 - easytorch-training - INFO - Start validation.
+2025-08-28 10:15:01,220 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.1968, val/MAE: 0.1968, val/MSE: 0.1107]
+2025-08-28 10:15:13,897 - easytorch-training - INFO - Result <test>: [test/time: 12.67 (s), test/loss: 0.2238, test/MAE: 0.2238, test/MSE: 0.1346]
+2025-08-28 10:15:13,967 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_040.pt saved
+2025-08-28 10:15:14,011 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:15:14,011 - easytorch-training - INFO - Epoch 41 / 100
+2025-08-28 10:16:30,687 - easytorch-training - INFO - Result <train>: [train/time: 76.68 (s), train/lr: 1.25e-04, train/loss: 0.1954, train/MAE: 0.1954, train/MSE: 0.0965]
+2025-08-28 10:16:30,688 - easytorch-training - INFO - Start validation.
+2025-08-28 10:16:36,602 - easytorch-training - INFO - Result <val>: [val/time: 5.91 (s), val/loss: 0.1969, val/MAE: 0.1969, val/MSE: 0.1109]
+2025-08-28 10:16:49,453 - easytorch-training - INFO - Result <test>: [test/time: 12.85 (s), test/loss: 0.2247, test/MAE: 0.2247, test/MSE: 0.1357]
+2025-08-28 10:16:49,523 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_041.pt saved
+2025-08-28 10:16:49,523 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:41
+2025-08-28 10:16:49,523 - easytorch-training - INFO - Epoch 42 / 100
+2025-08-28 10:18:06,146 - easytorch-training - INFO - Result <train>: [train/time: 76.62 (s), train/lr: 1.25e-04, train/loss: 0.1952, train/MAE: 0.1952, train/MSE: 0.0963]
+2025-08-28 10:18:06,147 - easytorch-training - INFO - Start validation.
+2025-08-28 10:18:12,103 - easytorch-training - INFO - Result <val>: [val/time: 5.96 (s), val/loss: 0.1964, val/MAE: 0.1964, val/MSE: 0.1105]
+2025-08-28 10:18:24,979 - easytorch-training - INFO - Result <test>: [test/time: 12.87 (s), test/loss: 0.2238, test/MAE: 0.2238, test/MSE: 0.1347]
+2025-08-28 10:18:25,049 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_042.pt saved
+2025-08-28 10:18:25,049 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:41
+2025-08-28 10:18:25,049 - easytorch-training - INFO - Epoch 43 / 100
+2025-08-28 10:19:41,639 - easytorch-training - INFO - Result <train>: [train/time: 76.59 (s), train/lr: 1.25e-04, train/loss: 0.1949, train/MAE: 0.1949, train/MSE: 0.0960]
+2025-08-28 10:19:41,640 - easytorch-training - INFO - Start validation.
+2025-08-28 10:19:47,560 - easytorch-training - INFO - Result <val>: [val/time: 5.92 (s), val/loss: 0.1967, val/MAE: 0.1967, val/MSE: 0.1107]
+2025-08-28 10:20:00,372 - easytorch-training - INFO - Result <test>: [test/time: 12.81 (s), test/loss: 0.2243, test/MAE: 0.2243, test/MSE: 0.1352]
+2025-08-28 10:20:00,443 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_043.pt saved
+2025-08-28 10:20:00,443 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:41
+2025-08-28 10:20:00,443 - easytorch-training - INFO - Epoch 44 / 100
+2025-08-28 10:21:17,055 - easytorch-training - INFO - Result <train>: [train/time: 76.61 (s), train/lr: 1.25e-04, train/loss: 0.1948, train/MAE: 0.1948, train/MSE: 0.0959]
+2025-08-28 10:21:17,056 - easytorch-training - INFO - Start validation.
+2025-08-28 10:21:22,998 - easytorch-training - INFO - Result <val>: [val/time: 5.94 (s), val/loss: 0.1968, val/MAE: 0.1968, val/MSE: 0.1108]
+2025-08-28 10:21:35,898 - easytorch-training - INFO - Result <test>: [test/time: 12.89 (s), test/loss: 0.2246, test/MAE: 0.2246, test/MSE: 0.1355]
+2025-08-28 10:21:35,968 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_044.pt saved
+2025-08-28 10:21:35,969 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:41
+2025-08-28 10:21:35,969 - easytorch-training - INFO - Epoch 45 / 100
+2025-08-28 10:22:52,626 - easytorch-training - INFO - Result <train>: [train/time: 76.66 (s), train/lr: 1.25e-04, train/loss: 0.1946, train/MAE: 0.1946, train/MSE: 0.0957]
+2025-08-28 10:22:52,627 - easytorch-training - INFO - Start validation.
+2025-08-28 10:22:58,542 - easytorch-training - INFO - Result <val>: [val/time: 5.91 (s), val/loss: 0.1964, val/MAE: 0.1964, val/MSE: 0.1106]
+2025-08-28 10:22:58,663 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 10:23:11,463 - easytorch-training - INFO - Result <test>: [test/time: 12.80 (s), test/loss: 0.2238, test/MAE: 0.2238, test/MSE: 0.1350]
+2025-08-28 10:23:11,533 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_045.pt saved
+2025-08-28 10:23:11,533 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:41
+2025-08-28 10:23:11,533 - easytorch-training - INFO - Epoch 46 / 100
+2025-08-28 10:24:28,170 - easytorch-training - INFO - Result <train>: [train/time: 76.64 (s), train/lr: 1.25e-04, train/loss: 0.1944, train/MAE: 0.1944, train/MSE: 0.0954]
+2025-08-28 10:24:28,171 - easytorch-training - INFO - Start validation.
+2025-08-28 10:24:34,068 - easytorch-training - INFO - Result <val>: [val/time: 5.90 (s), val/loss: 0.1970, val/MAE: 0.1970, val/MSE: 0.1110]
+2025-08-28 10:24:46,834 - easytorch-training - INFO - Result <test>: [test/time: 12.76 (s), test/loss: 0.2251, test/MAE: 0.2251, test/MSE: 0.1363]
+2025-08-28 10:24:46,910 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_046.pt saved
+2025-08-28 10:24:46,910 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:41
+2025-08-28 10:24:46,910 - easytorch-training - INFO - Epoch 47 / 100
+2025-08-28 10:26:03,516 - easytorch-training - INFO - Result <train>: [train/time: 76.60 (s), train/lr: 1.25e-04, train/loss: 0.1942, train/MAE: 0.1942, train/MSE: 0.0953]
+2025-08-28 10:26:03,517 - easytorch-training - INFO - Start validation.
+2025-08-28 10:26:09,402 - easytorch-training - INFO - Result <val>: [val/time: 5.89 (s), val/loss: 0.1965, val/MAE: 0.1965, val/MSE: 0.1107]
+2025-08-28 10:26:22,126 - easytorch-training - INFO - Result <test>: [test/time: 12.72 (s), test/loss: 0.2240, test/MAE: 0.2240, test/MSE: 0.1351]
+2025-08-28 10:26:22,197 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_047.pt saved
+2025-08-28 10:26:22,197 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:41
+2025-08-28 10:26:22,197 - easytorch-training - INFO - Epoch 48 / 100
+2025-08-28 10:27:38,784 - easytorch-training - INFO - Result <train>: [train/time: 76.59 (s), train/lr: 1.25e-04, train/loss: 0.1940, train/MAE: 0.1940, train/MSE: 0.0951]
+2025-08-28 10:27:38,785 - easytorch-training - INFO - Start validation.
+2025-08-28 10:27:44,631 - easytorch-training - INFO - Result <val>: [val/time: 5.85 (s), val/loss: 0.1969, val/MAE: 0.1969, val/MSE: 0.1110]
+2025-08-28 10:27:57,341 - easytorch-training - INFO - Result <test>: [test/time: 12.71 (s), test/loss: 0.2245, test/MAE: 0.2245, test/MSE: 0.1358]
+2025-08-28 10:27:57,412 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_048.pt saved
+2025-08-28 10:27:57,412 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:27:57,412 - easytorch-training - INFO - Epoch 49 / 100
+2025-08-28 10:29:14,088 - easytorch-training - INFO - Result <train>: [train/time: 76.68 (s), train/lr: 1.25e-04, train/loss: 0.1939, train/MAE: 0.1939, train/MSE: 0.0949]
+2025-08-28 10:29:14,089 - easytorch-training - INFO - Start validation.
+2025-08-28 10:29:19,952 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.1968, val/MAE: 0.1968, val/MSE: 0.1107]
+2025-08-28 10:29:32,664 - easytorch-training - INFO - Result <test>: [test/time: 12.71 (s), test/loss: 0.2242, test/MAE: 0.2242, test/MSE: 0.1353]
+2025-08-28 10:29:32,735 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_049.pt saved
+2025-08-28 10:29:32,736 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:29:32,736 - easytorch-training - INFO - Epoch 50 / 100
+2025-08-28 10:30:49,310 - easytorch-training - INFO - Result <train>: [train/time: 76.57 (s), train/lr: 1.25e-04, train/loss: 0.1937, train/MAE: 0.1937, train/MSE: 0.0947]
+2025-08-28 10:30:49,311 - easytorch-training - INFO - Start validation.
+2025-08-28 10:30:55,186 - easytorch-training - INFO - Result <val>: [val/time: 5.88 (s), val/loss: 0.1965, val/MAE: 0.1965, val/MSE: 0.1107]
+2025-08-28 10:31:07,919 - easytorch-training - INFO - Result <test>: [test/time: 12.73 (s), test/loss: 0.2233, test/MAE: 0.2233, test/MSE: 0.1343]
+2025-08-28 10:31:07,990 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_050.pt saved
+2025-08-28 10:31:08,035 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:39
+2025-08-28 10:31:08,035 - easytorch-training - INFO - Epoch 51 / 100
+2025-08-28 10:32:24,741 - easytorch-training - INFO - Result <train>: [train/time: 76.71 (s), train/lr: 6.25e-05, train/loss: 0.1928, train/MAE: 0.1928, train/MSE: 0.0940]
+2025-08-28 10:32:24,742 - easytorch-training - INFO - Start validation.
+2025-08-28 10:32:30,716 - easytorch-training - INFO - Result <val>: [val/time: 5.97 (s), val/loss: 0.1959, val/MAE: 0.1959, val/MSE: 0.1104]
+2025-08-28 10:32:30,839 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 10:32:43,730 - easytorch-training - INFO - Result <test>: [test/time: 12.89 (s), test/loss: 0.2237, test/MAE: 0.2237, test/MSE: 0.1350]
+2025-08-28 10:32:43,803 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_051.pt saved
+2025-08-28 10:32:43,803 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:32:43,803 - easytorch-training - INFO - Epoch 52 / 100
+2025-08-28 10:34:00,413 - easytorch-training - INFO - Result <train>: [train/time: 76.61 (s), train/lr: 6.25e-05, train/loss: 0.1926, train/MAE: 0.1926, train/MSE: 0.0938]
+2025-08-28 10:34:00,414 - easytorch-training - INFO - Start validation.
+2025-08-28 10:34:06,357 - easytorch-training - INFO - Result <val>: [val/time: 5.94 (s), val/loss: 0.1958, val/MAE: 0.1958, val/MSE: 0.1103]
+2025-08-28 10:34:06,482 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 10:34:19,360 - easytorch-training - INFO - Result <test>: [test/time: 12.87 (s), test/loss: 0.2234, test/MAE: 0.2234, test/MSE: 0.1348]
+2025-08-28 10:34:19,431 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_052.pt saved
+2025-08-28 10:34:19,431 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:34:19,431 - easytorch-training - INFO - Epoch 53 / 100
+2025-08-28 10:35:36,023 - easytorch-training - INFO - Result <train>: [train/time: 76.59 (s), train/lr: 6.25e-05, train/loss: 0.1925, train/MAE: 0.1925, train/MSE: 0.0937]
+2025-08-28 10:35:36,024 - easytorch-training - INFO - Start validation.
+2025-08-28 10:35:41,951 - easytorch-training - INFO - Result <val>: [val/time: 5.93 (s), val/loss: 0.1958, val/MAE: 0.1958, val/MSE: 0.1103]
+2025-08-28 10:35:42,075 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 10:35:54,910 - easytorch-training - INFO - Result <test>: [test/time: 12.83 (s), test/loss: 0.2238, test/MAE: 0.2238, test/MSE: 0.1353]
+2025-08-28 10:35:54,980 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_053.pt saved
+2025-08-28 10:35:54,980 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:41
+2025-08-28 10:35:54,980 - easytorch-training - INFO - Epoch 54 / 100
+2025-08-28 10:37:11,610 - easytorch-training - INFO - Result <train>: [train/time: 76.63 (s), train/lr: 6.25e-05, train/loss: 0.1924, train/MAE: 0.1924, train/MSE: 0.0936]
+2025-08-28 10:37:11,611 - easytorch-training - INFO - Start validation.
+2025-08-28 10:37:17,492 - easytorch-training - INFO - Result <val>: [val/time: 5.88 (s), val/loss: 0.1956, val/MAE: 0.1956, val/MSE: 0.1103]
+2025-08-28 10:37:17,613 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 10:37:30,399 - easytorch-training - INFO - Result <test>: [test/time: 12.78 (s), test/loss: 0.2235, test/MAE: 0.2235, test/MSE: 0.1349]
+2025-08-28 10:37:30,469 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_054.pt saved
+2025-08-28 10:37:30,469 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:41
+2025-08-28 10:37:30,469 - easytorch-training - INFO - Epoch 55 / 100
+2025-08-28 10:38:47,053 - easytorch-training - INFO - Result <train>: [train/time: 76.58 (s), train/lr: 6.25e-05, train/loss: 0.1923, train/MAE: 0.1923, train/MSE: 0.0935]
+2025-08-28 10:38:47,054 - easytorch-training - INFO - Start validation.
+2025-08-28 10:38:52,962 - easytorch-training - INFO - Result <val>: [val/time: 5.91 (s), val/loss: 0.1962, val/MAE: 0.1962, val/MSE: 0.1107]
+2025-08-28 10:39:05,784 - easytorch-training - INFO - Result <test>: [test/time: 12.82 (s), test/loss: 0.2237, test/MAE: 0.2237, test/MSE: 0.1351]
+2025-08-28 10:39:05,855 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_055.pt saved
+2025-08-28 10:39:05,856 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:41
+2025-08-28 10:39:05,856 - easytorch-training - INFO - Epoch 56 / 100
+2025-08-28 10:40:22,449 - easytorch-training - INFO - Result <train>: [train/time: 76.59 (s), train/lr: 6.25e-05, train/loss: 0.1922, train/MAE: 0.1922, train/MSE: 0.0934]
+2025-08-28 10:40:22,450 - easytorch-training - INFO - Start validation.
+2025-08-28 10:40:28,337 - easytorch-training - INFO - Result <val>: [val/time: 5.89 (s), val/loss: 0.1958, val/MAE: 0.1958, val/MSE: 0.1104]
+2025-08-28 10:40:41,079 - easytorch-training - INFO - Result <test>: [test/time: 12.74 (s), test/loss: 0.2236, test/MAE: 0.2236, test/MSE: 0.1351]
+2025-08-28 10:40:41,148 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_056.pt saved
+2025-08-28 10:40:41,148 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:40:41,149 - easytorch-training - INFO - Epoch 57 / 100
+2025-08-28 10:41:57,787 - easytorch-training - INFO - Result <train>: [train/time: 76.64 (s), train/lr: 6.25e-05, train/loss: 0.1922, train/MAE: 0.1922, train/MSE: 0.0933]
+2025-08-28 10:41:57,788 - easytorch-training - INFO - Start validation.
+2025-08-28 10:42:03,672 - easytorch-training - INFO - Result <val>: [val/time: 5.88 (s), val/loss: 0.1957, val/MAE: 0.1957, val/MSE: 0.1103]
+2025-08-28 10:42:16,470 - easytorch-training - INFO - Result <test>: [test/time: 12.79 (s), test/loss: 0.2237, test/MAE: 0.2237, test/MSE: 0.1352]
+2025-08-28 10:42:16,541 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_057.pt saved
+2025-08-28 10:42:16,541 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:42:16,541 - easytorch-training - INFO - Epoch 58 / 100
+2025-08-28 10:43:33,084 - easytorch-training - INFO - Result <train>: [train/time: 76.54 (s), train/lr: 6.25e-05, train/loss: 0.1921, train/MAE: 0.1921, train/MSE: 0.0932]
+2025-08-28 10:43:33,085 - easytorch-training - INFO - Start validation.
+2025-08-28 10:43:38,946 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.1959, val/MAE: 0.1959, val/MSE: 0.1104]
+2025-08-28 10:43:51,651 - easytorch-training - INFO - Result <test>: [test/time: 12.70 (s), test/loss: 0.2239, test/MAE: 0.2239, test/MSE: 0.1355]
+2025-08-28 10:43:51,721 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_058.pt saved
+2025-08-28 10:43:51,722 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:43:51,722 - easytorch-training - INFO - Epoch 59 / 100
+2025-08-28 10:45:08,293 - easytorch-training - INFO - Result <train>: [train/time: 76.57 (s), train/lr: 6.25e-05, train/loss: 0.1920, train/MAE: 0.1920, train/MSE: 0.0931]
+2025-08-28 10:45:08,294 - easytorch-training - INFO - Start validation.
+2025-08-28 10:45:14,154 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.1960, val/MAE: 0.1960, val/MSE: 0.1106]
+2025-08-28 10:45:26,876 - easytorch-training - INFO - Result <test>: [test/time: 12.72 (s), test/loss: 0.2235, test/MAE: 0.2235, test/MSE: 0.1350]
+2025-08-28 10:45:26,944 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_059.pt saved
+2025-08-28 10:45:26,945 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:39
+2025-08-28 10:45:26,945 - easytorch-training - INFO - Epoch 60 / 100
+2025-08-28 10:46:43,479 - easytorch-training - INFO - Result <train>: [train/time: 76.53 (s), train/lr: 6.25e-05, train/loss: 0.1919, train/MAE: 0.1919, train/MSE: 0.0930]
+2025-08-28 10:46:43,480 - easytorch-training - INFO - Start validation.
+2025-08-28 10:46:49,341 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.1958, val/MAE: 0.1958, val/MSE: 0.1104]
+2025-08-28 10:47:02,045 - easytorch-training - INFO - Result <test>: [test/time: 12.70 (s), test/loss: 0.2237, test/MAE: 0.2237, test/MSE: 0.1351]
+2025-08-28 10:47:02,118 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_060.pt saved
+2025-08-28 10:47:02,163 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:39
+2025-08-28 10:47:02,163 - easytorch-training - INFO - Epoch 61 / 100
+2025-08-28 10:48:18,821 - easytorch-training - INFO - Result <train>: [train/time: 76.66 (s), train/lr: 6.25e-05, train/loss: 0.1918, train/MAE: 0.1918, train/MSE: 0.0929]
+2025-08-28 10:48:18,822 - easytorch-training - INFO - Start validation.
+2025-08-28 10:48:24,801 - easytorch-training - INFO - Result <val>: [val/time: 5.98 (s), val/loss: 0.1957, val/MAE: 0.1957, val/MSE: 0.1104]
+2025-08-28 10:48:37,759 - easytorch-training - INFO - Result <test>: [test/time: 12.95 (s), test/loss: 0.2235, test/MAE: 0.2235, test/MSE: 0.1351]
+2025-08-28 10:48:37,836 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_061.pt saved
+2025-08-28 10:48:37,836 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:39
+2025-08-28 10:48:37,836 - easytorch-training - INFO - Epoch 62 / 100
+2025-08-28 10:49:54,468 - easytorch-training - INFO - Result <train>: [train/time: 76.63 (s), train/lr: 6.25e-05, train/loss: 0.1917, train/MAE: 0.1917, train/MSE: 0.0928]
+2025-08-28 10:49:54,469 - easytorch-training - INFO - Start validation.
+2025-08-28 10:50:00,422 - easytorch-training - INFO - Result <val>: [val/time: 5.95 (s), val/loss: 0.1957, val/MAE: 0.1957, val/MSE: 0.1104]
+2025-08-28 10:50:13,346 - easytorch-training - INFO - Result <test>: [test/time: 12.92 (s), test/loss: 0.2236, test/MAE: 0.2236, test/MSE: 0.1351]
+2025-08-28 10:50:13,418 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_062.pt saved
+2025-08-28 10:50:13,418 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:50:13,418 - easytorch-training - INFO - Epoch 63 / 100
+2025-08-28 10:51:30,063 - easytorch-training - INFO - Result <train>: [train/time: 76.64 (s), train/lr: 6.25e-05, train/loss: 0.1916, train/MAE: 0.1916, train/MSE: 0.0927]
+2025-08-28 10:51:30,064 - easytorch-training - INFO - Start validation.
+2025-08-28 10:51:36,014 - easytorch-training - INFO - Result <val>: [val/time: 5.95 (s), val/loss: 0.1959, val/MAE: 0.1959, val/MSE: 0.1106]
+2025-08-28 10:51:48,923 - easytorch-training - INFO - Result <test>: [test/time: 12.90 (s), test/loss: 0.2238, test/MAE: 0.2238, test/MSE: 0.1354]
+2025-08-28 10:51:48,995 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_063.pt saved
+2025-08-28 10:51:48,995 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:51:48,995 - easytorch-training - INFO - Epoch 64 / 100
+2025-08-28 10:53:05,607 - easytorch-training - INFO - Result <train>: [train/time: 76.61 (s), train/lr: 6.25e-05, train/loss: 0.1915, train/MAE: 0.1915, train/MSE: 0.0926]
+2025-08-28 10:53:05,608 - easytorch-training - INFO - Start validation.
+2025-08-28 10:53:11,529 - easytorch-training - INFO - Result <val>: [val/time: 5.92 (s), val/loss: 0.1957, val/MAE: 0.1957, val/MSE: 0.1104]
+2025-08-28 10:53:24,365 - easytorch-training - INFO - Result <test>: [test/time: 12.83 (s), test/loss: 0.2239, test/MAE: 0.2239, test/MSE: 0.1354]
+2025-08-28 10:53:24,435 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_064.pt saved
+2025-08-28 10:53:24,435 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:53:24,435 - easytorch-training - INFO - Epoch 65 / 100
+2025-08-28 10:54:41,096 - easytorch-training - INFO - Result <train>: [train/time: 76.66 (s), train/lr: 6.25e-05, train/loss: 0.1914, train/MAE: 0.1914, train/MSE: 0.0925]
+2025-08-28 10:54:41,097 - easytorch-training - INFO - Start validation.
+2025-08-28 10:54:47,022 - easytorch-training - INFO - Result <val>: [val/time: 5.93 (s), val/loss: 0.1957, val/MAE: 0.1957, val/MSE: 0.1103]
+2025-08-28 10:54:59,882 - easytorch-training - INFO - Result <test>: [test/time: 12.85 (s), test/loss: 0.2234, test/MAE: 0.2234, test/MSE: 0.1348]
+2025-08-28 10:54:59,954 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_065.pt saved
+2025-08-28 10:54:59,954 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:54:59,954 - easytorch-training - INFO - Epoch 66 / 100
+2025-08-28 10:56:16,548 - easytorch-training - INFO - Result <train>: [train/time: 76.59 (s), train/lr: 6.25e-05, train/loss: 0.1913, train/MAE: 0.1913, train/MSE: 0.0924]
+2025-08-28 10:56:16,549 - easytorch-training - INFO - Start validation.
+2025-08-28 10:56:22,465 - easytorch-training - INFO - Result <val>: [val/time: 5.92 (s), val/loss: 0.1956, val/MAE: 0.1956, val/MSE: 0.1103]
+2025-08-28 10:56:35,294 - easytorch-training - INFO - Result <test>: [test/time: 12.82 (s), test/loss: 0.2238, test/MAE: 0.2238, test/MSE: 0.1354]
+2025-08-28 10:56:35,365 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_066.pt saved
+2025-08-28 10:56:35,365 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:56:35,365 - easytorch-training - INFO - Epoch 67 / 100
+2025-08-28 10:57:51,947 - easytorch-training - INFO - Result <train>: [train/time: 76.58 (s), train/lr: 6.25e-05, train/loss: 0.1912, train/MAE: 0.1912, train/MSE: 0.0923]
+2025-08-28 10:57:51,948 - easytorch-training - INFO - Start validation.
+2025-08-28 10:57:57,835 - easytorch-training - INFO - Result <val>: [val/time: 5.89 (s), val/loss: 0.1957, val/MAE: 0.1957, val/MSE: 0.1105]
+2025-08-28 10:58:10,585 - easytorch-training - INFO - Result <test>: [test/time: 12.74 (s), test/loss: 0.2234, test/MAE: 0.2234, test/MSE: 0.1350]
+2025-08-28 10:58:10,655 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_067.pt saved
+2025-08-28 10:58:10,655 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:58:10,655 - easytorch-training - INFO - Epoch 68 / 100
+2025-08-28 10:59:27,269 - easytorch-training - INFO - Result <train>: [train/time: 76.61 (s), train/lr: 6.25e-05, train/loss: 0.1912, train/MAE: 0.1912, train/MSE: 0.0922]
+2025-08-28 10:59:27,270 - easytorch-training - INFO - Start validation.
+2025-08-28 10:59:33,194 - easytorch-training - INFO - Result <val>: [val/time: 5.92 (s), val/loss: 0.1959, val/MAE: 0.1959, val/MSE: 0.1105]
+2025-08-28 10:59:45,983 - easytorch-training - INFO - Result <test>: [test/time: 12.78 (s), test/loss: 0.2237, test/MAE: 0.2237, test/MSE: 0.1351]
+2025-08-28 10:59:46,056 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_068.pt saved
+2025-08-28 10:59:46,057 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 10:59:46,057 - easytorch-training - INFO - Epoch 69 / 100
+2025-08-28 11:01:02,630 - easytorch-training - INFO - Result <train>: [train/time: 76.57 (s), train/lr: 6.25e-05, train/loss: 0.1911, train/MAE: 0.1911, train/MSE: 0.0921]
+2025-08-28 11:01:02,631 - easytorch-training - INFO - Start validation.
+2025-08-28 11:01:08,494 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.1958, val/MAE: 0.1958, val/MSE: 0.1105]
+2025-08-28 11:01:21,190 - easytorch-training - INFO - Result <test>: [test/time: 12.69 (s), test/loss: 0.2234, test/MAE: 0.2234, test/MSE: 0.1350]
+2025-08-28 11:01:21,260 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_069.pt saved
+2025-08-28 11:01:21,260 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:39
+2025-08-28 11:01:21,260 - easytorch-training - INFO - Epoch 70 / 100
+2025-08-28 11:02:37,840 - easytorch-training - INFO - Result <train>: [train/time: 76.58 (s), train/lr: 6.25e-05, train/loss: 0.1910, train/MAE: 0.1910, train/MSE: 0.0921]
+2025-08-28 11:02:37,841 - easytorch-training - INFO - Start validation.
+2025-08-28 11:02:43,671 - easytorch-training - INFO - Result <val>: [val/time: 5.83 (s), val/loss: 0.1956, val/MAE: 0.1956, val/MSE: 0.1103]
+2025-08-28 11:02:43,795 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 11:02:56,489 - easytorch-training - INFO - Result <test>: [test/time: 12.69 (s), test/loss: 0.2232, test/MAE: 0.2232, test/MSE: 0.1348]
+2025-08-28 11:02:56,558 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_070.pt saved
+2025-08-28 11:02:56,604 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:39
+2025-08-28 11:02:56,604 - easytorch-training - INFO - Epoch 71 / 100
+2025-08-28 11:04:13,276 - easytorch-training - INFO - Result <train>: [train/time: 76.67 (s), train/lr: 6.25e-05, train/loss: 0.1909, train/MAE: 0.1909, train/MSE: 0.0920]
+2025-08-28 11:04:13,277 - easytorch-training - INFO - Start validation.
+2025-08-28 11:04:19,261 - easytorch-training - INFO - Result <val>: [val/time: 5.98 (s), val/loss: 0.1952, val/MAE: 0.1952, val/MSE: 0.1101]
+2025-08-28 11:04:19,384 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 11:04:32,320 - easytorch-training - INFO - Result <test>: [test/time: 12.93 (s), test/loss: 0.2233, test/MAE: 0.2233, test/MSE: 0.1350]
+2025-08-28 11:04:32,390 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_071.pt saved
+2025-08-28 11:04:32,390 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 11:04:32,390 - easytorch-training - INFO - Epoch 72 / 100
+2025-08-28 11:05:49,098 - easytorch-training - INFO - Result <train>: [train/time: 76.71 (s), train/lr: 6.25e-05, train/loss: 0.1908, train/MAE: 0.1908, train/MSE: 0.0919]
+2025-08-28 11:05:49,099 - easytorch-training - INFO - Start validation.
+2025-08-28 11:05:55,116 - easytorch-training - INFO - Result <val>: [val/time: 6.02 (s), val/loss: 0.1957, val/MAE: 0.1957, val/MSE: 0.1104]
+2025-08-28 11:06:08,103 - easytorch-training - INFO - Result <test>: [test/time: 12.98 (s), test/loss: 0.2236, test/MAE: 0.2236, test/MSE: 0.1353]
+2025-08-28 11:06:08,173 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_072.pt saved
+2025-08-28 11:06:08,173 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 11:06:08,173 - easytorch-training - INFO - Epoch 73 / 100
+2025-08-28 11:07:24,751 - easytorch-training - INFO - Result <train>: [train/time: 76.58 (s), train/lr: 6.25e-05, train/loss: 0.1907, train/MAE: 0.1907, train/MSE: 0.0918]
+2025-08-28 11:07:24,752 - easytorch-training - INFO - Start validation.
+2025-08-28 11:07:30,576 - easytorch-training - INFO - Result <val>: [val/time: 5.82 (s), val/loss: 0.1955, val/MAE: 0.1955, val/MSE: 0.1104]
+2025-08-28 11:07:43,159 - easytorch-training - INFO - Result <test>: [test/time: 12.57 (s), test/loss: 0.2239, test/MAE: 0.2239, test/MSE: 0.1358]
+2025-08-28 11:07:43,227 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_073.pt saved
+2025-08-28 11:07:43,227 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:40
+2025-08-28 11:07:43,227 - easytorch-training - INFO - Epoch 74 / 100
+2025-08-28 11:08:59,811 - easytorch-training - INFO - Result <train>: [train/time: 76.58 (s), train/lr: 6.25e-05, train/loss: 0.1906, train/MAE: 0.1906, train/MSE: 0.0917]
+2025-08-28 11:08:59,812 - easytorch-training - INFO - Start validation.
+2025-08-28 11:09:05,672 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.1960, val/MAE: 0.1960, val/MSE: 0.1107]
+2025-08-28 11:09:18,335 - easytorch-training - INFO - Result <test>: [test/time: 12.66 (s), test/loss: 0.2237, test/MAE: 0.2237, test/MSE: 0.1352]
+2025-08-28 11:09:18,404 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_074.pt saved
+2025-08-28 11:09:18,404 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:39
+2025-08-28 11:09:18,404 - easytorch-training - INFO - Epoch 75 / 100
+2025-08-28 11:10:34,934 - easytorch-training - INFO - Result <train>: [train/time: 76.53 (s), train/lr: 6.25e-05, train/loss: 0.1906, train/MAE: 0.1906, train/MSE: 0.0916]
+2025-08-28 11:10:34,935 - easytorch-training - INFO - Start validation.
+2025-08-28 11:10:40,763 - easytorch-training - INFO - Result <val>: [val/time: 5.83 (s), val/loss: 0.1955, val/MAE: 0.1955, val/MSE: 0.1104]
+2025-08-28 11:10:53,386 - easytorch-training - INFO - Result <test>: [test/time: 12.62 (s), test/loss: 0.2232, test/MAE: 0.2232, test/MSE: 0.1350]
+2025-08-28 11:10:53,454 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_075.pt saved
+2025-08-28 11:10:53,455 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:39
+2025-08-28 11:10:53,455 - easytorch-training - INFO - Epoch 76 / 100
+2025-08-28 11:12:09,951 - easytorch-training - INFO - Result <train>: [train/time: 76.50 (s), train/lr: 6.25e-05, train/loss: 0.1905, train/MAE: 0.1905, train/MSE: 0.0915]
+2025-08-28 11:12:09,952 - easytorch-training - INFO - Start validation.
+2025-08-28 11:12:15,807 - easytorch-training - INFO - Result <val>: [val/time: 5.85 (s), val/loss: 0.1956, val/MAE: 0.1956, val/MSE: 0.1104]
+2025-08-28 11:12:28,434 - easytorch-training - INFO - Result <test>: [test/time: 12.62 (s), test/loss: 0.2235, test/MAE: 0.2235, test/MSE: 0.1352]
+2025-08-28 11:12:28,506 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_076.pt saved
+2025-08-28 11:12:28,507 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:38
+2025-08-28 11:12:28,507 - easytorch-training - INFO - Epoch 77 / 100
+2025-08-28 11:13:45,033 - easytorch-training - INFO - Result <train>: [train/time: 76.53 (s), train/lr: 6.25e-05, train/loss: 0.1905, train/MAE: 0.1905, train/MSE: 0.0915]
+2025-08-28 11:13:45,034 - easytorch-training - INFO - Start validation.
+2025-08-28 11:13:50,912 - easytorch-training - INFO - Result <val>: [val/time: 5.88 (s), val/loss: 0.1955, val/MAE: 0.1955, val/MSE: 0.1104]
+2025-08-28 11:14:03,560 - easytorch-training - INFO - Result <test>: [test/time: 12.64 (s), test/loss: 0.2235, test/MAE: 0.2235, test/MSE: 0.1352]
+2025-08-28 11:14:03,629 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_077.pt saved
+2025-08-28 11:14:03,629 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:38
+2025-08-28 11:14:03,629 - easytorch-training - INFO - Epoch 78 / 100
+2025-08-28 11:15:20,135 - easytorch-training - INFO - Result <train>: [train/time: 76.51 (s), train/lr: 6.25e-05, train/loss: 0.1904, train/MAE: 0.1904, train/MSE: 0.0914]
+2025-08-28 11:15:20,136 - easytorch-training - INFO - Start validation.
+2025-08-28 11:15:25,973 - easytorch-training - INFO - Result <val>: [val/time: 5.84 (s), val/loss: 0.1955, val/MAE: 0.1955, val/MSE: 0.1104]
+2025-08-28 11:15:38,623 - easytorch-training - INFO - Result <test>: [test/time: 12.65 (s), test/loss: 0.2232, test/MAE: 0.2232, test/MSE: 0.1349]
+2025-08-28 11:15:38,692 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_078.pt saved
+2025-08-28 11:15:38,693 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:37
+2025-08-28 11:15:38,693 - easytorch-training - INFO - Epoch 79 / 100
+2025-08-28 11:16:55,222 - easytorch-training - INFO - Result <train>: [train/time: 76.53 (s), train/lr: 6.25e-05, train/loss: 0.1903, train/MAE: 0.1903, train/MSE: 0.0912]
+2025-08-28 11:16:55,223 - easytorch-training - INFO - Start validation.
+2025-08-28 11:17:01,071 - easytorch-training - INFO - Result <val>: [val/time: 5.85 (s), val/loss: 0.1957, val/MAE: 0.1957, val/MSE: 0.1106]
+2025-08-28 11:17:13,669 - easytorch-training - INFO - Result <test>: [test/time: 12.59 (s), test/loss: 0.2239, test/MAE: 0.2239, test/MSE: 0.1354]
+2025-08-28 11:17:13,739 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_079.pt saved
+2025-08-28 11:17:13,739 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:37
+2025-08-28 11:17:13,739 - easytorch-training - INFO - Epoch 80 / 100
+2025-08-28 11:18:30,190 - easytorch-training - INFO - Result <train>: [train/time: 76.45 (s), train/lr: 6.25e-05, train/loss: 0.1902, train/MAE: 0.1902, train/MSE: 0.0912]
+2025-08-28 11:18:30,191 - easytorch-training - INFO - Start validation.
+2025-08-28 11:18:36,013 - easytorch-training - INFO - Result <val>: [val/time: 5.82 (s), val/loss: 0.1963, val/MAE: 0.1963, val/MSE: 0.1109]
+2025-08-28 11:18:48,597 - easytorch-training - INFO - Result <test>: [test/time: 12.58 (s), test/loss: 0.2239, test/MAE: 0.2239, test/MSE: 0.1354]
+2025-08-28 11:18:48,668 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_080.pt saved
+2025-08-28 11:18:48,712 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:18:48,712 - easytorch-training - INFO - Epoch 81 / 100
+2025-08-28 11:20:05,364 - easytorch-training - INFO - Result <train>: [train/time: 76.65 (s), train/lr: 6.25e-05, train/loss: 0.1901, train/MAE: 0.1901, train/MSE: 0.0911]
+2025-08-28 11:20:05,365 - easytorch-training - INFO - Start validation.
+2025-08-28 11:20:11,284 - easytorch-training - INFO - Result <val>: [val/time: 5.92 (s), val/loss: 0.1958, val/MAE: 0.1958, val/MSE: 0.1106]
+2025-08-28 11:20:24,067 - easytorch-training - INFO - Result <test>: [test/time: 12.78 (s), test/loss: 0.2238, test/MAE: 0.2238, test/MSE: 0.1356]
+2025-08-28 11:20:24,136 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_081.pt saved
+2025-08-28 11:20:24,136 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:20:24,136 - easytorch-training - INFO - Epoch 82 / 100
+2025-08-28 11:21:40,774 - easytorch-training - INFO - Result <train>: [train/time: 76.64 (s), train/lr: 6.25e-05, train/loss: 0.1900, train/MAE: 0.1900, train/MSE: 0.0910]
+2025-08-28 11:21:40,775 - easytorch-training - INFO - Start validation.
+2025-08-28 11:21:46,744 - easytorch-training - INFO - Result <val>: [val/time: 5.97 (s), val/loss: 0.1954, val/MAE: 0.1954, val/MSE: 0.1104]
+2025-08-28 11:21:59,618 - easytorch-training - INFO - Result <test>: [test/time: 12.87 (s), test/loss: 0.2235, test/MAE: 0.2235, test/MSE: 0.1353]
+2025-08-28 11:21:59,688 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_082.pt saved
+2025-08-28 11:21:59,689 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:37
+2025-08-28 11:21:59,689 - easytorch-training - INFO - Epoch 83 / 100
+2025-08-28 11:23:16,368 - easytorch-training - INFO - Result <train>: [train/time: 76.68 (s), train/lr: 6.25e-05, train/loss: 0.1900, train/MAE: 0.1900, train/MSE: 0.0910]
+2025-08-28 11:23:16,369 - easytorch-training - INFO - Start validation.
+2025-08-28 11:23:22,274 - easytorch-training - INFO - Result <val>: [val/time: 5.90 (s), val/loss: 0.1954, val/MAE: 0.1954, val/MSE: 0.1104]
+2025-08-28 11:23:35,126 - easytorch-training - INFO - Result <test>: [test/time: 12.85 (s), test/loss: 0.2234, test/MAE: 0.2234, test/MSE: 0.1351]
+2025-08-28 11:23:35,196 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_083.pt saved
+2025-08-28 11:23:35,196 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:37
+2025-08-28 11:23:35,196 - easytorch-training - INFO - Epoch 84 / 100
+2025-08-28 11:24:51,827 - easytorch-training - INFO - Result <train>: [train/time: 76.63 (s), train/lr: 6.25e-05, train/loss: 0.1899, train/MAE: 0.1899, train/MSE: 0.0909]
+2025-08-28 11:24:51,828 - easytorch-training - INFO - Start validation.
+2025-08-28 11:24:57,771 - easytorch-training - INFO - Result <val>: [val/time: 5.94 (s), val/loss: 0.1957, val/MAE: 0.1957, val/MSE: 0.1106]
+2025-08-28 11:25:10,640 - easytorch-training - INFO - Result <test>: [test/time: 12.86 (s), test/loss: 0.2240, test/MAE: 0.2240, test/MSE: 0.1358]
+2025-08-28 11:25:10,717 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_084.pt saved
+2025-08-28 11:25:10,718 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:37
+2025-08-28 11:25:10,718 - easytorch-training - INFO - Epoch 85 / 100
+2025-08-28 11:26:27,390 - easytorch-training - INFO - Result <train>: [train/time: 76.67 (s), train/lr: 6.25e-05, train/loss: 0.1898, train/MAE: 0.1898, train/MSE: 0.0908]
+2025-08-28 11:26:27,391 - easytorch-training - INFO - Start validation.
+2025-08-28 11:26:33,286 - easytorch-training - INFO - Result <val>: [val/time: 5.89 (s), val/loss: 0.1955, val/MAE: 0.1955, val/MSE: 0.1105]
+2025-08-28 11:26:46,021 - easytorch-training - INFO - Result <test>: [test/time: 12.73 (s), test/loss: 0.2237, test/MAE: 0.2237, test/MSE: 0.1355]
+2025-08-28 11:26:46,092 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_085.pt saved
+2025-08-28 11:26:46,092 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:37
+2025-08-28 11:26:46,093 - easytorch-training - INFO - Epoch 86 / 100
+2025-08-28 11:28:02,670 - easytorch-training - INFO - Result <train>: [train/time: 76.58 (s), train/lr: 6.25e-05, train/loss: 0.1898, train/MAE: 0.1898, train/MSE: 0.0907]
+2025-08-28 11:28:02,671 - easytorch-training - INFO - Start validation.
+2025-08-28 11:28:08,529 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.1960, val/MAE: 0.1960, val/MSE: 0.1107]
+2025-08-28 11:28:21,243 - easytorch-training - INFO - Result <test>: [test/time: 12.71 (s), test/loss: 0.2237, test/MAE: 0.2237, test/MSE: 0.1352]
+2025-08-28 11:28:21,313 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_086.pt saved
+2025-08-28 11:28:21,313 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:37
+2025-08-28 11:28:21,313 - easytorch-training - INFO - Epoch 87 / 100
+2025-08-28 11:29:37,925 - easytorch-training - INFO - Result <train>: [train/time: 76.61 (s), train/lr: 6.25e-05, train/loss: 0.1897, train/MAE: 0.1897, train/MSE: 0.0906]
+2025-08-28 11:29:37,926 - easytorch-training - INFO - Start validation.
+2025-08-28 11:29:43,775 - easytorch-training - INFO - Result <val>: [val/time: 5.85 (s), val/loss: 0.1958, val/MAE: 0.1958, val/MSE: 0.1107]
+2025-08-28 11:29:56,474 - easytorch-training - INFO - Result <test>: [test/time: 12.69 (s), test/loss: 0.2238, test/MAE: 0.2238, test/MSE: 0.1355]
+2025-08-28 11:29:56,546 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_087.pt saved
+2025-08-28 11:29:56,546 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:29:56,546 - easytorch-training - INFO - Epoch 88 / 100
+2025-08-28 11:31:13,183 - easytorch-training - INFO - Result <train>: [train/time: 76.64 (s), train/lr: 6.25e-05, train/loss: 0.1896, train/MAE: 0.1896, train/MSE: 0.0906]
+2025-08-28 11:31:13,184 - easytorch-training - INFO - Start validation.
+2025-08-28 11:31:19,047 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.1955, val/MAE: 0.1955, val/MSE: 0.1104]
+2025-08-28 11:31:31,738 - easytorch-training - INFO - Result <test>: [test/time: 12.69 (s), test/loss: 0.2232, test/MAE: 0.2232, test/MSE: 0.1347]
+2025-08-28 11:31:31,810 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_088.pt saved
+2025-08-28 11:31:31,810 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:31:31,810 - easytorch-training - INFO - Epoch 89 / 100
+2025-08-28 11:32:48,408 - easytorch-training - INFO - Result <train>: [train/time: 76.60 (s), train/lr: 6.25e-05, train/loss: 0.1896, train/MAE: 0.1896, train/MSE: 0.0905]
+2025-08-28 11:32:48,409 - easytorch-training - INFO - Start validation.
+2025-08-28 11:32:54,264 - easytorch-training - INFO - Result <val>: [val/time: 5.85 (s), val/loss: 0.1951, val/MAE: 0.1951, val/MSE: 0.1102]
+2025-08-28 11:32:54,386 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt saved
+2025-08-28 11:33:07,076 - easytorch-training - INFO - Result <test>: [test/time: 12.69 (s), test/loss: 0.2235, test/MAE: 0.2235, test/MSE: 0.1353]
+2025-08-28 11:33:07,147 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_089.pt saved
+2025-08-28 11:33:07,147 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:33:07,147 - easytorch-training - INFO - Epoch 90 / 100
+2025-08-28 11:34:23,702 - easytorch-training - INFO - Result <train>: [train/time: 76.56 (s), train/lr: 6.25e-05, train/loss: 0.1895, train/MAE: 0.1895, train/MSE: 0.0904]
+2025-08-28 11:34:23,703 - easytorch-training - INFO - Start validation.
+2025-08-28 11:34:29,565 - easytorch-training - INFO - Result <val>: [val/time: 5.86 (s), val/loss: 0.1954, val/MAE: 0.1954, val/MSE: 0.1103]
+2025-08-28 11:34:42,245 - easytorch-training - INFO - Result <test>: [test/time: 12.67 (s), test/loss: 0.2233, test/MAE: 0.2233, test/MSE: 0.1350]
+2025-08-28 11:34:42,316 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_090.pt saved
+2025-08-28 11:34:42,360 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:34:42,360 - easytorch-training - INFO - Epoch 91 / 100
+2025-08-28 11:35:59,013 - easytorch-training - INFO - Result <train>: [train/time: 76.65 (s), train/lr: 6.25e-05, train/loss: 0.1894, train/MAE: 0.1894, train/MSE: 0.0904]
+2025-08-28 11:35:59,014 - easytorch-training - INFO - Start validation.
+2025-08-28 11:36:04,958 - easytorch-training - INFO - Result <val>: [val/time: 5.94 (s), val/loss: 0.1954, val/MAE: 0.1954, val/MSE: 0.1104]
+2025-08-28 11:36:17,893 - easytorch-training - INFO - Result <test>: [test/time: 12.93 (s), test/loss: 0.2232, test/MAE: 0.2232, test/MSE: 0.1351]
+2025-08-28 11:36:17,963 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_091.pt saved
+2025-08-28 11:36:17,963 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:36:17,963 - easytorch-training - INFO - Epoch 92 / 100
+2025-08-28 11:37:34,605 - easytorch-training - INFO - Result <train>: [train/time: 76.64 (s), train/lr: 6.25e-05, train/loss: 0.1893, train/MAE: 0.1893, train/MSE: 0.0903]
+2025-08-28 11:37:34,606 - easytorch-training - INFO - Start validation.
+2025-08-28 11:37:40,572 - easytorch-training - INFO - Result <val>: [val/time: 5.97 (s), val/loss: 0.1955, val/MAE: 0.1955, val/MSE: 0.1104]
+2025-08-28 11:37:53,455 - easytorch-training - INFO - Result <test>: [test/time: 12.88 (s), test/loss: 0.2230, test/MAE: 0.2230, test/MSE: 0.1347]
+2025-08-28 11:37:53,525 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_092.pt saved
+2025-08-28 11:37:53,525 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:37:53,526 - easytorch-training - INFO - Epoch 93 / 100
+2025-08-28 11:39:10,087 - easytorch-training - INFO - Result <train>: [train/time: 76.56 (s), train/lr: 6.25e-05, train/loss: 0.1893, train/MAE: 0.1893, train/MSE: 0.0902]
+2025-08-28 11:39:10,088 - easytorch-training - INFO - Start validation.
+2025-08-28 11:39:15,989 - easytorch-training - INFO - Result <val>: [val/time: 5.90 (s), val/loss: 0.1953, val/MAE: 0.1953, val/MSE: 0.1104]
+2025-08-28 11:39:28,788 - easytorch-training - INFO - Result <test>: [test/time: 12.79 (s), test/loss: 0.2236, test/MAE: 0.2236, test/MSE: 0.1355]
+2025-08-28 11:39:28,858 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_093.pt saved
+2025-08-28 11:39:28,858 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:39:28,858 - easytorch-training - INFO - Epoch 94 / 100
+2025-08-28 11:40:45,531 - easytorch-training - INFO - Result <train>: [train/time: 76.67 (s), train/lr: 6.25e-05, train/loss: 0.1892, train/MAE: 0.1892, train/MSE: 0.0901]
+2025-08-28 11:40:45,532 - easytorch-training - INFO - Start validation.
+2025-08-28 11:40:51,443 - easytorch-training - INFO - Result <val>: [val/time: 5.91 (s), val/loss: 0.1959, val/MAE: 0.1959, val/MSE: 0.1107]
+2025-08-28 11:41:04,250 - easytorch-training - INFO - Result <test>: [test/time: 12.80 (s), test/loss: 0.2236, test/MAE: 0.2236, test/MSE: 0.1353]
+2025-08-28 11:41:04,327 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_094.pt saved
+2025-08-28 11:41:04,327 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:41:04,327 - easytorch-training - INFO - Epoch 95 / 100
+2025-08-28 11:42:20,884 - easytorch-training - INFO - Result <train>: [train/time: 76.56 (s), train/lr: 6.25e-05, train/loss: 0.1892, train/MAE: 0.1892, train/MSE: 0.0901]
+2025-08-28 11:42:20,885 - easytorch-training - INFO - Start validation.
+2025-08-28 11:42:26,802 - easytorch-training - INFO - Result <val>: [val/time: 5.92 (s), val/loss: 0.1953, val/MAE: 0.1953, val/MSE: 0.1104]
+2025-08-28 11:42:39,549 - easytorch-training - INFO - Result <test>: [test/time: 12.74 (s), test/loss: 0.2235, test/MAE: 0.2235, test/MSE: 0.1354]
+2025-08-28 11:42:39,619 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_095.pt saved
+2025-08-28 11:42:39,619 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:42:39,619 - easytorch-training - INFO - Epoch 96 / 100
+2025-08-28 11:43:56,174 - easytorch-training - INFO - Result <train>: [train/time: 76.55 (s), train/lr: 6.25e-05, train/loss: 0.1891, train/MAE: 0.1891, train/MSE: 0.0900]
+2025-08-28 11:43:56,175 - easytorch-training - INFO - Start validation.
+2025-08-28 11:44:02,046 - easytorch-training - INFO - Result <val>: [val/time: 5.87 (s), val/loss: 0.1954, val/MAE: 0.1954, val/MSE: 0.1105]
+2025-08-28 11:44:14,730 - easytorch-training - INFO - Result <test>: [test/time: 12.68 (s), test/loss: 0.2233, test/MAE: 0.2233, test/MSE: 0.1350]
+2025-08-28 11:44:14,801 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_096.pt saved
+2025-08-28 11:44:14,801 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:44:14,801 - easytorch-training - INFO - Epoch 97 / 100
+2025-08-28 11:45:31,310 - easytorch-training - INFO - Result <train>: [train/time: 76.51 (s), train/lr: 6.25e-05, train/loss: 0.1890, train/MAE: 0.1890, train/MSE: 0.0899]
+2025-08-28 11:45:31,311 - easytorch-training - INFO - Start validation.
+2025-08-28 11:45:37,190 - easytorch-training - INFO - Result <val>: [val/time: 5.88 (s), val/loss: 0.1955, val/MAE: 0.1955, val/MSE: 0.1105]
+2025-08-28 11:45:49,953 - easytorch-training - INFO - Result <test>: [test/time: 12.76 (s), test/loss: 0.2240, test/MAE: 0.2240, test/MSE: 0.1359]
+2025-08-28 11:45:50,023 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_097.pt saved
+2025-08-28 11:45:50,023 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:45:50,023 - easytorch-training - INFO - Epoch 98 / 100
+2025-08-28 11:47:06,645 - easytorch-training - INFO - Result <train>: [train/time: 76.62 (s), train/lr: 6.25e-05, train/loss: 0.1890, train/MAE: 0.1890, train/MSE: 0.0899]
+2025-08-28 11:47:06,646 - easytorch-training - INFO - Start validation.
+2025-08-28 11:47:12,521 - easytorch-training - INFO - Result <val>: [val/time: 5.87 (s), val/loss: 0.1956, val/MAE: 0.1956, val/MSE: 0.1106]
+2025-08-28 11:47:25,214 - easytorch-training - INFO - Result <test>: [test/time: 12.69 (s), test/loss: 0.2233, test/MAE: 0.2233, test/MSE: 0.1351]
+2025-08-28 11:47:25,284 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_098.pt saved
+2025-08-28 11:47:25,284 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:36
+2025-08-28 11:47:25,284 - easytorch-training - INFO - Epoch 99 / 100
+2025-08-28 11:48:41,872 - easytorch-training - INFO - Result <train>: [train/time: 76.59 (s), train/lr: 6.25e-05, train/loss: 0.1889, train/MAE: 0.1889, train/MSE: 0.0898]
+2025-08-28 11:48:41,873 - easytorch-training - INFO - Start validation.
+2025-08-28 11:48:47,725 - easytorch-training - INFO - Result <val>: [val/time: 5.85 (s), val/loss: 0.1958, val/MAE: 0.1958, val/MSE: 0.1106]
+2025-08-28 11:49:00,397 - easytorch-training - INFO - Result <test>: [test/time: 12.67 (s), test/loss: 0.2235, test/MAE: 0.2235, test/MSE: 0.1351]
+2025-08-28 11:49:00,468 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_099.pt saved
+2025-08-28 11:49:00,469 - easytorch-training - INFO - The estimated training finish time is 2025-08-28 11:50:35
+2025-08-28 11:49:00,469 - easytorch-training - INFO - Epoch 100 / 100
+2025-08-28 11:50:17,016 - easytorch-training - INFO - Result <train>: [train/time: 76.55 (s), train/lr: 6.25e-05, train/loss: 0.1888, train/MAE: 0.1888, train/MSE: 0.0897]
+2025-08-28 11:50:17,017 - easytorch-training - INFO - Start validation.
+2025-08-28 11:50:22,856 - easytorch-training - INFO - Result <val>: [val/time: 5.84 (s), val/loss: 0.1953, val/MAE: 0.1953, val/MSE: 0.1104]
+2025-08-28 11:50:35,508 - easytorch-training - INFO - Result <test>: [test/time: 12.65 (s), test/loss: 0.2235, test/MAE: 0.2235, test/MSE: 0.1355]
+2025-08-28 11:50:35,580 - easytorch-training - INFO - Checkpoint checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_100.pt saved
+2025-08-28 11:50:35,625 - easytorch-training - INFO - The training finished at 2025-08-28 11:50:35
+2025-08-28 11:50:35,626 - easytorch-training - INFO - Evaluating the best model on the test set.
+2025-08-28 11:50:35,626 - easytorch-training - INFO - Loading Checkpoint from 'checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/iTransformer_best_val_MAE.pt'
+2025-08-28 11:50:48,707 - easytorch-training - INFO - Result <test>: [test/time: 13.02 (s), test/loss: 0.2235, test/MAE: 0.2235, test/MSE: 0.1353]
+2025-08-28 11:50:48,708 - easytorch-training - INFO - Test metrics saved to checkpoints/iTransformer/Electricity_100_336_96/7dad40001b494e2d9f801153e5bab194/test_metrics.json.

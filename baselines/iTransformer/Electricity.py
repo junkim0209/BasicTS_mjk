@@ -20,6 +20,10 @@ TRAIN_VAL_TEST_RATIO = regular_settings['TRAIN_VAL_TEST_RATIO']  # Train/Validat
 NORM_EACH_CHANNEL = regular_settings['NORM_EACH_CHANNEL'] # Whether to normalize each channel of the data
 RESCALE = regular_settings['RESCALE'] # Whether to rescale the data
 NULL_VAL = regular_settings['NULL_VAL'] # Null value in the data
+
+#python experiments/train.py -c baselines/PatchTST/Electricity.py -g 0
+OUTPUT_LEN = 192
+
 # Model architecture and parameters
 MODEL_ARCH = iTransformer
 NUM_NODES = 321
