@@ -22,7 +22,8 @@ NORM_EACH_CHANNEL = regular_settings['NORM_EACH_CHANNEL'] # Whether to normalize
 RESCALE = regular_settings['RESCALE'] # Whether to rescale the data
 NULL_VAL = regular_settings['NULL_VAL'] # Null value in the data
 
-OUTPUT_LEN = 96
+#python experiments/train.py -c baselines/PatchTST/ETTh2.py -g 0
+OUTPUT_LEN = 192
 
 # Model architecture and parameters
 MODEL_ARCH = TimesNet
