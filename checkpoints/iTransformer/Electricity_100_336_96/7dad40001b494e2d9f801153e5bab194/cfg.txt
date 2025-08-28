@@ -1,0 +1,87 @@
+DESCRIPTION: An Example Config
+GPU_NUM: 1
+RUNNER: <class 'basicts.runners.runner_zoo.simple_tsf_runner.SimpleTimeSeriesForecastingRunner'>
+DATASET:
+  NAME: Electricity
+  TYPE: <class 'basicts.data.simple_tsf_dataset.TimeSeriesForecastingDataset'>
+  PARAM:
+    dataset_name: Electricity
+    train_val_test_ratio: [0.7, 0.1, 0.2]
+    input_len: 336
+    output_len: 96
+SCALER:
+  TYPE: <class 'basicts.scaler.z_score_scaler.ZScoreScaler'>
+  PARAM:
+    dataset_name: Electricity
+    train_ratio: 0.7
+    norm_each_channel: True
+    rescale: False
+MODEL:
+  NAME: iTransformer
+  ARCH: <class 'baselines.iTransformer.arch.itransformer_arch.iTransformer'>
+  PARAM:
+    enc_in: 321
+    dec_in: 321
+    c_out: 321
+    seq_len: 336
+    label_len: 168.0
+    pred_len: 96
+    factor: 3
+    p_hidden_dims: [128, 128]
+    p_hidden_layers: 2
+    d_model: 512
+    moving_avg: 25
+    n_heads: 8
+    e_layers: 3
+    d_layers: 1
+    d_ff: 512
+    distil: True
+    sigma: 0.2
+    dropout: 0.1
+    freq: h
+    use_norm: True
+    output_attention: False
+    embed: timeF
+    activation: gelu
+    num_time_features: 4
+    time_of_day_size: 24
+    day_of_week_size: 7
+    day_of_month_size: 31
+    day_of_year_size: 366
+  FORWARD_FEATURES: [0, 1, 2, 3, 4]
+  TARGET_FEATURES: [0]
+METRICS:
+  FUNCS:
+    MAE: masked_mae
+    MSE: masked_mse
+  TARGET: MAE
+  NULL_VAL: nan
+TRAIN:
+  NUM_EPOCHS: 100
+  CKPT_SAVE_DIR: checkpoints/iTransformer/Electricity_100_336_96
+  LOSS: masked_mae
+  OPTIM:
+    TYPE: Adam
+    PARAM:
+      lr: 0.0005
+  LR_SCHEDULER:
+    TYPE: MultiStepLR
+    PARAM:
+      milestones: [1, 25, 50]
+      gamma: 0.5
+  CLIP_GRAD_PARAM:
+    max_norm: 5.0
+  DATA:
+    BATCH_SIZE: 64
+    SHUFFLE: True
+VAL:
+  INTERVAL: 1
+  DATA:
+    BATCH_SIZE: 64
+TEST:
+  INTERVAL: 1
+  DATA:
+    BATCH_SIZE: 64
+EVAL:
+  USE_GPU: True
+MD5: 7dad40001b494e2d9f801153e5bab194
