@@ -20,6 +20,10 @@ TRAIN_VAL_TEST_RATIO = regular_settings['TRAIN_VAL_TEST_RATIO']  # Train/Validat
 NORM_EACH_CHANNEL = regular_settings['NORM_EACH_CHANNEL'] # Whether to normalize each channel of the data
 RESCALE = regular_settings['RESCALE'] # Whether to rescale the data
 NULL_VAL = regular_settings['NULL_VAL'] # Null value in the data
+
+#python experiments/train.py -c baselines/NSformer/Electricity.py -g 0
+OUTPUT_LEN = 720
+
 # Model architecture and parameters
 MODEL_ARCH = Nonstationary_Transformer
 NUM_NODES = 321

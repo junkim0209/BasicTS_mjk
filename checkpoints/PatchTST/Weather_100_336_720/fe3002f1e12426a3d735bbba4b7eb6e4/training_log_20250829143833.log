@@ -1,0 +1,732 @@
+2025-08-29 14:38:33,133 - easytorch-training - INFO - Initializing training.
+2025-08-29 14:38:33,134 - easytorch-training - INFO - Set clip grad, param: {'max_norm': 5.0}
+2025-08-29 14:38:33,134 - easytorch-training - INFO - Building training data loader.
+2025-08-29 14:38:33,141 - easytorch-training - INFO - Train dataset length: 35833
+2025-08-29 14:38:33,951 - easytorch-training - INFO - Set optim: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    decoupled_weight_decay: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0002
+    maximize: False
+    weight_decay: 0.0001
+)
+2025-08-29 14:38:33,952 - easytorch-training - INFO - Set lr_scheduler: <torch.optim.lr_scheduler.MultiStepLR object at 0x7397ad583750>
+2025-08-29 14:38:34,007 - easytorch-training - INFO - Initializing validation.
+2025-08-29 14:38:34,007 - easytorch-training - INFO - Building val data loader.
+2025-08-29 14:38:34,019 - easytorch-training - INFO - Validation dataset length: 4214
+2025-08-29 14:38:34,040 - easytorch-training - INFO - Test dataset length: 9484
+2025-08-29 14:38:34,041 - easytorch-training - INFO - Number of parameters: 4276432
+2025-08-29 14:38:34,041 - easytorch-training - INFO - Epoch 1 / 100
+2025-08-29 14:38:49,165 - easytorch-training - INFO - Result <train>: [train/time: 15.12 (s), train/lr: 2.00e-04, train/loss: 0.4373, train/MAE: 0.4373, train/MSE: 0.6309]
+2025-08-29 14:38:49,176 - easytorch-training - INFO - Start validation.
+2025-08-29 14:38:50,408 - easytorch-training - INFO - Result <val>: [val/time: 1.23 (s), val/loss: 0.4420, val/MAE: 0.4420, val/MSE: 0.6895]
+2025-08-29 14:38:50,576 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_best_val_MAE.pt saved
+2025-08-29 14:38:53,211 - easytorch-training - INFO - Result <test>: [test/time: 2.63 (s), test/loss: 0.3258, test/MAE: 0.3258, test/MSE: 0.3252]
+2025-08-29 14:38:53,505 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_001.pt saved
+2025-08-29 14:38:53,505 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:11:00
+2025-08-29 14:38:53,506 - easytorch-training - INFO - Epoch 2 / 100
+2025-08-29 14:39:07,931 - easytorch-training - INFO - Result <train>: [train/time: 14.43 (s), train/lr: 1.00e-04, train/loss: 0.4201, train/MAE: 0.4201, train/MSE: 0.6060]
+2025-08-29 14:39:07,943 - easytorch-training - INFO - Start validation.
+2025-08-29 14:39:09,098 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4387, val/MAE: 0.4387, val/MSE: 0.6858]
+2025-08-29 14:39:09,453 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_best_val_MAE.pt saved
+2025-08-29 14:39:12,175 - easytorch-training - INFO - Result <test>: [test/time: 2.72 (s), test/loss: 0.3226, test/MAE: 0.3226, test/MSE: 0.3217]
+2025-08-29 14:39:12,538 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_002.pt saved
+2025-08-29 14:39:12,539 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:10:38
+2025-08-29 14:39:12,539 - easytorch-training - INFO - Epoch 3 / 100
+2025-08-29 14:39:26,835 - easytorch-training - INFO - Result <train>: [train/time: 14.30 (s), train/lr: 1.00e-04, train/loss: 0.4170, train/MAE: 0.4170, train/MSE: 0.6023]
+2025-08-29 14:39:26,847 - easytorch-training - INFO - Start validation.
+2025-08-29 14:39:27,989 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4342, val/MAE: 0.4342, val/MSE: 0.6793]
+2025-08-29 14:39:28,211 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_best_val_MAE.pt saved
+2025-08-29 14:39:30,865 - easytorch-training - INFO - Result <test>: [test/time: 2.65 (s), test/loss: 0.3223, test/MAE: 0.3223, test/MSE: 0.3213]
+2025-08-29 14:39:31,083 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_003.pt saved
+2025-08-29 14:39:31,084 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:10:15
+2025-08-29 14:39:31,084 - easytorch-training - INFO - Epoch 4 / 100
+2025-08-29 14:39:45,473 - easytorch-training - INFO - Result <train>: [train/time: 14.39 (s), train/lr: 1.00e-04, train/loss: 0.4147, train/MAE: 0.4147, train/MSE: 0.5995]
+2025-08-29 14:39:45,483 - easytorch-training - INFO - Start validation.
+2025-08-29 14:39:46,603 - easytorch-training - INFO - Result <val>: [val/time: 1.12 (s), val/loss: 0.4312, val/MAE: 0.4312, val/MSE: 0.6746]
+2025-08-29 14:39:46,811 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_best_val_MAE.pt saved
+2025-08-29 14:39:49,494 - easytorch-training - INFO - Result <test>: [test/time: 2.68 (s), test/loss: 0.3231, test/MAE: 0.3231, test/MSE: 0.3228]
+2025-08-29 14:39:49,668 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_004.pt saved
+2025-08-29 14:39:49,669 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:10:04
+2025-08-29 14:39:49,669 - easytorch-training - INFO - Epoch 5 / 100
+2025-08-29 14:40:03,792 - easytorch-training - INFO - Result <train>: [train/time: 14.12 (s), train/lr: 1.00e-04, train/loss: 0.4130, train/MAE: 0.4130, train/MSE: 0.5972]
+2025-08-29 14:40:03,805 - easytorch-training - INFO - Start validation.
+2025-08-29 14:40:04,972 - easytorch-training - INFO - Result <val>: [val/time: 1.17 (s), val/loss: 0.4318, val/MAE: 0.4318, val/MSE: 0.6764]
+2025-08-29 14:40:07,691 - easytorch-training - INFO - Result <test>: [test/time: 2.71 (s), test/loss: 0.3220, test/MAE: 0.3220, test/MSE: 0.3220]
+2025-08-29 14:40:07,894 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_005.pt saved
+2025-08-29 14:40:07,894 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:51
+2025-08-29 14:40:07,894 - easytorch-training - INFO - Epoch 6 / 100
+2025-08-29 14:40:21,302 - easytorch-training - INFO - Result <train>: [train/time: 13.41 (s), train/lr: 1.00e-04, train/loss: 0.4115, train/MAE: 0.4115, train/MSE: 0.5962]
+2025-08-29 14:40:21,311 - easytorch-training - INFO - Start validation.
+2025-08-29 14:40:22,492 - easytorch-training - INFO - Result <val>: [val/time: 1.18 (s), val/loss: 0.4333, val/MAE: 0.4333, val/MSE: 0.6780]
+2025-08-29 14:40:25,180 - easytorch-training - INFO - Result <test>: [test/time: 2.68 (s), test/loss: 0.3226, test/MAE: 0.3226, test/MSE: 0.3225]
+2025-08-29 14:40:25,384 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_006.pt saved
+2025-08-29 14:40:25,384 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:29
+2025-08-29 14:40:25,385 - easytorch-training - INFO - Epoch 7 / 100
+2025-08-29 14:40:39,060 - easytorch-training - INFO - Result <train>: [train/time: 13.67 (s), train/lr: 1.00e-04, train/loss: 0.4100, train/MAE: 0.4100, train/MSE: 0.5929]
+2025-08-29 14:40:39,071 - easytorch-training - INFO - Start validation.
+2025-08-29 14:40:40,208 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4339, val/MAE: 0.4339, val/MSE: 0.6787]
+2025-08-29 14:40:42,923 - easytorch-training - INFO - Result <test>: [test/time: 2.71 (s), test/loss: 0.3218, test/MAE: 0.3218, test/MSE: 0.3221]
+2025-08-29 14:40:43,102 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_007.pt saved
+2025-08-29 14:40:43,103 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:17
+2025-08-29 14:40:43,103 - easytorch-training - INFO - Epoch 8 / 100
+2025-08-29 14:40:57,352 - easytorch-training - INFO - Result <train>: [train/time: 14.25 (s), train/lr: 1.00e-04, train/loss: 0.4089, train/MAE: 0.4089, train/MSE: 0.5912]
+2025-08-29 14:40:57,362 - easytorch-training - INFO - Start validation.
+2025-08-29 14:40:58,538 - easytorch-training - INFO - Result <val>: [val/time: 1.18 (s), val/loss: 0.4330, val/MAE: 0.4330, val/MSE: 0.6773]
+2025-08-29 14:41:01,237 - easytorch-training - INFO - Result <test>: [test/time: 2.69 (s), test/loss: 0.3217, test/MAE: 0.3217, test/MSE: 0.3223]
+2025-08-29 14:41:01,484 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_008.pt saved
+2025-08-29 14:41:01,484 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:17
+2025-08-29 14:41:01,484 - easytorch-training - INFO - Epoch 9 / 100
+2025-08-29 14:41:15,716 - easytorch-training - INFO - Result <train>: [train/time: 14.23 (s), train/lr: 1.00e-04, train/loss: 0.4081, train/MAE: 0.4081, train/MSE: 0.5898]
+2025-08-29 14:41:15,725 - easytorch-training - INFO - Start validation.
+2025-08-29 14:41:16,854 - easytorch-training - INFO - Result <val>: [val/time: 1.13 (s), val/loss: 0.4347, val/MAE: 0.4347, val/MSE: 0.6800]
+2025-08-29 14:41:19,434 - easytorch-training - INFO - Result <test>: [test/time: 2.57 (s), test/loss: 0.3225, test/MAE: 0.3225, test/MSE: 0.3229]
+2025-08-29 14:41:19,620 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_009.pt saved
+2025-08-29 14:41:19,620 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:13
+2025-08-29 14:41:19,621 - easytorch-training - INFO - Epoch 10 / 100
+2025-08-29 14:41:33,750 - easytorch-training - INFO - Result <train>: [train/time: 14.13 (s), train/lr: 1.00e-04, train/loss: 0.4071, train/MAE: 0.4071, train/MSE: 0.5882]
+2025-08-29 14:41:33,760 - easytorch-training - INFO - Start validation.
+2025-08-29 14:41:34,912 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4371, val/MAE: 0.4371, val/MSE: 0.6839]
+2025-08-29 14:41:37,510 - easytorch-training - INFO - Result <test>: [test/time: 2.59 (s), test/loss: 0.3233, test/MAE: 0.3233, test/MSE: 0.3245]
+2025-08-29 14:41:37,718 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_010.pt saved
+2025-08-29 14:41:37,809 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:11
+2025-08-29 14:41:37,809 - easytorch-training - INFO - Epoch 11 / 100
+2025-08-29 14:41:51,961 - easytorch-training - INFO - Result <train>: [train/time: 14.15 (s), train/lr: 1.00e-04, train/loss: 0.4063, train/MAE: 0.4063, train/MSE: 0.5876]
+2025-08-29 14:41:51,972 - easytorch-training - INFO - Start validation.
+2025-08-29 14:41:53,126 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4366, val/MAE: 0.4366, val/MSE: 0.6838]
+2025-08-29 14:41:55,754 - easytorch-training - INFO - Result <test>: [test/time: 2.62 (s), test/loss: 0.3218, test/MAE: 0.3218, test/MSE: 0.3235]
+2025-08-29 14:41:55,980 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_011.pt saved
+2025-08-29 14:41:55,981 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:09
+2025-08-29 14:41:55,981 - easytorch-training - INFO - Epoch 12 / 100
+2025-08-29 14:42:10,011 - easytorch-training - INFO - Result <train>: [train/time: 14.03 (s), train/lr: 1.00e-04, train/loss: 0.4055, train/MAE: 0.4055, train/MSE: 0.5856]
+2025-08-29 14:42:10,021 - easytorch-training - INFO - Start validation.
+2025-08-29 14:42:11,165 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4361, val/MAE: 0.4361, val/MSE: 0.6832]
+2025-08-29 14:42:13,800 - easytorch-training - INFO - Result <test>: [test/time: 2.63 (s), test/loss: 0.3230, test/MAE: 0.3230, test/MSE: 0.3243]
+2025-08-29 14:42:14,015 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_012.pt saved
+2025-08-29 14:42:14,015 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:07
+2025-08-29 14:42:14,016 - easytorch-training - INFO - Epoch 13 / 100
+2025-08-29 14:42:27,997 - easytorch-training - INFO - Result <train>: [train/time: 13.98 (s), train/lr: 1.00e-04, train/loss: 0.4049, train/MAE: 0.4049, train/MSE: 0.5851]
+2025-08-29 14:42:28,011 - easytorch-training - INFO - Start validation.
+2025-08-29 14:42:29,186 - easytorch-training - INFO - Result <val>: [val/time: 1.18 (s), val/loss: 0.4377, val/MAE: 0.4377, val/MSE: 0.6867]
+2025-08-29 14:42:31,860 - easytorch-training - INFO - Result <test>: [test/time: 2.66 (s), test/loss: 0.3223, test/MAE: 0.3223, test/MSE: 0.3237]
+2025-08-29 14:42:32,288 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_013.pt saved
+2025-08-29 14:42:32,288 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:06
+2025-08-29 14:42:32,289 - easytorch-training - INFO - Epoch 14 / 100
+2025-08-29 14:42:46,746 - easytorch-training - INFO - Result <train>: [train/time: 14.46 (s), train/lr: 1.00e-04, train/loss: 0.4042, train/MAE: 0.4042, train/MSE: 0.5838]
+2025-08-29 14:42:46,756 - easytorch-training - INFO - Start validation.
+2025-08-29 14:42:47,874 - easytorch-training - INFO - Result <val>: [val/time: 1.12 (s), val/loss: 0.4366, val/MAE: 0.4366, val/MSE: 0.6855]
+2025-08-29 14:42:50,609 - easytorch-training - INFO - Result <test>: [test/time: 2.73 (s), test/loss: 0.3218, test/MAE: 0.3218, test/MSE: 0.3227]
+2025-08-29 14:42:50,964 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_014.pt saved
+2025-08-29 14:42:50,964 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:09
+2025-08-29 14:42:50,965 - easytorch-training - INFO - Epoch 15 / 100
+2025-08-29 14:43:05,162 - easytorch-training - INFO - Result <train>: [train/time: 14.20 (s), train/lr: 1.00e-04, train/loss: 0.4036, train/MAE: 0.4036, train/MSE: 0.5831]
+2025-08-29 14:43:05,172 - easytorch-training - INFO - Start validation.
+2025-08-29 14:43:06,384 - easytorch-training - INFO - Result <val>: [val/time: 1.21 (s), val/loss: 0.4375, val/MAE: 0.4375, val/MSE: 0.6880]
+2025-08-29 14:43:09,076 - easytorch-training - INFO - Result <test>: [test/time: 2.68 (s), test/loss: 0.3236, test/MAE: 0.3236, test/MSE: 0.3263]
+2025-08-29 14:43:09,240 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_015.pt saved
+2025-08-29 14:43:09,240 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:08
+2025-08-29 14:43:09,241 - easytorch-training - INFO - Epoch 16 / 100
+2025-08-29 14:43:22,872 - easytorch-training - INFO - Result <train>: [train/time: 13.63 (s), train/lr: 1.00e-04, train/loss: 0.4031, train/MAE: 0.4031, train/MSE: 0.5821]
+2025-08-29 14:43:22,967 - easytorch-training - INFO - Start validation.
+2025-08-29 14:43:24,105 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4402, val/MAE: 0.4402, val/MSE: 0.6913]
+2025-08-29 14:43:26,723 - easytorch-training - INFO - Result <test>: [test/time: 2.61 (s), test/loss: 0.3247, test/MAE: 0.3247, test/MSE: 0.3276]
+2025-08-29 14:43:26,925 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_016.pt saved
+2025-08-29 14:43:26,926 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:04
+2025-08-29 14:43:26,926 - easytorch-training - INFO - Epoch 17 / 100
+2025-08-29 14:43:40,834 - easytorch-training - INFO - Result <train>: [train/time: 13.91 (s), train/lr: 1.00e-04, train/loss: 0.4027, train/MAE: 0.4027, train/MSE: 0.5814]
+2025-08-29 14:43:40,844 - easytorch-training - INFO - Start validation.
+2025-08-29 14:43:41,984 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4372, val/MAE: 0.4372, val/MSE: 0.6870]
+2025-08-29 14:43:44,659 - easytorch-training - INFO - Result <test>: [test/time: 2.67 (s), test/loss: 0.3239, test/MAE: 0.3239, test/MSE: 0.3254]
+2025-08-29 14:43:44,862 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_017.pt saved
+2025-08-29 14:43:44,862 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:02
+2025-08-29 14:43:44,862 - easytorch-training - INFO - Epoch 18 / 100
+2025-08-29 14:43:58,922 - easytorch-training - INFO - Result <train>: [train/time: 14.06 (s), train/lr: 1.00e-04, train/loss: 0.4021, train/MAE: 0.4021, train/MSE: 0.5803]
+2025-08-29 14:43:58,931 - easytorch-training - INFO - Start validation.
+2025-08-29 14:44:00,096 - easytorch-training - INFO - Result <val>: [val/time: 1.16 (s), val/loss: 0.4400, val/MAE: 0.4400, val/MSE: 0.6912]
+2025-08-29 14:44:02,787 - easytorch-training - INFO - Result <test>: [test/time: 2.68 (s), test/loss: 0.3254, test/MAE: 0.3254, test/MSE: 0.3279]
+2025-08-29 14:44:02,963 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_018.pt saved
+2025-08-29 14:44:02,964 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:01
+2025-08-29 14:44:02,964 - easytorch-training - INFO - Epoch 19 / 100
+2025-08-29 14:44:16,788 - easytorch-training - INFO - Result <train>: [train/time: 13.82 (s), train/lr: 1.00e-04, train/loss: 0.4015, train/MAE: 0.4015, train/MSE: 0.5795]
+2025-08-29 14:44:16,797 - easytorch-training - INFO - Start validation.
+2025-08-29 14:44:17,980 - easytorch-training - INFO - Result <val>: [val/time: 1.18 (s), val/loss: 0.4393, val/MAE: 0.4393, val/MSE: 0.6922]
+2025-08-29 14:44:20,691 - easytorch-training - INFO - Result <test>: [test/time: 2.70 (s), test/loss: 0.3245, test/MAE: 0.3245, test/MSE: 0.3273]
+2025-08-29 14:44:20,889 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_019.pt saved
+2025-08-29 14:44:20,889 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:59
+2025-08-29 14:44:20,890 - easytorch-training - INFO - Epoch 20 / 100
+2025-08-29 14:44:35,066 - easytorch-training - INFO - Result <train>: [train/time: 14.18 (s), train/lr: 1.00e-04, train/loss: 0.4010, train/MAE: 0.4010, train/MSE: 0.5789]
+2025-08-29 14:44:35,076 - easytorch-training - INFO - Start validation.
+2025-08-29 14:44:36,255 - easytorch-training - INFO - Result <val>: [val/time: 1.18 (s), val/loss: 0.4399, val/MAE: 0.4399, val/MSE: 0.6924]
+2025-08-29 14:44:38,966 - easytorch-training - INFO - Result <test>: [test/time: 2.70 (s), test/loss: 0.3240, test/MAE: 0.3240, test/MSE: 0.3265]
+2025-08-29 14:44:39,233 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_020.pt saved
+2025-08-29 14:44:39,336 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:09:00
+2025-08-29 14:44:39,336 - easytorch-training - INFO - Epoch 21 / 100
+2025-08-29 14:44:53,328 - easytorch-training - INFO - Result <train>: [train/time: 13.99 (s), train/lr: 1.00e-04, train/loss: 0.4006, train/MAE: 0.4006, train/MSE: 0.5785]
+2025-08-29 14:44:53,337 - easytorch-training - INFO - Start validation.
+2025-08-29 14:44:54,494 - easytorch-training - INFO - Result <val>: [val/time: 1.16 (s), val/loss: 0.4412, val/MAE: 0.4412, val/MSE: 0.6947]
+2025-08-29 14:44:57,146 - easytorch-training - INFO - Result <test>: [test/time: 2.64 (s), test/loss: 0.3251, test/MAE: 0.3251, test/MSE: 0.3283]
+2025-08-29 14:44:57,296 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_021.pt saved
+2025-08-29 14:44:57,297 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:59
+2025-08-29 14:44:57,297 - easytorch-training - INFO - Epoch 22 / 100
+2025-08-29 14:45:11,338 - easytorch-training - INFO - Result <train>: [train/time: 14.04 (s), train/lr: 1.00e-04, train/loss: 0.4003, train/MAE: 0.4003, train/MSE: 0.5793]
+2025-08-29 14:45:11,347 - easytorch-training - INFO - Start validation.
+2025-08-29 14:45:12,498 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4364, val/MAE: 0.4364, val/MSE: 0.6860]
+2025-08-29 14:45:15,140 - easytorch-training - INFO - Result <test>: [test/time: 2.63 (s), test/loss: 0.3246, test/MAE: 0.3246, test/MSE: 0.3268]
+2025-08-29 14:45:15,477 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_022.pt saved
+2025-08-29 14:45:15,478 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:58
+2025-08-29 14:45:15,478 - easytorch-training - INFO - Epoch 23 / 100
+2025-08-29 14:45:29,715 - easytorch-training - INFO - Result <train>: [train/time: 14.24 (s), train/lr: 1.00e-04, train/loss: 0.3996, train/MAE: 0.3996, train/MSE: 0.5764]
+2025-08-29 14:45:29,725 - easytorch-training - INFO - Start validation.
+2025-08-29 14:45:30,861 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4389, val/MAE: 0.4389, val/MSE: 0.6910]
+2025-08-29 14:45:33,548 - easytorch-training - INFO - Result <test>: [test/time: 2.68 (s), test/loss: 0.3246, test/MAE: 0.3246, test/MSE: 0.3272]
+2025-08-29 14:45:33,738 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_023.pt saved
+2025-08-29 14:45:33,738 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:58
+2025-08-29 14:45:33,739 - easytorch-training - INFO - Epoch 24 / 100
+2025-08-29 14:45:47,855 - easytorch-training - INFO - Result <train>: [train/time: 14.12 (s), train/lr: 1.00e-04, train/loss: 0.3993, train/MAE: 0.3993, train/MSE: 0.5760]
+2025-08-29 14:45:47,865 - easytorch-training - INFO - Start validation.
+2025-08-29 14:45:49,009 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4466, val/MAE: 0.4466, val/MSE: 0.7085]
+2025-08-29 14:45:51,692 - easytorch-training - INFO - Result <test>: [test/time: 2.68 (s), test/loss: 0.3281, test/MAE: 0.3281, test/MSE: 0.3338]
+2025-08-29 14:45:51,869 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_024.pt saved
+2025-08-29 14:45:51,869 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:58
+2025-08-29 14:45:51,869 - easytorch-training - INFO - Epoch 25 / 100
+2025-08-29 14:46:05,447 - easytorch-training - INFO - Result <train>: [train/time: 13.58 (s), train/lr: 1.00e-04, train/loss: 0.3990, train/MAE: 0.3990, train/MSE: 0.5754]
+2025-08-29 14:46:05,456 - easytorch-training - INFO - Start validation.
+2025-08-29 14:46:06,573 - easytorch-training - INFO - Result <val>: [val/time: 1.12 (s), val/loss: 0.4390, val/MAE: 0.4390, val/MSE: 0.6927]
+2025-08-29 14:46:09,151 - easytorch-training - INFO - Result <test>: [test/time: 2.57 (s), test/loss: 0.3250, test/MAE: 0.3250, test/MSE: 0.3280]
+2025-08-29 14:46:09,350 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_025.pt saved
+2025-08-29 14:46:09,350 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:55
+2025-08-29 14:46:09,351 - easytorch-training - INFO - Epoch 26 / 100
+2025-08-29 14:46:23,123 - easytorch-training - INFO - Result <train>: [train/time: 13.77 (s), train/lr: 5.00e-05, train/loss: 0.3976, train/MAE: 0.3976, train/MSE: 0.5740]
+2025-08-29 14:46:23,133 - easytorch-training - INFO - Start validation.
+2025-08-29 14:46:24,239 - easytorch-training - INFO - Result <val>: [val/time: 1.11 (s), val/loss: 0.4397, val/MAE: 0.4397, val/MSE: 0.6939]
+2025-08-29 14:46:26,790 - easytorch-training - INFO - Result <test>: [test/time: 2.54 (s), test/loss: 0.3247, test/MAE: 0.3247, test/MSE: 0.3278]
+2025-08-29 14:46:26,995 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_026.pt saved
+2025-08-29 14:46:26,995 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:53
+2025-08-29 14:46:26,996 - easytorch-training - INFO - Epoch 27 / 100
+2025-08-29 14:46:40,651 - easytorch-training - INFO - Result <train>: [train/time: 13.65 (s), train/lr: 5.00e-05, train/loss: 0.3973, train/MAE: 0.3973, train/MSE: 0.5739]
+2025-08-29 14:46:40,660 - easytorch-training - INFO - Start validation.
+2025-08-29 14:46:41,858 - easytorch-training - INFO - Result <val>: [val/time: 1.20 (s), val/loss: 0.4409, val/MAE: 0.4409, val/MSE: 0.6963]
+2025-08-29 14:46:44,524 - easytorch-training - INFO - Result <test>: [test/time: 2.65 (s), test/loss: 0.3247, test/MAE: 0.3247, test/MSE: 0.3277]
+2025-08-29 14:46:44,720 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_027.pt saved
+2025-08-29 14:46:44,720 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:51
+2025-08-29 14:46:44,720 - easytorch-training - INFO - Epoch 28 / 100
+2025-08-29 14:46:58,542 - easytorch-training - INFO - Result <train>: [train/time: 13.82 (s), train/lr: 5.00e-05, train/loss: 0.3971, train/MAE: 0.3971, train/MSE: 0.5733]
+2025-08-29 14:46:58,551 - easytorch-training - INFO - Start validation.
+2025-08-29 14:46:59,690 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4412, val/MAE: 0.4412, val/MSE: 0.6990]
+2025-08-29 14:47:02,230 - easytorch-training - INFO - Result <test>: [test/time: 2.53 (s), test/loss: 0.3255, test/MAE: 0.3255, test/MSE: 0.3291]
+2025-08-29 14:47:02,434 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_028.pt saved
+2025-08-29 14:47:02,434 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:49
+2025-08-29 14:47:02,434 - easytorch-training - INFO - Epoch 29 / 100
+2025-08-29 14:47:16,730 - easytorch-training - INFO - Result <train>: [train/time: 14.30 (s), train/lr: 5.00e-05, train/loss: 0.3970, train/MAE: 0.3970, train/MSE: 0.5750]
+2025-08-29 14:47:16,741 - easytorch-training - INFO - Start validation.
+2025-08-29 14:47:17,868 - easytorch-training - INFO - Result <val>: [val/time: 1.13 (s), val/loss: 0.4421, val/MAE: 0.4421, val/MSE: 0.7001]
+2025-08-29 14:47:20,568 - easytorch-training - INFO - Result <test>: [test/time: 2.69 (s), test/loss: 0.3257, test/MAE: 0.3257, test/MSE: 0.3291]
+2025-08-29 14:47:20,718 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_029.pt saved
+2025-08-29 14:47:20,718 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:50
+2025-08-29 14:47:20,718 - easytorch-training - INFO - Epoch 30 / 100
+2025-08-29 14:47:33,814 - easytorch-training - INFO - Result <train>: [train/time: 13.10 (s), train/lr: 5.00e-05, train/loss: 0.3968, train/MAE: 0.3968, train/MSE: 0.5727]
+2025-08-29 14:47:33,823 - easytorch-training - INFO - Start validation.
+2025-08-29 14:47:34,973 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4402, val/MAE: 0.4402, val/MSE: 0.6952]
+2025-08-29 14:47:37,682 - easytorch-training - INFO - Result <test>: [test/time: 2.70 (s), test/loss: 0.3242, test/MAE: 0.3242, test/MSE: 0.3267]
+2025-08-29 14:47:37,866 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_030.pt saved
+2025-08-29 14:47:37,929 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:47
+2025-08-29 14:47:37,930 - easytorch-training - INFO - Epoch 31 / 100
+2025-08-29 14:47:51,793 - easytorch-training - INFO - Result <train>: [train/time: 13.86 (s), train/lr: 5.00e-05, train/loss: 0.3967, train/MAE: 0.3967, train/MSE: 0.5725]
+2025-08-29 14:47:51,803 - easytorch-training - INFO - Start validation.
+2025-08-29 14:47:52,908 - easytorch-training - INFO - Result <val>: [val/time: 1.10 (s), val/loss: 0.4398, val/MAE: 0.4398, val/MSE: 0.6961]
+2025-08-29 14:47:55,605 - easytorch-training - INFO - Result <test>: [test/time: 2.69 (s), test/loss: 0.3245, test/MAE: 0.3245, test/MSE: 0.3278]
+2025-08-29 14:47:55,818 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_031.pt saved
+2025-08-29 14:47:55,819 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:46
+2025-08-29 14:47:55,819 - easytorch-training - INFO - Epoch 32 / 100
+2025-08-29 14:48:09,224 - easytorch-training - INFO - Result <train>: [train/time: 13.40 (s), train/lr: 5.00e-05, train/loss: 0.3964, train/MAE: 0.3964, train/MSE: 0.5722]
+2025-08-29 14:48:09,233 - easytorch-training - INFO - Start validation.
+2025-08-29 14:48:10,387 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4393, val/MAE: 0.4393, val/MSE: 0.6954]
+2025-08-29 14:48:13,057 - easytorch-training - INFO - Result <test>: [test/time: 2.66 (s), test/loss: 0.3253, test/MAE: 0.3253, test/MSE: 0.3293]
+2025-08-29 14:48:13,252 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_032.pt saved
+2025-08-29 14:48:13,253 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:44
+2025-08-29 14:48:13,253 - easytorch-training - INFO - Epoch 33 / 100
+2025-08-29 14:48:27,443 - easytorch-training - INFO - Result <train>: [train/time: 14.19 (s), train/lr: 5.00e-05, train/loss: 0.3962, train/MAE: 0.3962, train/MSE: 0.5721]
+2025-08-29 14:48:27,452 - easytorch-training - INFO - Start validation.
+2025-08-29 14:48:28,588 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4415, val/MAE: 0.4415, val/MSE: 0.7002]
+2025-08-29 14:48:31,182 - easytorch-training - INFO - Result <test>: [test/time: 2.59 (s), test/loss: 0.3253, test/MAE: 0.3253, test/MSE: 0.3293]
+2025-08-29 14:48:31,390 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_033.pt saved
+2025-08-29 14:48:31,390 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:44
+2025-08-29 14:48:31,391 - easytorch-training - INFO - Epoch 34 / 100
+2025-08-29 14:48:45,107 - easytorch-training - INFO - Result <train>: [train/time: 13.72 (s), train/lr: 5.00e-05, train/loss: 0.3960, train/MAE: 0.3960, train/MSE: 0.5716]
+2025-08-29 14:48:45,116 - easytorch-training - INFO - Start validation.
+2025-08-29 14:48:46,212 - easytorch-training - INFO - Result <val>: [val/time: 1.10 (s), val/loss: 0.4402, val/MAE: 0.4402, val/MSE: 0.6971]
+2025-08-29 14:48:48,871 - easytorch-training - INFO - Result <test>: [test/time: 2.65 (s), test/loss: 0.3247, test/MAE: 0.3247, test/MSE: 0.3271]
+2025-08-29 14:48:49,051 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_034.pt saved
+2025-08-29 14:48:49,052 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:42
+2025-08-29 14:48:49,052 - easytorch-training - INFO - Epoch 35 / 100
+2025-08-29 14:49:03,170 - easytorch-training - INFO - Result <train>: [train/time: 14.12 (s), train/lr: 5.00e-05, train/loss: 0.3958, train/MAE: 0.3958, train/MSE: 0.5714]
+2025-08-29 14:49:03,181 - easytorch-training - INFO - Start validation.
+2025-08-29 14:49:04,314 - easytorch-training - INFO - Result <val>: [val/time: 1.13 (s), val/loss: 0.4412, val/MAE: 0.4412, val/MSE: 0.7007]
+2025-08-29 14:49:06,970 - easytorch-training - INFO - Result <test>: [test/time: 2.65 (s), test/loss: 0.3247, test/MAE: 0.3247, test/MSE: 0.3283]
+2025-08-29 14:49:07,160 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_035.pt saved
+2025-08-29 14:49:07,161 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:42
+2025-08-29 14:49:07,161 - easytorch-training - INFO - Epoch 36 / 100
+2025-08-29 14:49:21,209 - easytorch-training - INFO - Result <train>: [train/time: 14.05 (s), train/lr: 5.00e-05, train/loss: 0.3958, train/MAE: 0.3958, train/MSE: 0.5711]
+2025-08-29 14:49:21,220 - easytorch-training - INFO - Start validation.
+2025-08-29 14:49:22,357 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4414, val/MAE: 0.4414, val/MSE: 0.7005]
+2025-08-29 14:49:25,020 - easytorch-training - INFO - Result <test>: [test/time: 2.65 (s), test/loss: 0.3255, test/MAE: 0.3255, test/MSE: 0.3289]
+2025-08-29 14:49:25,208 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_036.pt saved
+2025-08-29 14:49:25,209 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:42
+2025-08-29 14:49:25,209 - easytorch-training - INFO - Epoch 37 / 100
+2025-08-29 14:49:39,486 - easytorch-training - INFO - Result <train>: [train/time: 14.28 (s), train/lr: 5.00e-05, train/loss: 0.3956, train/MAE: 0.3956, train/MSE: 0.5708]
+2025-08-29 14:49:39,494 - easytorch-training - INFO - Start validation.
+2025-08-29 14:49:40,643 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4415, val/MAE: 0.4415, val/MSE: 0.6985]
+2025-08-29 14:49:43,353 - easytorch-training - INFO - Result <test>: [test/time: 2.70 (s), test/loss: 0.3252, test/MAE: 0.3252, test/MSE: 0.3281]
+2025-08-29 14:49:43,560 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_037.pt saved
+2025-08-29 14:49:43,561 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:49:43,561 - easytorch-training - INFO - Epoch 38 / 100
+2025-08-29 14:49:57,712 - easytorch-training - INFO - Result <train>: [train/time: 14.15 (s), train/lr: 5.00e-05, train/loss: 0.3953, train/MAE: 0.3953, train/MSE: 0.5705]
+2025-08-29 14:49:57,722 - easytorch-training - INFO - Start validation.
+2025-08-29 14:49:58,872 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4422, val/MAE: 0.4422, val/MSE: 0.7016]
+2025-08-29 14:50:01,519 - easytorch-training - INFO - Result <test>: [test/time: 2.64 (s), test/loss: 0.3254, test/MAE: 0.3254, test/MSE: 0.3285]
+2025-08-29 14:50:01,850 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_038.pt saved
+2025-08-29 14:50:01,851 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:44
+2025-08-29 14:50:01,851 - easytorch-training - INFO - Epoch 39 / 100
+2025-08-29 14:50:15,897 - easytorch-training - INFO - Result <train>: [train/time: 14.05 (s), train/lr: 5.00e-05, train/loss: 0.3951, train/MAE: 0.3951, train/MSE: 0.5701]
+2025-08-29 14:50:15,911 - easytorch-training - INFO - Start validation.
+2025-08-29 14:50:17,077 - easytorch-training - INFO - Result <val>: [val/time: 1.17 (s), val/loss: 0.4401, val/MAE: 0.4401, val/MSE: 0.6977]
+2025-08-29 14:50:19,795 - easytorch-training - INFO - Result <test>: [test/time: 2.71 (s), test/loss: 0.3243, test/MAE: 0.3243, test/MSE: 0.3273]
+2025-08-29 14:50:20,099 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_039.pt saved
+2025-08-29 14:50:20,100 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:44
+2025-08-29 14:50:20,100 - easytorch-training - INFO - Epoch 40 / 100
+2025-08-29 14:50:33,816 - easytorch-training - INFO - Result <train>: [train/time: 13.72 (s), train/lr: 5.00e-05, train/loss: 0.3950, train/MAE: 0.3950, train/MSE: 0.5701]
+2025-08-29 14:50:33,826 - easytorch-training - INFO - Start validation.
+2025-08-29 14:50:34,935 - easytorch-training - INFO - Result <val>: [val/time: 1.11 (s), val/loss: 0.4420, val/MAE: 0.4420, val/MSE: 0.7025]
+2025-08-29 14:50:37,656 - easytorch-training - INFO - Result <test>: [test/time: 2.71 (s), test/loss: 0.3251, test/MAE: 0.3251, test/MSE: 0.3290]
+2025-08-29 14:50:37,878 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_040.pt saved
+2025-08-29 14:50:37,982 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:50:37,982 - easytorch-training - INFO - Epoch 41 / 100
+2025-08-29 14:50:51,509 - easytorch-training - INFO - Result <train>: [train/time: 13.53 (s), train/lr: 5.00e-05, train/loss: 0.3948, train/MAE: 0.3948, train/MSE: 0.5697]
+2025-08-29 14:50:51,517 - easytorch-training - INFO - Start validation.
+2025-08-29 14:50:52,690 - easytorch-training - INFO - Result <val>: [val/time: 1.17 (s), val/loss: 0.4394, val/MAE: 0.4394, val/MSE: 0.6972]
+2025-08-29 14:50:55,378 - easytorch-training - INFO - Result <test>: [test/time: 2.68 (s), test/loss: 0.3250, test/MAE: 0.3250, test/MSE: 0.3285]
+2025-08-29 14:50:55,585 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_041.pt saved
+2025-08-29 14:50:55,586 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:42
+2025-08-29 14:50:55,586 - easytorch-training - INFO - Epoch 42 / 100
+2025-08-29 14:51:09,770 - easytorch-training - INFO - Result <train>: [train/time: 14.18 (s), train/lr: 5.00e-05, train/loss: 0.3948, train/MAE: 0.3948, train/MSE: 0.5710]
+2025-08-29 14:51:09,781 - easytorch-training - INFO - Start validation.
+2025-08-29 14:51:10,946 - easytorch-training - INFO - Result <val>: [val/time: 1.17 (s), val/loss: 0.4422, val/MAE: 0.4422, val/MSE: 0.7023]
+2025-08-29 14:51:13,673 - easytorch-training - INFO - Result <test>: [test/time: 2.72 (s), test/loss: 0.3263, test/MAE: 0.3263, test/MSE: 0.3300]
+2025-08-29 14:51:13,871 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_042.pt saved
+2025-08-29 14:51:13,871 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:51:13,871 - easytorch-training - INFO - Epoch 43 / 100
+2025-08-29 14:51:27,907 - easytorch-training - INFO - Result <train>: [train/time: 14.04 (s), train/lr: 5.00e-05, train/loss: 0.3947, train/MAE: 0.3947, train/MSE: 0.5700]
+2025-08-29 14:51:27,916 - easytorch-training - INFO - Start validation.
+2025-08-29 14:51:29,093 - easytorch-training - INFO - Result <val>: [val/time: 1.18 (s), val/loss: 0.4430, val/MAE: 0.4430, val/MSE: 0.7051]
+2025-08-29 14:51:31,749 - easytorch-training - INFO - Result <test>: [test/time: 2.64 (s), test/loss: 0.3249, test/MAE: 0.3249, test/MSE: 0.3287]
+2025-08-29 14:51:32,019 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_043.pt saved
+2025-08-29 14:51:32,019 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:51:32,019 - easytorch-training - INFO - Epoch 44 / 100
+2025-08-29 14:51:45,854 - easytorch-training - INFO - Result <train>: [train/time: 13.83 (s), train/lr: 5.00e-05, train/loss: 0.3944, train/MAE: 0.3944, train/MSE: 0.5693]
+2025-08-29 14:51:45,863 - easytorch-training - INFO - Start validation.
+2025-08-29 14:51:46,915 - easytorch-training - INFO - Result <val>: [val/time: 1.05 (s), val/loss: 0.4414, val/MAE: 0.4414, val/MSE: 0.7012]
+2025-08-29 14:51:49,567 - easytorch-training - INFO - Result <test>: [test/time: 2.64 (s), test/loss: 0.3254, test/MAE: 0.3254, test/MSE: 0.3295]
+2025-08-29 14:51:49,775 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_044.pt saved
+2025-08-29 14:51:49,775 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:42
+2025-08-29 14:51:49,776 - easytorch-training - INFO - Epoch 45 / 100
+2025-08-29 14:52:04,361 - easytorch-training - INFO - Result <train>: [train/time: 14.59 (s), train/lr: 5.00e-05, train/loss: 0.3942, train/MAE: 0.3942, train/MSE: 0.5691]
+2025-08-29 14:52:04,371 - easytorch-training - INFO - Start validation.
+2025-08-29 14:52:05,534 - easytorch-training - INFO - Result <val>: [val/time: 1.16 (s), val/loss: 0.4417, val/MAE: 0.4417, val/MSE: 0.7006]
+2025-08-29 14:52:08,212 - easytorch-training - INFO - Result <test>: [test/time: 2.67 (s), test/loss: 0.3254, test/MAE: 0.3254, test/MSE: 0.3291]
+2025-08-29 14:52:08,408 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_045.pt saved
+2025-08-29 14:52:08,409 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:52:08,409 - easytorch-training - INFO - Epoch 46 / 100
+2025-08-29 14:52:22,379 - easytorch-training - INFO - Result <train>: [train/time: 13.97 (s), train/lr: 5.00e-05, train/loss: 0.3942, train/MAE: 0.3942, train/MSE: 0.5693]
+2025-08-29 14:52:22,389 - easytorch-training - INFO - Start validation.
+2025-08-29 14:52:23,529 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4421, val/MAE: 0.4421, val/MSE: 0.7028]
+2025-08-29 14:52:26,094 - easytorch-training - INFO - Result <test>: [test/time: 2.56 (s), test/loss: 0.3258, test/MAE: 0.3258, test/MSE: 0.3298]
+2025-08-29 14:52:26,397 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_046.pt saved
+2025-08-29 14:52:26,398 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:52:26,398 - easytorch-training - INFO - Epoch 47 / 100
+2025-08-29 14:52:40,190 - easytorch-training - INFO - Result <train>: [train/time: 13.79 (s), train/lr: 5.00e-05, train/loss: 0.3940, train/MAE: 0.3940, train/MSE: 0.5687]
+2025-08-29 14:52:40,205 - easytorch-training - INFO - Start validation.
+2025-08-29 14:52:41,365 - easytorch-training - INFO - Result <val>: [val/time: 1.16 (s), val/loss: 0.4428, val/MAE: 0.4428, val/MSE: 0.7048]
+2025-08-29 14:52:44,017 - easytorch-training - INFO - Result <test>: [test/time: 2.64 (s), test/loss: 0.3259, test/MAE: 0.3259, test/MSE: 0.3301]
+2025-08-29 14:52:44,227 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_047.pt saved
+2025-08-29 14:52:44,228 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:42
+2025-08-29 14:52:44,228 - easytorch-training - INFO - Epoch 48 / 100
+2025-08-29 14:52:58,566 - easytorch-training - INFO - Result <train>: [train/time: 14.34 (s), train/lr: 5.00e-05, train/loss: 0.3939, train/MAE: 0.3939, train/MSE: 0.5683]
+2025-08-29 14:52:58,576 - easytorch-training - INFO - Start validation.
+2025-08-29 14:52:59,759 - easytorch-training - INFO - Result <val>: [val/time: 1.18 (s), val/loss: 0.4420, val/MAE: 0.4420, val/MSE: 0.7021]
+2025-08-29 14:53:02,440 - easytorch-training - INFO - Result <test>: [test/time: 2.67 (s), test/loss: 0.3250, test/MAE: 0.3250, test/MSE: 0.3284]
+2025-08-29 14:53:02,640 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_048.pt saved
+2025-08-29 14:53:02,640 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:53:02,641 - easytorch-training - INFO - Epoch 49 / 100
+2025-08-29 14:53:16,627 - easytorch-training - INFO - Result <train>: [train/time: 13.99 (s), train/lr: 5.00e-05, train/loss: 0.3938, train/MAE: 0.3938, train/MSE: 0.5681]
+2025-08-29 14:53:16,636 - easytorch-training - INFO - Start validation.
+2025-08-29 14:53:17,810 - easytorch-training - INFO - Result <val>: [val/time: 1.17 (s), val/loss: 0.4411, val/MAE: 0.4411, val/MSE: 0.7007]
+2025-08-29 14:53:20,485 - easytorch-training - INFO - Result <test>: [test/time: 2.67 (s), test/loss: 0.3244, test/MAE: 0.3244, test/MSE: 0.3271]
+2025-08-29 14:53:20,683 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_049.pt saved
+2025-08-29 14:53:20,683 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:53:20,683 - easytorch-training - INFO - Epoch 50 / 100
+2025-08-29 14:53:34,522 - easytorch-training - INFO - Result <train>: [train/time: 13.84 (s), train/lr: 5.00e-05, train/loss: 0.3936, train/MAE: 0.3936, train/MSE: 0.5678]
+2025-08-29 14:53:34,533 - easytorch-training - INFO - Start validation.
+2025-08-29 14:53:35,685 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4424, val/MAE: 0.4424, val/MSE: 0.7033]
+2025-08-29 14:53:38,401 - easytorch-training - INFO - Result <test>: [test/time: 2.71 (s), test/loss: 0.3266, test/MAE: 0.3266, test/MSE: 0.3309]
+2025-08-29 14:53:38,602 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_050.pt saved
+2025-08-29 14:53:38,706 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:53:38,707 - easytorch-training - INFO - Epoch 51 / 100
+2025-08-29 14:53:52,569 - easytorch-training - INFO - Result <train>: [train/time: 13.86 (s), train/lr: 5.00e-05, train/loss: 0.3935, train/MAE: 0.3935, train/MSE: 0.5678]
+2025-08-29 14:53:52,579 - easytorch-training - INFO - Start validation.
+2025-08-29 14:53:53,699 - easytorch-training - INFO - Result <val>: [val/time: 1.12 (s), val/loss: 0.4412, val/MAE: 0.4412, val/MSE: 0.7025]
+2025-08-29 14:53:56,405 - easytorch-training - INFO - Result <test>: [test/time: 2.70 (s), test/loss: 0.3250, test/MAE: 0.3250, test/MSE: 0.3287]
+2025-08-29 14:53:56,580 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_051.pt saved
+2025-08-29 14:53:56,580 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:42
+2025-08-29 14:53:56,581 - easytorch-training - INFO - Epoch 52 / 100
+2025-08-29 14:54:10,720 - easytorch-training - INFO - Result <train>: [train/time: 14.14 (s), train/lr: 5.00e-05, train/loss: 0.3934, train/MAE: 0.3934, train/MSE: 0.5679]
+2025-08-29 14:54:10,730 - easytorch-training - INFO - Start validation.
+2025-08-29 14:54:11,861 - easytorch-training - INFO - Result <val>: [val/time: 1.13 (s), val/loss: 0.4438, val/MAE: 0.4438, val/MSE: 0.7073]
+2025-08-29 14:54:14,611 - easytorch-training - INFO - Result <test>: [test/time: 2.74 (s), test/loss: 0.3260, test/MAE: 0.3260, test/MSE: 0.3300]
+2025-08-29 14:54:14,806 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_052.pt saved
+2025-08-29 14:54:14,806 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:54:14,807 - easytorch-training - INFO - Epoch 53 / 100
+2025-08-29 14:54:28,847 - easytorch-training - INFO - Result <train>: [train/time: 14.04 (s), train/lr: 5.00e-05, train/loss: 0.3933, train/MAE: 0.3933, train/MSE: 0.5674]
+2025-08-29 14:54:28,857 - easytorch-training - INFO - Start validation.
+2025-08-29 14:54:29,972 - easytorch-training - INFO - Result <val>: [val/time: 1.12 (s), val/loss: 0.4392, val/MAE: 0.4392, val/MSE: 0.6967]
+2025-08-29 14:54:32,657 - easytorch-training - INFO - Result <test>: [test/time: 2.68 (s), test/loss: 0.3259, test/MAE: 0.3259, test/MSE: 0.3300]
+2025-08-29 14:54:32,833 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_053.pt saved
+2025-08-29 14:54:32,834 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:54:32,834 - easytorch-training - INFO - Epoch 54 / 100
+2025-08-29 14:54:46,779 - easytorch-training - INFO - Result <train>: [train/time: 13.95 (s), train/lr: 5.00e-05, train/loss: 0.3930, train/MAE: 0.3930, train/MSE: 0.5670]
+2025-08-29 14:54:46,789 - easytorch-training - INFO - Start validation.
+2025-08-29 14:54:47,907 - easytorch-training - INFO - Result <val>: [val/time: 1.12 (s), val/loss: 0.4405, val/MAE: 0.4405, val/MSE: 0.7007]
+2025-08-29 14:54:50,559 - easytorch-training - INFO - Result <test>: [test/time: 2.64 (s), test/loss: 0.3256, test/MAE: 0.3256, test/MSE: 0.3296]
+2025-08-29 14:54:50,897 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_054.pt saved
+2025-08-29 14:54:50,898 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:54:50,898 - easytorch-training - INFO - Epoch 55 / 100
+2025-08-29 14:55:04,879 - easytorch-training - INFO - Result <train>: [train/time: 13.98 (s), train/lr: 5.00e-05, train/loss: 0.3930, train/MAE: 0.3930, train/MSE: 0.5670]
+2025-08-29 14:55:04,888 - easytorch-training - INFO - Start validation.
+2025-08-29 14:55:06,096 - easytorch-training - INFO - Result <val>: [val/time: 1.21 (s), val/loss: 0.4411, val/MAE: 0.4411, val/MSE: 0.7020]
+2025-08-29 14:55:08,795 - easytorch-training - INFO - Result <test>: [test/time: 2.68 (s), test/loss: 0.3253, test/MAE: 0.3253, test/MSE: 0.3292]
+2025-08-29 14:55:09,007 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_055.pt saved
+2025-08-29 14:55:09,007 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:55:09,007 - easytorch-training - INFO - Epoch 56 / 100
+2025-08-29 14:55:22,866 - easytorch-training - INFO - Result <train>: [train/time: 13.86 (s), train/lr: 5.00e-05, train/loss: 0.3928, train/MAE: 0.3928, train/MSE: 0.5667]
+2025-08-29 14:55:22,875 - easytorch-training - INFO - Start validation.
+2025-08-29 14:55:24,008 - easytorch-training - INFO - Result <val>: [val/time: 1.13 (s), val/loss: 0.4411, val/MAE: 0.4411, val/MSE: 0.7030]
+2025-08-29 14:55:26,719 - easytorch-training - INFO - Result <test>: [test/time: 2.70 (s), test/loss: 0.3257, test/MAE: 0.3257, test/MSE: 0.3293]
+2025-08-29 14:55:27,069 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_056.pt saved
+2025-08-29 14:55:27,070 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:55:27,070 - easytorch-training - INFO - Epoch 57 / 100
+2025-08-29 14:55:41,321 - easytorch-training - INFO - Result <train>: [train/time: 14.25 (s), train/lr: 5.00e-05, train/loss: 0.3927, train/MAE: 0.3927, train/MSE: 0.5665]
+2025-08-29 14:55:41,330 - easytorch-training - INFO - Start validation.
+2025-08-29 14:55:42,536 - easytorch-training - INFO - Result <val>: [val/time: 1.21 (s), val/loss: 0.4427, val/MAE: 0.4427, val/MSE: 0.7066]
+2025-08-29 14:55:45,203 - easytorch-training - INFO - Result <test>: [test/time: 2.66 (s), test/loss: 0.3253, test/MAE: 0.3253, test/MSE: 0.3295]
+2025-08-29 14:55:45,527 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_057.pt saved
+2025-08-29 14:55:45,528 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:55:45,528 - easytorch-training - INFO - Epoch 58 / 100
+2025-08-29 14:55:59,932 - easytorch-training - INFO - Result <train>: [train/time: 14.40 (s), train/lr: 5.00e-05, train/loss: 0.3927, train/MAE: 0.3927, train/MSE: 0.5666]
+2025-08-29 14:55:59,941 - easytorch-training - INFO - Start validation.
+2025-08-29 14:56:01,031 - easytorch-training - INFO - Result <val>: [val/time: 1.09 (s), val/loss: 0.4409, val/MAE: 0.4409, val/MSE: 0.7022]
+2025-08-29 14:56:03,756 - easytorch-training - INFO - Result <test>: [test/time: 2.72 (s), test/loss: 0.3244, test/MAE: 0.3244, test/MSE: 0.3276]
+2025-08-29 14:56:03,934 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_058.pt saved
+2025-08-29 14:56:03,935 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:44
+2025-08-29 14:56:03,935 - easytorch-training - INFO - Epoch 59 / 100
+2025-08-29 14:56:18,258 - easytorch-training - INFO - Result <train>: [train/time: 14.32 (s), train/lr: 5.00e-05, train/loss: 0.3925, train/MAE: 0.3925, train/MSE: 0.5663]
+2025-08-29 14:56:18,268 - easytorch-training - INFO - Start validation.
+2025-08-29 14:56:19,419 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4429, val/MAE: 0.4429, val/MSE: 0.7062]
+2025-08-29 14:56:22,122 - easytorch-training - INFO - Result <test>: [test/time: 2.69 (s), test/loss: 0.3262, test/MAE: 0.3262, test/MSE: 0.3301]
+2025-08-29 14:56:22,314 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_059.pt saved
+2025-08-29 14:56:22,315 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:44
+2025-08-29 14:56:22,315 - easytorch-training - INFO - Epoch 60 / 100
+2025-08-29 14:56:36,011 - easytorch-training - INFO - Result <train>: [train/time: 13.70 (s), train/lr: 5.00e-05, train/loss: 0.3924, train/MAE: 0.3924, train/MSE: 0.5660]
+2025-08-29 14:56:36,021 - easytorch-training - INFO - Start validation.
+2025-08-29 14:56:37,214 - easytorch-training - INFO - Result <val>: [val/time: 1.19 (s), val/loss: 0.4422, val/MAE: 0.4422, val/MSE: 0.7035]
+2025-08-29 14:56:39,927 - easytorch-training - INFO - Result <test>: [test/time: 2.70 (s), test/loss: 0.3260, test/MAE: 0.3260, test/MSE: 0.3297]
+2025-08-29 14:56:40,222 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_060.pt saved
+2025-08-29 14:56:40,325 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:44
+2025-08-29 14:56:40,325 - easytorch-training - INFO - Epoch 61 / 100
+2025-08-29 14:56:53,795 - easytorch-training - INFO - Result <train>: [train/time: 13.47 (s), train/lr: 5.00e-05, train/loss: 0.3922, train/MAE: 0.3922, train/MSE: 0.5659]
+2025-08-29 14:56:53,806 - easytorch-training - INFO - Start validation.
+2025-08-29 14:56:54,966 - easytorch-training - INFO - Result <val>: [val/time: 1.16 (s), val/loss: 0.4415, val/MAE: 0.4415, val/MSE: 0.7031]
+2025-08-29 14:56:57,647 - easytorch-training - INFO - Result <test>: [test/time: 2.67 (s), test/loss: 0.3258, test/MAE: 0.3258, test/MSE: 0.3296]
+2025-08-29 14:56:57,863 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_061.pt saved
+2025-08-29 14:56:57,863 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:56:57,863 - easytorch-training - INFO - Epoch 62 / 100
+2025-08-29 14:57:11,714 - easytorch-training - INFO - Result <train>: [train/time: 13.85 (s), train/lr: 5.00e-05, train/loss: 0.3921, train/MAE: 0.3921, train/MSE: 0.5656]
+2025-08-29 14:57:11,724 - easytorch-training - INFO - Start validation.
+2025-08-29 14:57:12,904 - easytorch-training - INFO - Result <val>: [val/time: 1.18 (s), val/loss: 0.4404, val/MAE: 0.4404, val/MSE: 0.7023]
+2025-08-29 14:57:15,680 - easytorch-training - INFO - Result <test>: [test/time: 2.77 (s), test/loss: 0.3251, test/MAE: 0.3251, test/MSE: 0.3291]
+2025-08-29 14:57:15,873 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_062.pt saved
+2025-08-29 14:57:15,874 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:57:15,874 - easytorch-training - INFO - Epoch 63 / 100
+2025-08-29 14:57:30,324 - easytorch-training - INFO - Result <train>: [train/time: 14.45 (s), train/lr: 5.00e-05, train/loss: 0.3920, train/MAE: 0.3920, train/MSE: 0.5655]
+2025-08-29 14:57:30,333 - easytorch-training - INFO - Start validation.
+2025-08-29 14:57:31,478 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4417, val/MAE: 0.4417, val/MSE: 0.7056]
+2025-08-29 14:57:34,115 - easytorch-training - INFO - Result <test>: [test/time: 2.63 (s), test/loss: 0.3256, test/MAE: 0.3256, test/MSE: 0.3296]
+2025-08-29 14:57:34,302 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_063.pt saved
+2025-08-29 14:57:34,303 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:57:34,303 - easytorch-training - INFO - Epoch 64 / 100
+2025-08-29 14:57:48,191 - easytorch-training - INFO - Result <train>: [train/time: 13.89 (s), train/lr: 5.00e-05, train/loss: 0.3919, train/MAE: 0.3919, train/MSE: 0.5655]
+2025-08-29 14:57:48,203 - easytorch-training - INFO - Start validation.
+2025-08-29 14:57:49,356 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4454, val/MAE: 0.4454, val/MSE: 0.7129]
+2025-08-29 14:57:52,017 - easytorch-training - INFO - Result <test>: [test/time: 2.65 (s), test/loss: 0.3263, test/MAE: 0.3263, test/MSE: 0.3304]
+2025-08-29 14:57:52,433 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_064.pt saved
+2025-08-29 14:57:52,433 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:44
+2025-08-29 14:57:52,434 - easytorch-training - INFO - Epoch 65 / 100
+2025-08-29 14:58:06,582 - easytorch-training - INFO - Result <train>: [train/time: 14.15 (s), train/lr: 5.00e-05, train/loss: 0.3918, train/MAE: 0.3918, train/MSE: 0.5652]
+2025-08-29 14:58:06,591 - easytorch-training - INFO - Start validation.
+2025-08-29 14:58:07,854 - easytorch-training - INFO - Result <val>: [val/time: 1.26 (s), val/loss: 0.4417, val/MAE: 0.4417, val/MSE: 0.7040]
+2025-08-29 14:58:10,634 - easytorch-training - INFO - Result <test>: [test/time: 2.77 (s), test/loss: 0.3254, test/MAE: 0.3254, test/MSE: 0.3291]
+2025-08-29 14:58:10,958 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_065.pt saved
+2025-08-29 14:58:10,958 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:44
+2025-08-29 14:58:10,959 - easytorch-training - INFO - Epoch 66 / 100
+2025-08-29 14:58:25,473 - easytorch-training - INFO - Result <train>: [train/time: 14.51 (s), train/lr: 5.00e-05, train/loss: 0.3917, train/MAE: 0.3917, train/MSE: 0.5665]
+2025-08-29 14:58:25,482 - easytorch-training - INFO - Start validation.
+2025-08-29 14:58:26,642 - easytorch-training - INFO - Result <val>: [val/time: 1.16 (s), val/loss: 0.4405, val/MAE: 0.4405, val/MSE: 0.7018]
+2025-08-29 14:58:29,249 - easytorch-training - INFO - Result <test>: [test/time: 2.60 (s), test/loss: 0.3257, test/MAE: 0.3257, test/MSE: 0.3296]
+2025-08-29 14:58:29,450 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_066.pt saved
+2025-08-29 14:58:29,451 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:45
+2025-08-29 14:58:29,451 - easytorch-training - INFO - Epoch 67 / 100
+2025-08-29 14:58:43,132 - easytorch-training - INFO - Result <train>: [train/time: 13.68 (s), train/lr: 5.00e-05, train/loss: 0.3915, train/MAE: 0.3915, train/MSE: 0.5651]
+2025-08-29 14:58:43,142 - easytorch-training - INFO - Start validation.
+2025-08-29 14:58:44,192 - easytorch-training - INFO - Result <val>: [val/time: 1.05 (s), val/loss: 0.4449, val/MAE: 0.4449, val/MSE: 0.7112]
+2025-08-29 14:58:46,641 - easytorch-training - INFO - Result <test>: [test/time: 2.44 (s), test/loss: 0.3256, test/MAE: 0.3256, test/MSE: 0.3295]
+2025-08-29 14:58:46,806 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_067.pt saved
+2025-08-29 14:58:46,806 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:44
+2025-08-29 14:58:46,806 - easytorch-training - INFO - Epoch 68 / 100
+2025-08-29 14:59:00,741 - easytorch-training - INFO - Result <train>: [train/time: 13.93 (s), train/lr: 5.00e-05, train/loss: 0.3913, train/MAE: 0.3913, train/MSE: 0.5648]
+2025-08-29 14:59:00,750 - easytorch-training - INFO - Start validation.
+2025-08-29 14:59:01,898 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4441, val/MAE: 0.4441, val/MSE: 0.7083]
+2025-08-29 14:59:04,536 - easytorch-training - INFO - Result <test>: [test/time: 2.63 (s), test/loss: 0.3268, test/MAE: 0.3268, test/MSE: 0.3312]
+2025-08-29 14:59:04,691 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_068.pt saved
+2025-08-29 14:59:04,692 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:59:04,692 - easytorch-training - INFO - Epoch 69 / 100
+2025-08-29 14:59:18,395 - easytorch-training - INFO - Result <train>: [train/time: 13.70 (s), train/lr: 5.00e-05, train/loss: 0.3914, train/MAE: 0.3914, train/MSE: 0.5677]
+2025-08-29 14:59:18,407 - easytorch-training - INFO - Start validation.
+2025-08-29 14:59:19,564 - easytorch-training - INFO - Result <val>: [val/time: 1.16 (s), val/loss: 0.4437, val/MAE: 0.4437, val/MSE: 0.7088]
+2025-08-29 14:59:22,242 - easytorch-training - INFO - Result <test>: [test/time: 2.67 (s), test/loss: 0.3272, test/MAE: 0.3272, test/MSE: 0.3314]
+2025-08-29 14:59:22,411 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_069.pt saved
+2025-08-29 14:59:22,411 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 14:59:22,412 - easytorch-training - INFO - Epoch 70 / 100
+2025-08-29 14:59:36,305 - easytorch-training - INFO - Result <train>: [train/time: 13.89 (s), train/lr: 5.00e-05, train/loss: 0.3911, train/MAE: 0.3911, train/MSE: 0.5649]
+2025-08-29 14:59:36,315 - easytorch-training - INFO - Start validation.
+2025-08-29 14:59:37,420 - easytorch-training - INFO - Result <val>: [val/time: 1.11 (s), val/loss: 0.4447, val/MAE: 0.4447, val/MSE: 0.7115]
+2025-08-29 14:59:39,966 - easytorch-training - INFO - Result <test>: [test/time: 2.54 (s), test/loss: 0.3259, test/MAE: 0.3259, test/MSE: 0.3309]
+2025-08-29 14:59:40,160 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_070.pt saved
+2025-08-29 14:59:40,233 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:42
+2025-08-29 14:59:40,233 - easytorch-training - INFO - Epoch 71 / 100
+2025-08-29 14:59:54,127 - easytorch-training - INFO - Result <train>: [train/time: 13.89 (s), train/lr: 5.00e-05, train/loss: 0.3910, train/MAE: 0.3910, train/MSE: 0.5641]
+2025-08-29 14:59:54,136 - easytorch-training - INFO - Start validation.
+2025-08-29 14:59:55,298 - easytorch-training - INFO - Result <val>: [val/time: 1.16 (s), val/loss: 0.4413, val/MAE: 0.4413, val/MSE: 0.7045]
+2025-08-29 14:59:57,978 - easytorch-training - INFO - Result <test>: [test/time: 2.67 (s), test/loss: 0.3259, test/MAE: 0.3259, test/MSE: 0.3300]
+2025-08-29 14:59:58,147 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_071.pt saved
+2025-08-29 14:59:58,148 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:42
+2025-08-29 14:59:58,148 - easytorch-training - INFO - Epoch 72 / 100
+2025-08-29 15:00:11,859 - easytorch-training - INFO - Result <train>: [train/time: 13.71 (s), train/lr: 5.00e-05, train/loss: 0.3909, train/MAE: 0.3909, train/MSE: 0.5638]
+2025-08-29 15:00:11,870 - easytorch-training - INFO - Start validation.
+2025-08-29 15:00:12,951 - easytorch-training - INFO - Result <val>: [val/time: 1.08 (s), val/loss: 0.4430, val/MAE: 0.4430, val/MSE: 0.7058]
+2025-08-29 15:00:15,518 - easytorch-training - INFO - Result <test>: [test/time: 2.56 (s), test/loss: 0.3275, test/MAE: 0.3275, test/MSE: 0.3323]
+2025-08-29 15:00:15,712 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_072.pt saved
+2025-08-29 15:00:15,712 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:41
+2025-08-29 15:00:15,712 - easytorch-training - INFO - Epoch 73 / 100
+2025-08-29 15:00:29,663 - easytorch-training - INFO - Result <train>: [train/time: 13.95 (s), train/lr: 5.00e-05, train/loss: 0.3910, train/MAE: 0.3910, train/MSE: 0.5640]
+2025-08-29 15:00:29,672 - easytorch-training - INFO - Start validation.
+2025-08-29 15:00:30,918 - easytorch-training - INFO - Result <val>: [val/time: 1.25 (s), val/loss: 0.4426, val/MAE: 0.4426, val/MSE: 0.7084]
+2025-08-29 15:00:33,804 - easytorch-training - INFO - Result <test>: [test/time: 2.88 (s), test/loss: 0.3255, test/MAE: 0.3255, test/MSE: 0.3293]
+2025-08-29 15:00:34,018 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_073.pt saved
+2025-08-29 15:00:34,018 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:42
+2025-08-29 15:00:34,019 - easytorch-training - INFO - Epoch 74 / 100
+2025-08-29 15:00:48,440 - easytorch-training - INFO - Result <train>: [train/time: 14.42 (s), train/lr: 5.00e-05, train/loss: 0.3906, train/MAE: 0.3906, train/MSE: 0.5635]
+2025-08-29 15:00:48,450 - easytorch-training - INFO - Start validation.
+2025-08-29 15:00:49,651 - easytorch-training - INFO - Result <val>: [val/time: 1.20 (s), val/loss: 0.4408, val/MAE: 0.4408, val/MSE: 0.7029]
+2025-08-29 15:00:52,569 - easytorch-training - INFO - Result <test>: [test/time: 2.91 (s), test/loss: 0.3269, test/MAE: 0.3269, test/MSE: 0.3313]
+2025-08-29 15:00:52,779 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_074.pt saved
+2025-08-29 15:00:52,780 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:43
+2025-08-29 15:00:52,780 - easytorch-training - INFO - Epoch 75 / 100
+2025-08-29 15:01:07,471 - easytorch-training - INFO - Result <train>: [train/time: 14.69 (s), train/lr: 5.00e-05, train/loss: 0.3907, train/MAE: 0.3907, train/MSE: 0.5636]
+2025-08-29 15:01:07,480 - easytorch-training - INFO - Start validation.
+2025-08-29 15:01:08,712 - easytorch-training - INFO - Result <val>: [val/time: 1.23 (s), val/loss: 0.4435, val/MAE: 0.4435, val/MSE: 0.7081]
+2025-08-29 15:01:11,564 - easytorch-training - INFO - Result <test>: [test/time: 2.85 (s), test/loss: 0.3269, test/MAE: 0.3269, test/MSE: 0.3315]
+2025-08-29 15:01:11,772 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_075.pt saved
+2025-08-29 15:01:11,772 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:44
+2025-08-29 15:01:11,772 - easytorch-training - INFO - Epoch 76 / 100
+2025-08-29 15:01:26,752 - easytorch-training - INFO - Result <train>: [train/time: 14.98 (s), train/lr: 5.00e-05, train/loss: 0.3906, train/MAE: 0.3906, train/MSE: 0.5635]
+2025-08-29 15:01:26,761 - easytorch-training - INFO - Start validation.
+2025-08-29 15:01:27,969 - easytorch-training - INFO - Result <val>: [val/time: 1.21 (s), val/loss: 0.4431, val/MAE: 0.4431, val/MSE: 0.7081]
+2025-08-29 15:01:30,760 - easytorch-training - INFO - Result <test>: [test/time: 2.78 (s), test/loss: 0.3259, test/MAE: 0.3259, test/MSE: 0.3300]
+2025-08-29 15:01:30,960 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_076.pt saved
+2025-08-29 15:01:30,960 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:45
+2025-08-29 15:01:30,961 - easytorch-training - INFO - Epoch 77 / 100
+2025-08-29 15:01:45,577 - easytorch-training - INFO - Result <train>: [train/time: 14.62 (s), train/lr: 5.00e-05, train/loss: 0.3904, train/MAE: 0.3904, train/MSE: 0.5632]
+2025-08-29 15:01:45,587 - easytorch-training - INFO - Start validation.
+2025-08-29 15:01:46,768 - easytorch-training - INFO - Result <val>: [val/time: 1.18 (s), val/loss: 0.4429, val/MAE: 0.4429, val/MSE: 0.7081]
+2025-08-29 15:01:49,564 - easytorch-training - INFO - Result <test>: [test/time: 2.79 (s), test/loss: 0.3256, test/MAE: 0.3256, test/MSE: 0.3293]
+2025-08-29 15:01:49,720 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_077.pt saved
+2025-08-29 15:01:49,721 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:46
+2025-08-29 15:01:49,721 - easytorch-training - INFO - Epoch 78 / 100
+2025-08-29 15:02:03,650 - easytorch-training - INFO - Result <train>: [train/time: 13.93 (s), train/lr: 5.00e-05, train/loss: 0.3902, train/MAE: 0.3902, train/MSE: 0.5629]
+2025-08-29 15:02:03,661 - easytorch-training - INFO - Start validation.
+2025-08-29 15:02:04,852 - easytorch-training - INFO - Result <val>: [val/time: 1.19 (s), val/loss: 0.4443, val/MAE: 0.4443, val/MSE: 0.7100]
+2025-08-29 15:02:07,642 - easytorch-training - INFO - Result <test>: [test/time: 2.78 (s), test/loss: 0.3262, test/MAE: 0.3262, test/MSE: 0.3303]
+2025-08-29 15:02:07,812 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_078.pt saved
+2025-08-29 15:02:07,812 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:46
+2025-08-29 15:02:07,812 - easytorch-training - INFO - Epoch 79 / 100
+2025-08-29 15:02:21,542 - easytorch-training - INFO - Result <train>: [train/time: 13.73 (s), train/lr: 5.00e-05, train/loss: 0.3901, train/MAE: 0.3901, train/MSE: 0.5636]
+2025-08-29 15:02:21,551 - easytorch-training - INFO - Start validation.
+2025-08-29 15:02:22,698 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4436, val/MAE: 0.4436, val/MSE: 0.7127]
+2025-08-29 15:02:25,388 - easytorch-training - INFO - Result <test>: [test/time: 2.68 (s), test/loss: 0.3260, test/MAE: 0.3260, test/MSE: 0.3306]
+2025-08-29 15:02:25,594 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_079.pt saved
+2025-08-29 15:02:25,595 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:46
+2025-08-29 15:02:25,595 - easytorch-training - INFO - Epoch 80 / 100
+2025-08-29 15:02:39,943 - easytorch-training - INFO - Result <train>: [train/time: 14.35 (s), train/lr: 5.00e-05, train/loss: 0.3900, train/MAE: 0.3900, train/MSE: 0.5627]
+2025-08-29 15:02:39,953 - easytorch-training - INFO - Start validation.
+2025-08-29 15:02:41,210 - easytorch-training - INFO - Result <val>: [val/time: 1.26 (s), val/loss: 0.4430, val/MAE: 0.4430, val/MSE: 0.7114]
+2025-08-29 15:02:44,026 - easytorch-training - INFO - Result <test>: [test/time: 2.81 (s), test/loss: 0.3246, test/MAE: 0.3246, test/MSE: 0.3279]
+2025-08-29 15:02:44,233 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_080.pt saved
+2025-08-29 15:02:44,331 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:46
+2025-08-29 15:02:44,331 - easytorch-training - INFO - Epoch 81 / 100
+2025-08-29 15:02:58,122 - easytorch-training - INFO - Result <train>: [train/time: 13.79 (s), train/lr: 5.00e-05, train/loss: 0.3900, train/MAE: 0.3900, train/MSE: 0.5625]
+2025-08-29 15:02:58,133 - easytorch-training - INFO - Start validation.
+2025-08-29 15:02:59,344 - easytorch-training - INFO - Result <val>: [val/time: 1.21 (s), val/loss: 0.4441, val/MAE: 0.4441, val/MSE: 0.7118]
+2025-08-29 15:03:02,150 - easytorch-training - INFO - Result <test>: [test/time: 2.80 (s), test/loss: 0.3253, test/MAE: 0.3253, test/MSE: 0.3288]
+2025-08-29 15:03:02,305 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_081.pt saved
+2025-08-29 15:03:02,306 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:46
+2025-08-29 15:03:02,306 - easytorch-training - INFO - Epoch 82 / 100
+2025-08-29 15:03:16,515 - easytorch-training - INFO - Result <train>: [train/time: 14.21 (s), train/lr: 5.00e-05, train/loss: 0.3898, train/MAE: 0.3898, train/MSE: 0.5622]
+2025-08-29 15:03:16,525 - easytorch-training - INFO - Start validation.
+2025-08-29 15:03:17,775 - easytorch-training - INFO - Result <val>: [val/time: 1.25 (s), val/loss: 0.4443, val/MAE: 0.4443, val/MSE: 0.7126]
+2025-08-29 15:03:20,539 - easytorch-training - INFO - Result <test>: [test/time: 2.76 (s), test/loss: 0.3271, test/MAE: 0.3271, test/MSE: 0.3318]
+2025-08-29 15:03:20,832 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_082.pt saved
+2025-08-29 15:03:20,833 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:47
+2025-08-29 15:03:20,833 - easytorch-training - INFO - Epoch 83 / 100
+2025-08-29 15:03:35,154 - easytorch-training - INFO - Result <train>: [train/time: 14.32 (s), train/lr: 5.00e-05, train/loss: 0.3899, train/MAE: 0.3899, train/MSE: 0.5624]
+2025-08-29 15:03:35,163 - easytorch-training - INFO - Start validation.
+2025-08-29 15:03:36,393 - easytorch-training - INFO - Result <val>: [val/time: 1.23 (s), val/loss: 0.4453, val/MAE: 0.4453, val/MSE: 0.7140]
+2025-08-29 15:03:39,190 - easytorch-training - INFO - Result <test>: [test/time: 2.79 (s), test/loss: 0.3267, test/MAE: 0.3267, test/MSE: 0.3314]
+2025-08-29 15:03:39,406 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_083.pt saved
+2025-08-29 15:03:39,406 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:47
+2025-08-29 15:03:39,406 - easytorch-training - INFO - Epoch 84 / 100
+2025-08-29 15:03:53,150 - easytorch-training - INFO - Result <train>: [train/time: 13.74 (s), train/lr: 5.00e-05, train/loss: 0.3897, train/MAE: 0.3897, train/MSE: 0.5622]
+2025-08-29 15:03:53,158 - easytorch-training - INFO - Start validation.
+2025-08-29 15:03:54,336 - easytorch-training - INFO - Result <val>: [val/time: 1.18 (s), val/loss: 0.4428, val/MAE: 0.4428, val/MSE: 0.7080]
+2025-08-29 15:03:57,078 - easytorch-training - INFO - Result <test>: [test/time: 2.74 (s), test/loss: 0.3251, test/MAE: 0.3251, test/MSE: 0.3292]
+2025-08-29 15:03:57,227 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_084.pt saved
+2025-08-29 15:03:57,227 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:47
+2025-08-29 15:03:57,227 - easytorch-training - INFO - Epoch 85 / 100
+2025-08-29 15:04:11,668 - easytorch-training - INFO - Result <train>: [train/time: 14.44 (s), train/lr: 5.00e-05, train/loss: 0.3894, train/MAE: 0.3894, train/MSE: 0.5617]
+2025-08-29 15:04:11,675 - easytorch-training - INFO - Start validation.
+2025-08-29 15:04:12,849 - easytorch-training - INFO - Result <val>: [val/time: 1.17 (s), val/loss: 0.4447, val/MAE: 0.4447, val/MSE: 0.7113]
+2025-08-29 15:04:15,618 - easytorch-training - INFO - Result <test>: [test/time: 2.76 (s), test/loss: 0.3277, test/MAE: 0.3277, test/MSE: 0.3328]
+2025-08-29 15:04:15,764 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_085.pt saved
+2025-08-29 15:04:15,764 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:47
+2025-08-29 15:04:15,764 - easytorch-training - INFO - Epoch 86 / 100
+2025-08-29 15:04:30,484 - easytorch-training - INFO - Result <train>: [train/time: 14.72 (s), train/lr: 5.00e-05, train/loss: 0.3894, train/MAE: 0.3894, train/MSE: 0.5618]
+2025-08-29 15:04:30,493 - easytorch-training - INFO - Start validation.
+2025-08-29 15:04:31,715 - easytorch-training - INFO - Result <val>: [val/time: 1.22 (s), val/loss: 0.4458, val/MAE: 0.4458, val/MSE: 0.7166]
+2025-08-29 15:04:34,532 - easytorch-training - INFO - Result <test>: [test/time: 2.81 (s), test/loss: 0.3269, test/MAE: 0.3269, test/MSE: 0.3314]
+2025-08-29 15:04:34,729 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_086.pt saved
+2025-08-29 15:04:34,730 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:48
+2025-08-29 15:04:34,730 - easytorch-training - INFO - Epoch 87 / 100
+2025-08-29 15:04:48,757 - easytorch-training - INFO - Result <train>: [train/time: 14.03 (s), train/lr: 5.00e-05, train/loss: 0.3893, train/MAE: 0.3893, train/MSE: 0.5620]
+2025-08-29 15:04:48,767 - easytorch-training - INFO - Start validation.
+2025-08-29 15:04:49,905 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4433, val/MAE: 0.4433, val/MSE: 0.7132]
+2025-08-29 15:04:52,690 - easytorch-training - INFO - Result <test>: [test/time: 2.78 (s), test/loss: 0.3261, test/MAE: 0.3261, test/MSE: 0.3298]
+2025-08-29 15:04:52,886 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_087.pt saved
+2025-08-29 15:04:52,887 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:48
+2025-08-29 15:04:52,887 - easytorch-training - INFO - Epoch 88 / 100
+2025-08-29 15:05:06,792 - easytorch-training - INFO - Result <train>: [train/time: 13.90 (s), train/lr: 5.00e-05, train/loss: 0.3893, train/MAE: 0.3893, train/MSE: 0.5618]
+2025-08-29 15:05:06,804 - easytorch-training - INFO - Start validation.
+2025-08-29 15:05:07,955 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4436, val/MAE: 0.4436, val/MSE: 0.7110]
+2025-08-29 15:05:10,556 - easytorch-training - INFO - Result <test>: [test/time: 2.59 (s), test/loss: 0.3259, test/MAE: 0.3259, test/MSE: 0.3295]
+2025-08-29 15:05:10,738 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_088.pt saved
+2025-08-29 15:05:10,739 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:48
+2025-08-29 15:05:10,739 - easytorch-training - INFO - Epoch 89 / 100
+2025-08-29 15:05:24,754 - easytorch-training - INFO - Result <train>: [train/time: 14.02 (s), train/lr: 5.00e-05, train/loss: 0.3891, train/MAE: 0.3891, train/MSE: 0.5612]
+2025-08-29 15:05:24,765 - easytorch-training - INFO - Start validation.
+2025-08-29 15:05:25,962 - easytorch-training - INFO - Result <val>: [val/time: 1.20 (s), val/loss: 0.4456, val/MAE: 0.4456, val/MSE: 0.7159]
+2025-08-29 15:05:28,697 - easytorch-training - INFO - Result <test>: [test/time: 2.73 (s), test/loss: 0.3271, test/MAE: 0.3271, test/MSE: 0.3316]
+2025-08-29 15:05:28,894 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_089.pt saved
+2025-08-29 15:05:28,895 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:48
+2025-08-29 15:05:28,895 - easytorch-training - INFO - Epoch 90 / 100
+2025-08-29 15:05:42,950 - easytorch-training - INFO - Result <train>: [train/time: 14.06 (s), train/lr: 5.00e-05, train/loss: 0.3891, train/MAE: 0.3891, train/MSE: 0.5611]
+2025-08-29 15:05:42,962 - easytorch-training - INFO - Start validation.
+2025-08-29 15:05:44,162 - easytorch-training - INFO - Result <val>: [val/time: 1.20 (s), val/loss: 0.4429, val/MAE: 0.4429, val/MSE: 0.7100]
+2025-08-29 15:05:46,919 - easytorch-training - INFO - Result <test>: [test/time: 2.75 (s), test/loss: 0.3257, test/MAE: 0.3257, test/MSE: 0.3306]
+2025-08-29 15:05:47,108 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_090.pt saved
+2025-08-29 15:05:47,207 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:48
+2025-08-29 15:05:47,208 - easytorch-training - INFO - Epoch 91 / 100
+2025-08-29 15:06:01,141 - easytorch-training - INFO - Result <train>: [train/time: 13.93 (s), train/lr: 5.00e-05, train/loss: 0.3889, train/MAE: 0.3889, train/MSE: 0.5607]
+2025-08-29 15:06:01,154 - easytorch-training - INFO - Start validation.
+2025-08-29 15:06:02,332 - easytorch-training - INFO - Result <val>: [val/time: 1.18 (s), val/loss: 0.4445, val/MAE: 0.4445, val/MSE: 0.7126]
+2025-08-29 15:06:05,052 - easytorch-training - INFO - Result <test>: [test/time: 2.71 (s), test/loss: 0.3269, test/MAE: 0.3269, test/MSE: 0.3319]
+2025-08-29 15:06:05,230 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_091.pt saved
+2025-08-29 15:06:05,231 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:48
+2025-08-29 15:06:05,231 - easytorch-training - INFO - Epoch 92 / 100
+2025-08-29 15:06:19,300 - easytorch-training - INFO - Result <train>: [train/time: 14.07 (s), train/lr: 5.00e-05, train/loss: 0.3888, train/MAE: 0.3888, train/MSE: 0.5609]
+2025-08-29 15:06:19,311 - easytorch-training - INFO - Start validation.
+2025-08-29 15:06:20,448 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4448, val/MAE: 0.4448, val/MSE: 0.7134]
+2025-08-29 15:06:23,211 - easytorch-training - INFO - Result <test>: [test/time: 2.75 (s), test/loss: 0.3266, test/MAE: 0.3266, test/MSE: 0.3312]
+2025-08-29 15:06:23,368 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_092.pt saved
+2025-08-29 15:06:23,369 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:48
+2025-08-29 15:06:23,369 - easytorch-training - INFO - Epoch 93 / 100
+2025-08-29 15:06:37,453 - easytorch-training - INFO - Result <train>: [train/time: 14.08 (s), train/lr: 5.00e-05, train/loss: 0.3887, train/MAE: 0.3887, train/MSE: 0.5607]
+2025-08-29 15:06:37,462 - easytorch-training - INFO - Start validation.
+2025-08-29 15:06:38,605 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4489, val/MAE: 0.4489, val/MSE: 0.7232]
+2025-08-29 15:06:41,319 - easytorch-training - INFO - Result <test>: [test/time: 2.71 (s), test/loss: 0.3270, test/MAE: 0.3270, test/MSE: 0.3315]
+2025-08-29 15:06:41,519 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_093.pt saved
+2025-08-29 15:06:41,520 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:48
+2025-08-29 15:06:41,520 - easytorch-training - INFO - Epoch 94 / 100
+2025-08-29 15:06:55,404 - easytorch-training - INFO - Result <train>: [train/time: 13.88 (s), train/lr: 5.00e-05, train/loss: 0.3885, train/MAE: 0.3885, train/MSE: 0.5602]
+2025-08-29 15:06:55,415 - easytorch-training - INFO - Start validation.
+2025-08-29 15:06:56,557 - easytorch-training - INFO - Result <val>: [val/time: 1.14 (s), val/loss: 0.4435, val/MAE: 0.4435, val/MSE: 0.7129]
+2025-08-29 15:06:59,214 - easytorch-training - INFO - Result <test>: [test/time: 2.65 (s), test/loss: 0.3270, test/MAE: 0.3270, test/MSE: 0.3326]
+2025-08-29 15:06:59,431 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_094.pt saved
+2025-08-29 15:06:59,431 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:48
+2025-08-29 15:06:59,431 - easytorch-training - INFO - Epoch 95 / 100
+2025-08-29 15:07:13,637 - easytorch-training - INFO - Result <train>: [train/time: 14.21 (s), train/lr: 5.00e-05, train/loss: 0.3885, train/MAE: 0.3885, train/MSE: 0.5602]
+2025-08-29 15:07:13,647 - easytorch-training - INFO - Start validation.
+2025-08-29 15:07:14,805 - easytorch-training - INFO - Result <val>: [val/time: 1.16 (s), val/loss: 0.4447, val/MAE: 0.4447, val/MSE: 0.7157]
+2025-08-29 15:07:17,434 - easytorch-training - INFO - Result <test>: [test/time: 2.62 (s), test/loss: 0.3258, test/MAE: 0.3258, test/MSE: 0.3306]
+2025-08-29 15:07:17,627 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_095.pt saved
+2025-08-29 15:07:17,628 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:48
+2025-08-29 15:07:17,628 - easytorch-training - INFO - Epoch 96 / 100
+2025-08-29 15:07:31,896 - easytorch-training - INFO - Result <train>: [train/time: 14.27 (s), train/lr: 5.00e-05, train/loss: 0.3883, train/MAE: 0.3883, train/MSE: 0.5599]
+2025-08-29 15:07:31,909 - easytorch-training - INFO - Start validation.
+2025-08-29 15:07:32,981 - easytorch-training - INFO - Result <val>: [val/time: 1.07 (s), val/loss: 0.4420, val/MAE: 0.4420, val/MSE: 0.7093]
+2025-08-29 15:07:35,453 - easytorch-training - INFO - Result <test>: [test/time: 2.47 (s), test/loss: 0.3266, test/MAE: 0.3266, test/MSE: 0.3313]
+2025-08-29 15:07:35,640 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_096.pt saved
+2025-08-29 15:07:35,640 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:48
+2025-08-29 15:07:35,641 - easytorch-training - INFO - Epoch 97 / 100
+2025-08-29 15:07:49,851 - easytorch-training - INFO - Result <train>: [train/time: 14.21 (s), train/lr: 5.00e-05, train/loss: 0.3883, train/MAE: 0.3883, train/MSE: 0.5603]
+2025-08-29 15:07:49,859 - easytorch-training - INFO - Start validation.
+2025-08-29 15:07:50,930 - easytorch-training - INFO - Result <val>: [val/time: 1.07 (s), val/loss: 0.4483, val/MAE: 0.4483, val/MSE: 0.7255]
+2025-08-29 15:07:53,533 - easytorch-training - INFO - Result <test>: [test/time: 2.60 (s), test/loss: 0.3283, test/MAE: 0.3283, test/MSE: 0.3341]
+2025-08-29 15:07:54,894 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_097.pt saved
+2025-08-29 15:07:54,895 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:49
+2025-08-29 15:07:54,895 - easytorch-training - INFO - Epoch 98 / 100
+2025-08-29 15:08:09,129 - easytorch-training - INFO - Result <train>: [train/time: 14.23 (s), train/lr: 5.00e-05, train/loss: 0.3882, train/MAE: 0.3882, train/MSE: 0.5597]
+2025-08-29 15:08:09,139 - easytorch-training - INFO - Start validation.
+2025-08-29 15:08:10,316 - easytorch-training - INFO - Result <val>: [val/time: 1.18 (s), val/loss: 0.4465, val/MAE: 0.4465, val/MSE: 0.7203]
+2025-08-29 15:08:13,041 - easytorch-training - INFO - Result <test>: [test/time: 2.72 (s), test/loss: 0.3268, test/MAE: 0.3268, test/MSE: 0.3316]
+2025-08-29 15:08:13,256 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_098.pt saved
+2025-08-29 15:08:13,256 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:49
+2025-08-29 15:08:13,256 - easytorch-training - INFO - Epoch 99 / 100
+2025-08-29 15:08:27,325 - easytorch-training - INFO - Result <train>: [train/time: 14.07 (s), train/lr: 5.00e-05, train/loss: 0.3880, train/MAE: 0.3880, train/MSE: 0.5596]
+2025-08-29 15:08:27,334 - easytorch-training - INFO - Start validation.
+2025-08-29 15:08:28,483 - easytorch-training - INFO - Result <val>: [val/time: 1.15 (s), val/loss: 0.4458, val/MAE: 0.4458, val/MSE: 0.7179]
+2025-08-29 15:08:31,178 - easytorch-training - INFO - Result <test>: [test/time: 2.69 (s), test/loss: 0.3268, test/MAE: 0.3268, test/MSE: 0.3311]
+2025-08-29 15:08:31,392 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_099.pt saved
+2025-08-29 15:08:31,393 - easytorch-training - INFO - The estimated training finish time is 2025-08-29 15:08:49
+2025-08-29 15:08:31,393 - easytorch-training - INFO - Epoch 100 / 100
+2025-08-29 15:08:45,419 - easytorch-training - INFO - Result <train>: [train/time: 14.03 (s), train/lr: 5.00e-05, train/loss: 0.3880, train/MAE: 0.3880, train/MSE: 0.5598]
+2025-08-29 15:08:45,429 - easytorch-training - INFO - Start validation.
+2025-08-29 15:08:46,602 - easytorch-training - INFO - Result <val>: [val/time: 1.17 (s), val/loss: 0.4437, val/MAE: 0.4437, val/MSE: 0.7132]
+2025-08-29 15:08:49,321 - easytorch-training - INFO - Result <test>: [test/time: 2.71 (s), test/loss: 0.3264, test/MAE: 0.3264, test/MSE: 0.3315]
+2025-08-29 15:08:49,519 - easytorch-training - INFO - Checkpoint checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_100.pt saved
+2025-08-29 15:08:49,618 - easytorch-training - INFO - The training finished at 2025-08-29 15:08:49
+2025-08-29 15:08:49,619 - easytorch-training - INFO - Evaluating the best model on the test set.
+2025-08-29 15:08:49,619 - easytorch-training - INFO - Loading Checkpoint from 'checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/PatchTST_best_val_MAE.pt'
+2025-08-29 15:08:52,523 - easytorch-training - INFO - Result <test>: [test/time: 2.76 (s), test/loss: 0.3231, test/MAE: 0.3231, test/MSE: 0.3228]
+2025-08-29 15:08:52,577 - easytorch-training - INFO - Test metrics saved to checkpoints/PatchTST/Weather_100_336_720/fe3002f1e12426a3d735bbba4b7eb6e4/test_metrics.json.

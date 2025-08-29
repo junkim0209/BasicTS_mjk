@@ -1,0 +1,77 @@
+DESCRIPTION: An Example Config
+GPU_NUM: 1
+RUNNER: <class 'basicts.runners.runner_zoo.simple_tsf_runner.SimpleTimeSeriesForecastingRunner'>
+DATASET:
+  NAME: Weather
+  TYPE: <class 'basicts.data.simple_tsf_dataset.TimeSeriesForecastingDataset'>
+  PARAM:
+    dataset_name: Weather
+    train_val_test_ratio: [0.7, 0.1, 0.2]
+    input_len: 336
+    output_len: 96
+SCALER:
+  TYPE: <class 'basicts.scaler.z_score_scaler.ZScoreScaler'>
+  PARAM:
+    dataset_name: Weather
+    train_ratio: 0.7
+    norm_each_channel: True
+    rescale: False
+MODEL:
+  NAME: TimesNet
+  ARCH: <class 'baselines.TimesNet.arch.timesnet_arch.TimesNet'>
+  PARAM:
+    seq_len: 336
+    label_len: 168
+    pred_len: 96
+    enc_in: 8
+    c_out: 8
+    top_k: 5
+    d_model: 64
+    d_ff: 128
+    num_kernels: 6
+    e_layers: 2
+    embed: timeF
+    dropout: 0.05
+    num_time_features: 4
+    time_of_day_size: 144
+    day_of_week_size: 7
+    day_of_month_size: 31
+    day_of_year_size: 366
+  FORWARD_FEATURES: [0, 1, 2, 3, 4]
+  TARGET_FEATURES: [0]
+METRICS:
+  FUNCS:
+    MAE: masked_mae
+    MSE: masked_mse
+  TARGET: MAE
+  NULL_VAL: nan
+TRAIN:
+  NUM_EPOCHS: 100
+  CKPT_SAVE_DIR: checkpoints/TimesNet/Weather_100_336_96
+  LOSS: masked_mae
+  OPTIM:
+    TYPE: Adam
+    PARAM:
+      lr: 1e-05
+      weight_decay: 0.0005
+  LR_SCHEDULER:
+    TYPE: MultiStepLR
+    PARAM:
+      milestones: [1, 25, 50]
+      gamma: 0.5
+  CLIP_GRAD_PARAM:
+    max_norm: 5.0
+  DATA:
+    BATCH_SIZE: 64
+    SHUFFLE: True
+VAL:
+  INTERVAL: 1
+  DATA:
+    BATCH_SIZE: 64
+TEST:
+  INTERVAL: 1
+  DATA:
+    BATCH_SIZE: 64
+EVAL:
+  USE_GPU: True
+MD5: c015db9fb166f4b9944608618d182a28
