@@ -189,4 +189,4 @@ cython_debug/
 
 FEDformer/
 
-workspace/BasicTS_mjk/checkpoints/Nonstationary_Transformer/
+checkpoints/Nonstationary_Transformer/
