@@ -1,0 +1,78 @@
+2025-08-29 20:02:41,169 - easytorch-training - INFO - Initializing training.
+2025-08-29 20:02:41,170 - easytorch-training - INFO - Set clip grad, param: {'max_norm': 5.0}
+2025-08-29 20:02:41,170 - easytorch-training - INFO - Building training data loader.
+2025-08-29 20:02:41,175 - easytorch-training - INFO - Train dataset length: 36457
+2025-08-29 20:02:41,998 - easytorch-training - INFO - Set optim: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    decoupled_weight_decay: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 1e-05
+    maximize: False
+    weight_decay: 0.0005
+)
+2025-08-29 20:02:41,998 - easytorch-training - INFO - Set lr_scheduler: <torch.optim.lr_scheduler.MultiStepLR object at 0x71c4b9293750>
+2025-08-29 20:02:42,012 - easytorch-training - INFO - Initializing validation.
+2025-08-29 20:02:42,012 - easytorch-training - INFO - Building val data loader.
+2025-08-29 20:02:42,022 - easytorch-training - INFO - Validation dataset length: 4838
+2025-08-29 20:02:42,037 - easytorch-training - INFO - Test dataset length: 10108
+2025-08-29 20:02:42,038 - easytorch-training - INFO - Number of parameters: 9522040
+2025-08-29 20:02:42,038 - easytorch-training - INFO - Epoch 1 / 100
+2025-08-29 20:02:42,191 - easytorch-training - ERROR - Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/easytorch/launcher/launcher.py", line 31, in training_func
+    runner.train(cfg)
+  File "/workspace/BasicTS_mjk/basicts/runners/base_epoch_runner.py", line 462, in train
+    loss = self.train_iters(epoch, iter_index, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/BasicTS_mjk/basicts/runners/base_tsf_runner.py", line 373, in train_iters
+    forward_return = self.forward(data=data, epoch=epoch, iter_num=iter_num, train=True)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/BasicTS_mjk/basicts/runners/runner_zoo/simple_tsf_runner.py", line 101, in forward
+    model_return = self.model(history_data=history_data, future_data=future_data_4_dec,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/BasicTS_mjk/baselines/TimesNet/arch/timesnet_arch.py", line 114, in forward
+    enc_out = self.enc_embedding(x_enc, x_mark_enc)  # [B,T,C]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/BasicTS_mjk/baselines/TimesNet/arch/embed.py", line 147, in forward
+    value_embed = self.value_embedding(x)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/BasicTS_mjk/baselines/TimesNet/arch/embed.py", line 38, in forward
+    x = self.tokenConv(x.permute(0, 2, 1)).transpose(1, 2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/conv.py", line 375, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/torch/nn/modules/conv.py", line 359, in _conv_forward
+    return F.conv1d(
+           ^^^^^^^^^
+RuntimeError: Given groups=1, weight of size [64, 8, 3], expected input[64, 21, 338] to have 8 channels, but got 21 channels instead
+
