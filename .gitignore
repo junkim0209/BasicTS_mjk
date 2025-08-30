@@ -188,3 +188,4 @@ cython_debug/
 !*requirements.txt
 
 FEDformer/
+checkpoints/FEDformer/
